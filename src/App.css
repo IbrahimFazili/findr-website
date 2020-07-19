@@ -14,18 +14,163 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  background-color: #E5EFEC ;
+  min-height: 27em;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: center; */
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
+.nav-bar{
+  color: #FCFDFD ;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 100%;
+  top: 0;
+  right: 0;
+  box-shadow: 100px black;
+  z-index: 999;
+  height: 5em;
+}
+
+.nav-logo{
+  width: 5%;
+  margin-right: 60%;
+}
+
+.nav-items{
+  float: right;
+  padding-left: 22px;
+  padding-top: 22px;
+  color: #1a5d57;
+  font-size: large;
+}
+
 .App-link {
   color: #61dafb;
+}
+
+.logo {
+  width: 15%;
+  position: relative;
+  right: 20em;
+  top: 10em;
+  height: 8em;
+}
+
+.caption{
+  position: relative;
+  right: 28.5em;
+  top: 12em;
+  color: #1a5d57;
+  font-size: large;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app-loc{
+  position: relative;
+  color: #1a5d57;
+  right: 5em;
+  top: 5em;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.home-screen-msg{
+  color: #1a5d57;
+  right: 5em;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.why-findr{
+  background-color: #FCFDFD ;
+  position: relative;
+  bottom: 1em;
+  min-height: 27em;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.back-arrow{
+  position: relative;
+  width: 1em;
+  left: 9.5em;
+  bottom: 15em;
+}
+
+.forward-arrow{
+  position: relative;
+  width: 1em;
+  left: 27.5em;
+  bottom: 15em;
+}
+
+.why-findr-title{
+  color: #1a5d57;
+}
+
+.pic1{
+  position: relative;
+  right: 17.5em;
+  top: 4.2em;
+}
+
+.pic1cap{
+  color: #1a5d57;
+  right: 17.5em;
+  position: relative;
+  top: 5em;
+}
+
+.pic1capBottom{
+  color: #1a5d57;
+  right: 26.5em;
+  position: relative;
+  top: 9.5em;
+  font-size: medium;
+}
+
+.pic2{
+  position: relative;
+  bottom: 6em;
+}
+
+.pic2cap{
+  color: #1a5d57;
+  position: relative;
+  bottom: 5.3em;
+}
+
+.pic2capBottom{
+  color: #1a5d57;
+  bottom: 6.3em;
+  position: relative;
+  font-size: medium;
+}
+
+.pic3{
+  position: relative;
+  left: 17.5em;
+  bottom: 16.2em;
+}
+
+.pic3cap{
+  color: #1a5d57;
+  position: relative;
+  bottom: 15.6em;
+  margin-left: 35em;
+}
+
+.pic3capBottom{
+  color: #1a5d57;
+  bottom: 21.9em;
+  position: relative;
+  font-size: medium;
+  margin-left: 53em;
 }
 
 @keyframes App-logo-spin {
