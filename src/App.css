@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  scroll-behavior: smooth;
 }
 
 .App-logo {
@@ -15,7 +16,7 @@
 
 .App-header {
   background-color: #E5EFEC ;
-  min-height: 27em;
+  min-height: 30.4em;
   /* display: flex;
   flex-direction: column;
   align-items: center; */
@@ -34,7 +35,15 @@
   right: 0;
   box-shadow: 100px black;
   z-index: 999;
+  position: fixed;
   height: 5em;
+  background-color: #FCFDFD;
+  /* position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  z-index: 1030;
+  height: 10em; */
 }
 
 .nav-logo{
@@ -45,6 +54,7 @@
 .nav-items{
   float: right;
   padding-left: 22px;
+  padding-right: 22px;
   padding-top: 22px;
   color: #1a5d57;
   font-size: large;
@@ -90,23 +100,30 @@
   background-color: #FCFDFD ;
   position: relative;
   bottom: 1em;
-  min-height: 27em;
+  min-height: 15em;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .back-arrow{
   position: relative;
   width: 1em;
-  left: 9.5em;
-  bottom: 15em;
+  left: 25.7em;
+  bottom: 20em;
+}
+
+.iphone{
+  position: relative;
+  width: 10em;
+  height: 20em;
+  left: 28em;
+  bottom: 10em;
 }
 
 .forward-arrow{
   position: relative;
   width: 1em;
-  left: 27.5em;
-  bottom: 15em;
+  margin-left: 29.5em;
+  bottom: 20em;
 }
 
 .why-findr-title{
@@ -173,11 +190,200 @@
   margin-left: 53em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.map{
+  background-color: #1a5d57 ;
+  min-height: 33em;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  bottom: 2em;
+  position: relative;
+}
+
+.keywords{
+  background-color: #FCFDFD ;
+  position: relative;
+  min-height: 24.25em;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  scroll-behavior: smooth;
+}
+
+.keywords-text{
+  color: #1a5d57;
+  position: relative;
+  top: 10em;
+  margin-left: 30em;
+}
+
+
+.keywords-placeholder{
+  color: #1a5d57;
+  position: relative;
+  right: 20em;
+}
+
+.keywords-caps-placeholder{
+  color: #1a5d57;
+  width: 11em;
+  font-size: medium;
+  position: relative;
+  left: 11em;
+  top: 1em;
+}
+
+.keywords-caps{
+  color: #1a5d57;
+  width: 11em;
+  font-size: medium;
+  position: relative;
+  left: 65em;
+  top: 17em;
+}
+
+.contact-div{
+  background-color: #E5EFEC ;
+  min-height: 27em;
+  font-size: calc(10px + 2vmin);
+  position: relative;
+  scroll-behavior: smooth;
+}
+
+.contact-text{
+  color: #1a5d57;
+  position: relative;
+  top: 4.5em;
+  font-size: 1.8em;
+  right: 9.8em;
+  font-weight: 100;
+}
+
+.sugg-text{
+  color: #1a5d57;
+  position: relative;
+  font-size: large;
+  width: 11em;
+  top: 12em;
+  left: 12.7em;
+}
+
+.forms{
+  position: relative;
+  top: 3em;
+  margin-left: 1em;
+}
+
+input[type=text]{
+  color: #1a5d57;
+  width: 25em;
+  height: 4em;
+  border-radius: 5em;
+  box-sizing: border-box;  
+  padding: 2px 32px;
+  margin: 5px 15px;
+  border-width: 0;
+}
+textarea{
+  color: #1a5d57;
+  width: 25em;
+  height: 9em;
+  border-radius: 2em;
+  box-sizing: border-box;  
+  padding: 12px 32px;
+  margin: 5px 15px;
+  border-width: 0;
+  position: relative;
+  left: 28em;
+  bottom: 14.5em;
+}
+input[type=submit]{
+  color:white;
+  background-color: #1a5d57;
+  width: 15em;
+  height: 4em;
+  border-radius: 5em;
+  box-sizing: border-box;  
+  padding: 2px 32px;
+  margin: 5px 15px;
+  border-width: 0;
+  position: relative;
+  bottom: 13em;
+  left: 14em;
+}
+
+textarea,input:focus {
+  outline-width: 0;
+}
+
+.email{
+  position: relative;
+  left: 28em;
+  bottom: 14.3em;
+}
+
+.social-media-logo{
+  width: 2em;
+  padding-right: 1em;
+}
+.social-media-logo-facebook{
+  width: 1.5em;
+  position: relative;
+  bottom: 0.24em;
+  padding-right: 1em;
+}
+
+.social-media{
+  position: relative;
+  bottom: 0.5em;
+  right: 10em;
+}
+
+.like-title{
+  color: #1a5d57;
+  position: relative;
+  bottom: 4.5em;
+  margin-left: 20em;
+  font-size: 1.1em;
+}
+
+.like-plug{
+  color: #1a5d57;
+  font-size: large;
+  position: relative;
+  bottom: 5em;
+  margin-left: 51em;
+  width: 12em;
+}
+
+
+.bottom-header {
+  background-color: #1a5d57 ;
+  min-height: 12.4em;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.launch{
+  font-size: large;
+  position: relative;
+  top: 8em;
+  right: 28em;
+}
+
+.aboot-us-title{
+  font-weight: 100;
+}
+.aboot-us-text{
+  font-weight: 100;
+  width: 18em;
+  font-size: large;
+  position: relative;
+  left: 33em;
+  padding-top: 1em;
+}
+
+.number{
+  position: relative;
+  font-weight: 100;
+  font-size: medium;
+  margin-left: 80em;
 }
