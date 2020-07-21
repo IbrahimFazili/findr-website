@@ -21,7 +21,7 @@ a {
 .navbar-container {
 	text-align: center;
 	background-color: #FCFDFD;
-	box-shadow: 0px -17px 5px 20px #333333;
+	box-shadow: 0px -20px 5px 20px #333333;
 	padding: 10px;
   font-size: 0;
   color: #E5EFEC;
@@ -35,7 +35,7 @@ a {
 	margin: 0;
 	padding: 0;
 	text-align: right;
-  /* display: inline-block; */ 
+  /* display: inline-block;  */
   /* uncomment ^ for center nav-bar */
 	vertical-align: middle;
 }
@@ -100,7 +100,7 @@ a {
 
 .Home {
   background-color: #E5EFEC ;
-  min-height: 29.5em;
+  min-height: 30.5em;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -159,111 +159,119 @@ a {
   background-color: #FCFDFD ;
   position: relative;
   bottom: 1em;
-  min-height: 14em;
+  min-height: 29.5em;
   font-size: calc(10px + 2vmin);
 }
 
 .back-arrow{
-  position: relative;
-  width: 1em;
-  left: 26em;
-  bottom: 20em;
+  position: absolute;
+  width: 2%;
+  top: 40%;
+  left: 57%;
 }
 
 .iphone{
-  position: relative;
-  width: 10em;
-  height: 20em;
-  left: 28em;
-  bottom: 10em;
+  position: absolute;
+  width: 15%;
+  height: 60%;
+  left: 65%;
+  top: 20%;
 }
 
 .forward-arrow{
-  position: relative;
-  width: 1em;
-  margin-left: 29.5em;
-  bottom: 20em;
+  position: absolute;
+  width: 2%;
+  top: 40%;
+  left: 86%;
 }
 
 .why-findr-title{
+  position: absolute;
   color: #1a5d57;
+  top: 10%;
+  left: 45%;
+  font-size: larger;
 }
 
 .pic1{
-  position: relative;
-  right: 17.5em;
-  top: 4.2em;
+  position: absolute;
+  top: 40%;
+  left: 10%;
 }
 
 .pic1cap{
   color: #1a5d57;
-  right: 17.5em;
-  position: relative;
-  top: 5em;
+  position: absolute;
+  top: 70%;
+  left: 13.5%;
 }
 
 .pic1capBottom{
   color: #1a5d57;
-  right: 26.5em;
-  position: relative;
-  top: 9.5em;
+  position: absolute;
+  width: 15%;
+  top: 80%;
+  left: 12%;
   font-size: medium;
 }
 
 .pic2{
-  position: relative;
-  bottom: 6em;
+  position: absolute;
+  top: 40%;
+  left: 40%;
 }
 
 .pic2cap{
   color: #1a5d57;
-  position: relative;
-  bottom: 5.3em;
+  position: absolute;
+  top: 70%;
+  left: 44.5%;
 }
 
 .pic2capBottom{
   color: #1a5d57;
-  bottom: 6.3em;
-  position: relative;
+  position: absolute;
   font-size: medium;
+  top: 80%;
+  left: 43.5%;
+  width: 13%;
 }
 
 .pic3{
-  position: relative;
-  left: 17.5em;
-  bottom: 16.2em;
+  position: absolute;
+  top: 40%;
+  left: 70%;
 }
 
 .pic3cap{
   color: #1a5d57;
-  position: relative;
-  bottom: 15.6em;
-  margin-left: 35em;
+  position: absolute;
+  top: 70%;
+  left: 74%;
 }
 
 .pic3capBottom{
   color: #1a5d57;
-  bottom: 21.9em;
-  position: relative;
+  position: absolute;
   font-size: medium;
-  margin-left: 53em;
+  top: 80%;
+  left: 73%;
 }
 
 .map{
   background-color: #1a5d57 ;
-  min-height: 33em;
+  min-height: 28em;
   font-size: calc(10px + 2vmin);
   color: white;
   position: relative;
 }
 
 .mapPic{
-  padding-top: 10%;
-  width: 70%;
-  position: relative;
-  right: 14%;
-  overflow: hidden;
-  background-color: #1a5d57;
+  position: absolute;
+  top: 5%;
+  left: 0;
+  width: 75%;
+  height: 90%;
 }
 
 .network-title{
@@ -285,7 +293,7 @@ a {
 .keywords{
   background-color: #FCFDFD ;
   position: relative;
-  min-height: 24.25em;
+  min-height: 27em;
   font-size: calc(10px + 2vmin);
   color: white;
   scroll-behavior: smooth;
@@ -293,34 +301,35 @@ a {
 
 .keywords-text{
   color: #1a5d57;
-  position: relative;
-  top: 10em;
-  margin-left: 30em;
+  position: absolute;
+  top: 25%;
+  left: 15%;
 }
 
 
 .keywords-placeholder{
   color: #1a5d57;
-  position: relative;
-  right: 20em;
+  position: absolute;
+  top: 70%;
+  left: 80%;
 }
 
 .keywords-caps-placeholder{
   color: #1a5d57;
   width: 11em;
   font-size: medium;
-  position: relative;
-  left: 11em;
-  top: 1em;
+  position: absolute;
+  top: 78%;
+  left: 77.5%;
 }
 
 .keywords-caps{
   color: #1a5d57;
   width: 11em;
   font-size: medium;
-  position: relative;
-  left: 65em;
-  top: 17em;
+  position: absolute;
+  top: 33%;
+  left: 12.5%;
 }
 
 .contact-div{
@@ -333,26 +342,26 @@ a {
 
 .contact-text{
   color: #1a5d57;
-  position: relative;
-  top: 4.5em;
-  font-size: 1.8em;
-  right: 9.8em;
+  position: absolute;
+  font-size: 200%;
   font-weight: 100;
+  top: 25%;
+  left: 15%;
 }
 
 .sugg-text{
   color: #1a5d57;
-  position: relative;
+  position: absolute;
   font-size: large;
-  width: 11em;
-  top: 12em;
-  left: 12.7em;
+  width: 14%;
+  top: 35%;
+  left: 15.25%;
 }
 
 .forms{
-  position: relative;
-  top: 3em;
-  margin-left: 1em;
+  position: absolute;
+  top: 20%;
+  left: 40%;
 }
 
 input[type=text],input[type=email],input[type=tel]{
@@ -415,26 +424,26 @@ textarea,input:focus {
 }
 
 .social-media{
-  position: relative;
-  bottom: 0.5em;
-  right: 10em;
+  position: absolute;
+  top: 80%;
+  left: 25%;
 }
 
 .like-title{
   color: #1a5d57;
-  position: relative;
-  bottom: 4.5em;
-  margin-left: 20em;
-  font-size: 1.1em;
+  position: absolute;
+  font-size: x-large;
+  top: 74%;
+  left: 65%;
 }
 
 .like-plug{
   color: #1a5d57;
   font-size: large;
-  position: relative;
-  bottom: 5em;
-  margin-left: 42em;
-  width: 12em;
+  position: absolute;
+  width: 14%;
+  top: 80%;
+  left: 62%;
 }
 
 
@@ -454,14 +463,17 @@ textarea,input:focus {
 
 .aboot-us-title{
   font-weight: 100;
+  position: relative;
+  margin-top: 1%;
+  padding-bottom: 2%;
 }
 .aboot-us-text{
   font-weight: 100;
   width: 18em;
   font-size: large;
   position: relative;
-  margin-left: 26em;
-  padding-top: 1em;
+  margin-left: 39%;
+  margin-top: 1%;
 }
 
 .number{

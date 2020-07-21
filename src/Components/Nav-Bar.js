@@ -11,20 +11,20 @@ function NavBar(){
                 <img src={nav_logo} class="nav_logo"/>
             </li>
             <li class="nav-link">
-                <a href="#Home">Home
+                <a href="#Home">home
                 </a>
                 <div class="underline"></div>
             </li>
             <li class="nav-link">
-                <a href="#">About Us</a>
+                <a href="#">about us</a>
                 <div class="underline"></div>
             </li>
             <li class="nav-link">
-                <a href="#Keywords">Keywords</a>
+                <a href="#Keywords">keywords</a>
                 <div class="underline"></div>
             </li>
             <li class="nav-link">
-                <a href="#Contact-Us">Contact</a>
+                <a href="#Contact-Us">contact</a>
                 <div class="underline"></div>
             </li>
         </ul>

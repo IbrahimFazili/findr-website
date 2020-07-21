@@ -14,9 +14,9 @@ function Home(){
         <p className="home-screen-msg">Study Better!</p>
         <p className="home-screen-msg1">Network Smarter!</p>
         <p className="launching">Launching Soon!</p>
-        {/* <img className="back-arrow" src={BackArrow} />
+        <img className="back-arrow" src={BackArrow} />
         <img src={iPhone} className="iphone" />
-        <img className="forward-arrow" src={FrontArrow} /> */}
+        <img className="forward-arrow" src={FrontArrow} />
     </div>
     )
 }

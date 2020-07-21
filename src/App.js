@@ -14,11 +14,11 @@ function App() {
     <div className="App">
       <Nav />
       <Home />
-      {/* <YFindr />
+      <YFindr />
       <Map />
       <Keywords />
       <Contact />
-      <About/> */}
+      <About/>
     </div> 
   );
 }
