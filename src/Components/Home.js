@@ -4,6 +4,7 @@ import BackArrow from "../Images/back_arrow_green.svg";
 import FrontArrow from "../Images/forward_icon_green.svg";
 import iPhone from "../Images/iphone.png";
 import logo from '../Images/Findr_logo2x.png';
+import Dots from "../Images/abstract-dots.png"
 
 
 function Home(){
@@ -17,6 +18,7 @@ function Home(){
         <img className="back-arrow" src={BackArrow} />
         <img src={iPhone} className="iphone" />
         <img className="forward-arrow" src={FrontArrow} />
+        <img src={Dots} className="dots"/>
     </div>
     )
 }
