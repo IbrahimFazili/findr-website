@@ -207,6 +207,8 @@ a {
   position: absolute;
   top: 40vh;
   left: 10vw;
+  height: 20vh;
+  width: 20vw;
 }
 
 .pic1cap {
@@ -229,6 +231,8 @@ a {
   position: absolute;
   top: 40vh;
   left: 40vw;
+  height: 20vh;
+  width: 20vw;
 }
 
 .pic2cap {
@@ -251,6 +255,8 @@ a {
   position: absolute;
   top: 40vh;
   left: 70vw;
+  height: 20vh;
+  width: 20vw;
 }
 
 .pic3cap {
@@ -568,5 +574,5 @@ input:focus {
   position: relative;
   font-weight: 100;
   font-size: medium;
-  margin-left: 60em;
+  margin-left: 60vw;
 }
