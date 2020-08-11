@@ -7,18 +7,30 @@ import YFindr from "./Components/WhyFindr";
 import Map from "./Components/Map";
 import Keywords from "./Components/Keywords";
 import Contact from "./Components/Contact";
-import About from "./Components/AboutUs"
+import About from "./Components/AboutUs";
+import HomeAboutUs from "./Components/HomeAboutUs"
+import WhyFindrAbout from "./Components/WhyFindrAbout"
+import WhatAbout from "./Components/WhatMeans"
+import Team from "./Components/Team"
+import AboutUs from "./Components/About"
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      <Home />
+      {/* <Home />
       <YFindr />
       <Map />
       <Keywords />
       <Contact />
-      <About/>
+      <About/> */}
+
+      {/* this is the second page */}
+      <HomeAboutUs />
+      <WhyFindrAbout />
+      <WhatAbout />
+      <Team/>
+      <AboutUs/>
     </div> 
   );
 }

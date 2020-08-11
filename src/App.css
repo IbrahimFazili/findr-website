@@ -103,6 +103,7 @@ a {
   min-height: 30.5em;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .App-link {
@@ -555,6 +556,15 @@ input:focus {
   right: 28em;
 }
 
+
+.newHome {
+  background-color: #e5efec;
+  min-height: 33.5em;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 .aboot-us-title {
   font-weight: 100;
   position: relative;
@@ -576,3 +586,111 @@ input:focus {
   font-size: medium;
   margin-left: 60vw;
 }
+
+.nice-to-meet{
+  position: relative;
+  color: #1a5d57;
+  top: 40vh;
+}
+
+.about-us-page-title{
+  position: relative;
+  color: #1a5d57;
+  font-size: 10vh;
+  font-weight: 100;
+  top: 44vh;
+}
+
+.why-us{
+  color: #1a5d57;
+  position: relative;
+  top: 70vh;
+  margin-right: 50vw;
+}
+
+.findr-about{
+  color: #1a5d57;
+  position: relative;
+  top: 65vh;
+}
+
+.team-about{
+  color: #1a5d57;
+  position: relative;
+  top: 60vh;
+  margin-left: 50vw;
+}
+
+.why-findr-text1{
+  color: #1a5d57;
+  position: relative;
+  top: 15vh;
+  margin-bottom: 12vh;
+}
+
+.newNav ul li {
+  display: inline-block;
+  font-size: 16px;
+}
+
+.newNav ul li a {
+  color: #1a5d57;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: color 0.5s;
+}
+
+.newNav ul li .underline {
+  height: 3px;
+  background-color: transparent;
+  width: 0%;
+  transition: width 0.2s, background-color 0.5s;
+  margin: 0 auto;
+}
+
+.newNav ul li.active-link .underline {
+  width: 100vw;
+  background-color: white;
+}
+
+.newNav ul li:hover .underline {
+  background-color: #1a5d57;
+  width: 100%;
+}
+
+
+.newNav ul li:active a {
+  transition: none;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.newNav ul li:active .underline {
+  transition: none;
+  background-color: rgba(255, 255, 255, 0.76);
+}
+
+.what-means{
+  color: #1a5d57;
+  position: relative;
+  top: 5vh;
+}
+
+.meet-team{
+  color: #1a5d57;
+  position: relative;
+  top: 5vh;
+}
+
+.listTerms{
+  position: relative;
+  margin-left: 45vw;
+  bottom: 11vh;
+  list-style-type: none;
+  font-size: large;
+}
+
+.listTerms li {
+  margin-bottom: 1vh;
+}
+
