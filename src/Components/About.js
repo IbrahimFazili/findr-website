@@ -1,5 +1,7 @@
 import React from "react"
 import "../App.css"
+import {Link } from "react-router-dom";
+
 
 function About(){
     return(
@@ -13,9 +15,9 @@ function About(){
             <div className="aboot-us-text">No, dummy, not a date! Partner for your courses, projects, startups, anything!</div>
             <div>
                 <ul className="listTerms">
-                    <li>Privacy Policy</li>
-                    <li>Terms and Conditions</li>
-                    <li>FAQ</li>
+                    <li><Link to="/Privacy">Privacy Policy</Link></li>
+                    <li><Link to="/TermsAndConditions">Terms and Conditions</Link></li>
+                    <li>Safety and Use</li>
                 </ul>
             </div>
           </div>
