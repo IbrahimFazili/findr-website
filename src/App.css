@@ -387,7 +387,7 @@ a {
 .keywords {
   background-color: #fcfdfd;
   position: relative;
-  min-height: 27em;
+  min-height: 29em;
   font-size: calc(10px + 2vmin);
   color: white;
   scroll-behavior: smooth;
@@ -427,7 +427,7 @@ a {
 
 .contact-div {
   background-color: #e5efec;
-  min-height: 27em;
+  min-height: 29em;
   font-size: calc(10px + 2vmin);
   position: relative;
   scroll-behavior: smooth;
@@ -632,6 +632,8 @@ input:focus {
   display: inline-block;
   font-size: 16px;
 }
+
+a, a:hover, a:active, a:visited { color: white; }
 
 .newNav ul li a {
   color: #1a5d57;
