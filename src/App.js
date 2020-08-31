@@ -18,19 +18,19 @@ function App() {
   return (
     <div className="App">
       <Nav />
-      <Home />
+      {/* <Home />
       <YFindr />
       <Map />
       <Keywords />
       <Contact />
-      <About/>
+      <About/> */}
 
       {/* this is the second page */}
-      {/* <HomeAboutUs />
+      <HomeAboutUs />
       <WhyFindrAbout />
       <WhatAbout />
       <Team/>
-      <AboutUs/> */}
+      <AboutUs/>
     </div> 
   );
 }

@@ -17,7 +17,8 @@ function About(){
                 <ul className="listTerms">
                     <li><Link to="/Privacy">Privacy Policy</Link></li>
                     <li><Link to="/TermsAndConditions">Terms and Conditions</Link></li>
-                    <li>Safety and Use</li>
+                    <li><Link to="/Safety">Safety Tips</Link></li>
+                    <li><Link to="/Guidelines">Community Guidlines</Link></li>
                 </ul>
             </div>
           </div>

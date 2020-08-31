@@ -9,6 +9,8 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import HomePage from "./App";
 import Privacy from "./Components/Privacy";
 import TandC from "./Components/T&C";
+import Safety from "./Components/Safety"
+import Guidelines from "./Components/Guidelines"
 
  const rootElement = document.getElementById("root");
  ReactDOM.render(
@@ -17,6 +19,9 @@ import TandC from "./Components/T&C";
      <Route exact path="/" component={HomePage} />
      <Route path="/Privacy" component={Privacy} />
      <Route path="/TermsAndConditions" component={TandC} />
+     <Route path="/Safety" component={Safety} />
+     <Route path="/Guidelines" component={Guidelines} />
+
    </Switch>
    </BrowserRouter>,
    rootElement

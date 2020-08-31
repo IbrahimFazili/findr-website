@@ -700,12 +700,14 @@ a, a:hover, a:active, a:visited { color: white; }
   /* text-align: center; */
   margin-left: 20vw;
   flex-grow: inherit;
+  color: #1a5d57;
 }
 
 .privacy-title-logo{
   /* text-align: center; */
   margin-left: 25vw;
   flex-grow: inherit;
+  color: #1a5d57;
 }
 
 .background{
@@ -717,12 +719,21 @@ a, a:hover, a:active, a:visited { color: white; }
   margin-left: 20vw;
   flex-grow: inherit;
   width: 60vw;
+  color: #1a5d57;
 }
 
 .privacy-list{
   margin-left: 20vw;
   width: 55vw;
   flex-direction: row;
+  color: #1a5d57;
+}
+
+.privacy-list-nested{
+  /* margin-left: 20vw; */
+  width: 55vw;
+  flex-direction: row;
+  color: #1a5d57;
 }
 
 .logo-for-terms{
