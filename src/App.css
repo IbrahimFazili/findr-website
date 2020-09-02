@@ -197,8 +197,10 @@ a {
 
 .pic1 {
   position: absolute;
-  top: 40%;
-  left: 10%;
+  top: 22%;
+  width: 400px;
+  height: 400px;
+  left: 6%;
 }
 
 .pic1cap {
@@ -219,8 +221,10 @@ a {
 
 .pic2 {
   position: absolute;
-  top: 40%;
-  left: 40%;
+  top: 20%;
+  width: 400px;
+  height: 400px;
+  left: 36%;
 }
 
 .pic2cap {
@@ -241,8 +245,10 @@ a {
 
 .pic3 {
   position: absolute;
-  top: 40%;
-  left: 70%;
+  top: 15%;
+  width: 400px;
+  height: 450px;
+  left: 66%;
 }
 
 .pic3cap {
@@ -388,6 +394,36 @@ a {
   position: absolute;
 }
 
+.home {
+  position: absolute;
+  top: 15%;
+  left: 46%;
+  width: 190px;
+  height: 345px;
+}
+
+.match {
+  position: absolute;
+  top: 15%;
+  left: 66%;
+  width: 190px;
+  height: 345px;
+}
+.chat {
+  position: absolute;
+  top: 35%;
+  left: 46%;
+  width: 190px;
+  height: 345px;
+}
+
+.addinfo {
+  position: absolute;
+  top: 35%;
+  left: 66%;
+  width: 190px;
+  height: 345px;
+}
 .keywords {
   background-color: #fcfdfd;
   position: relative;
