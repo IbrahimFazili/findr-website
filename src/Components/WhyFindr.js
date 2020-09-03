@@ -14,7 +14,14 @@ function WhyFindr() {
         <img src={MainImage} className="main-image" style={{ zIndex: 2 }} />
       </div>
 
-      <div>
+      <div
+        style={{
+          position: "relative",
+          justifyContent: "center",
+          alignContent: "center",
+          alignSelf: "center",
+        }}
+      >
         <video
           autostart
           autoPlay

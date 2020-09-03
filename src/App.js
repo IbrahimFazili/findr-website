@@ -7,6 +7,7 @@ import YFindr from "./Components/WhyFindr";
 import YFindr2 from "./Components/WhyFindr2";
 import Map from "./Components/Map";
 import Keywords from "./Components/Keywords";
+import Keywords2 from "./Components/Keywords2";
 import Contact from "./Components/Contact";
 import About from "./Components/AboutUs";
 
@@ -19,6 +20,7 @@ function App() {
       <YFindr2 />
       <Map />
       <Keywords />
+      <Keywords2 />
       <Contact />
       <About />
     </div>
