@@ -187,12 +187,31 @@ a {
   top: 19%;
 }
 
+.video {
+  width: 1200px;
+  position: absolute;
+  top: 10%;
+  left: 22%;
+}
+
+video::-webkit-media-controls-panel {
+  background-image: linear-gradient(transparent, transparent) !important;
+}
+
 .why-findr-title {
   position: absolute;
   color: #1a5d57;
   top: 10%;
   left: 45%;
   font-size: larger;
+}
+
+.main-image {
+  position: absolute;
+  top: 29%;
+  width: 300px;
+  height: 330px;
+  left: 6%;
 }
 
 .pic1 {
