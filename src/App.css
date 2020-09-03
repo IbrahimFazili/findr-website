@@ -528,21 +528,18 @@ input:focus {
 
 .bottom-header {
   background-color: #1a5d57;
-  min-height: 12.4em;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  /* min-height: 29em; */
+  /* font-size: calc(10px + 2vmin); */
   color: white;
-  width: 100%;
-}
-
-.AboutUs {
-  width: 80%;
 }
 
 .launch {
   font-size: large;
-  position: relative;
+  color: white;
+  /* position: relative;
   top: 8em;
-  right: 28em;
+  right: 28em; */
 }
 
 .aboot-us-title {
