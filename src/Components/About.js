@@ -40,6 +40,7 @@ function About() {
           display: "inline-block",
           width: "30%",
           verticalAlign: "top",
+          marginTop: "4%",
           marginRight: "5%",
         }}
       >
