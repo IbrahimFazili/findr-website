@@ -5,6 +5,7 @@ import FrontArrow from "../Images/forward_icon_green.svg";
 import iPhone from "../Images/iphone.png";
 import logo from "../Images/Findr_logo2x.png";
 import Dots from "../Images/abstract-dots.png";
+import Particles from "react-particles-js";
 
 function Home() {
   return (
@@ -15,6 +16,19 @@ function Home() {
         position: "relative",
       }}
     >
+      <Particles
+        params={{
+          particles: {
+            lineLinked: {
+              color: "#1a5d57",
+            },
+            color: {
+              value: "#1a5d57",
+            },
+          },
+        }}
+        style={{ position: "absolute", left: 0, right: 0, top: 0, bottom: 0 }}
+      />
       <div style={{ position: "absolute", marginTop: "8%", width: "100%" }}>
         <div
           style={{
