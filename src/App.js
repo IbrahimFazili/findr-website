@@ -1,13 +1,15 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import Nav from "./Components/Nav-Bar"
+import Nav from "./Components/Nav-Bar";
 import Home from "./Components/Home";
 import YFindr from "./Components/WhyFindr";
+import YFindr2 from "./Components/WhyFindr2";
 import Map from "./Components/Map";
 import Keywords from "./Components/Keywords";
+import Keywords2 from "./Components/Keywords2";
 import Contact from "./Components/Contact";
-import About from "./Components/AboutUs"
+import About from "./Components/AboutUs";
 
 function App() {
   return (
@@ -15,11 +17,13 @@ function App() {
       <Nav />
       <Home />
       <YFindr />
+      <YFindr2 />
       <Map />
       <Keywords />
+      <Keywords2 />
       <Contact />
-      <About/>
-    </div> 
+      <About />
+    </div>
   );
 }
 
