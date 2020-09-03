@@ -82,11 +82,6 @@ a {
 }
 
 .nav_logo {
-  width: 100px;
-  position: absolute;
-  left: 3%;
-  top: -20%;
-  display: inline-block;
 }
 
 @media (prefers-reduced-motion: no-preference) {

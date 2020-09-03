@@ -7,32 +7,42 @@ function NavBar() {
   return (
     <div class="navbar-container">
       <ul>
-        <li>
-          {/* <img src={nav_logo} class="nav_logo" /> */}
-          <img
-            src={navLogo}
-            alt="triangle with all three sides equal"
-            height="87"
-            width="100"
-            class="nav_logo"
-          />
-        </li>
-        <li class="nav-link">
-          <a href="#Home">home</a>
-          <div class="underline"></div>
-        </li>
-        <li class="nav-link">
-          <a href="#">about us</a>
-          <div class="underline"></div>
-        </li>
-        <li class="nav-link">
-          <a href="#Keywords">features</a>
-          <div class="underline"></div>
-        </li>
-        <li class="nav-link" style={{ marginRight: "2%" }}>
-          <a href="#Contact-Us">contact</a>
-          <div class="underline"></div>
-        </li>
+        <div
+          style={{
+            display: "inline-block",
+            width: "5%",
+            float: "left",
+            marginTop: "-1.2%",
+          }}
+        >
+          <li>
+            <img
+              src={navLogo}
+              alt="triangle with all three sides equal"
+              height="80"
+              width="90"
+              class="nav_logo"
+            />
+          </li>
+        </div>
+        <div style={{ display: "inline-block", width: "40%" }}>
+          <li class="nav-link">
+            <a href="#Home">home</a>
+            <div class="underline"></div>
+          </li>
+          <li class="nav-link">
+            <a href="#">about us</a>
+            <div class="underline"></div>
+          </li>
+          <li class="nav-link">
+            <a href="#Keywords">features</a>
+            <div class="underline"></div>
+          </li>
+          <li class="nav-link" style={{ marginRight: "2%" }}>
+            <a href="#Contact-Us">contact</a>
+            <div class="underline"></div>
+          </li>
+        </div>
       </ul>
     </div>
   );
