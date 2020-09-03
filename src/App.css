@@ -11,7 +11,7 @@
 body,
 html {
   margin: 0;
-  font-family: Roboto, Arial, helvetica, sans-serif;
+  font-family: europa, sans-serif;
 }
 
 a {
@@ -22,21 +22,18 @@ a {
   text-align: center;
   background-color: #fcfdfd;
   box-shadow: 0px -20px 5px 20px #333333;
-  padding: 10px;
-  font-size: 0;
+  /* padding: 10px; */
+  /* font-size: 0; */
   color: #e5efec;
   position: fixed;
-  top: 0;
   z-index: 9;
   width: 100%;
 }
 
 .navbar-container ul {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   text-align: right;
-  /* display: inline-block;  */
-  /* uncomment ^ for center nav-bar */
   vertical-align: middle;
 }
 
@@ -62,7 +59,7 @@ a {
 }
 
 .navbar-container ul li.active-link .underline {
-  width: 100vw;
+  width: 100%;
   background-color: white;
 }
 
@@ -85,11 +82,6 @@ a {
 }
 
 .nav_logo {
-  width: 100px;
-  position: absolute;
-  left: 3vw;
-  top: -20vh;
-  display: inline-block;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -103,7 +95,8 @@ a {
   min-height: 30.5em;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .App-link {
@@ -111,168 +104,116 @@ a {
 }
 
 .logo {
-  width: 15vw;
-  position: absolute;
-  left: 10vw;
-  top: 35vh;
-  /* right: 20em;
-  top: 10em;
-  height: 8em; */
+  width: 70%;
 }
 
 .caption {
-  position: absolute;
-  top: 60vh;
-  left: 12vw;
-  /* right: 28.5em;
-  top: 12em; */
   color: #1a5d57;
   font-size: large;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-left: 6%;
+  width: 70%;
 }
 
 .launching {
-  position: absolute;
   color: #1a5d57;
-  top: 70vh;
-  left: 34vw;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .home-screen-msg {
   color: #1a5d57;
-  position: absolute;
-  top: 35vh;
-  left: 35vw;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .home-screen-msg1 {
   color: #1a5d57;
-  position: absolute;
-  top: 45vh;
-  left: 33.5vw;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 190%;
 }
 
 .why-findr {
   background-color: #fcfdfd;
   position: relative;
   bottom: 1em;
-  min-height: 29.5em;
+  min-height: 28.5em;
   font-size: calc(10px + 2vmin);
+  padding-top: 2.5%;
 }
 
 .back-arrow {
-  position: absolute;
-  width: 2vw;
-  top: 40vh;
-  left: 57vw;
+  width: 6%;
+  vertical-align: top;
+  margin-top: 40%;
 }
 
 .iphone {
-  position: absolute;
-  width: 15vw;
-  height: 60vh;
-  left: 65vw;
-  top: 20vh;
+  width: 40%;
+  vertical-align: top;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .forward-arrow {
-  position: absolute;
-  width: 2vw;
-  top: 40vh;
-  left: 86vw;
+  width: 6%;
+  vertical-align: top;
+  margin-top: 40%;
 }
 
 .dots {
-  width: 30vw;
+  width: 30%;
   opacity: 0.28;
-  position: absolute;
-  top: 19vh;
 }
 
 .why-findr-title {
-  position: absolute;
   color: #1a5d57;
-  top: 10vh;
-  left: 45vw;
   font-size: larger;
+  align-self: center;
+}
+
+.main-image {
+  width: 100%;
 }
 
 .pic1 {
-  position: absolute;
-  top: 40vh;
-  left: 10vw;
-  height: 20vh;
-  width: 20vw;
+  width: 100%;
+  margin-bottom: -10%;
 }
 
 .pic1cap {
   color: #1a5d57;
-  position: absolute;
-  top: 70vh;
-  left: 13.5vw;
 }
 
 .pic1capBottom {
   color: #1a5d57;
-  position: absolute;
-  width: 15vw;
-  top: 80vh;
-  left: 12vw;
   font-size: medium;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .pic2 {
-  position: absolute;
-  top: 40vh;
-  left: 40vw;
-  height: 20vh;
-  width: 20vw;
+  width: 100%;
 }
 
 .pic2cap {
   color: #1a5d57;
-  position: absolute;
-  top: 70vh;
-  left: 44.5vw;
 }
 
 .pic2capBottom {
   color: #1a5d57;
-  position: absolute;
   font-size: medium;
-  top: 80vh;
-  left: 43.5vw;
-  width: 13vw;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .pic3 {
-  position: absolute;
-  top: 40vh;
-  left: 70vw;
-  height: 20vh;
-  width: 20vw;
+  width: 100%;
 }
 
 .pic3cap {
   color: #1a5d57;
-  position: absolute;
-  top: 70vh;
-  left: 74vw;
 }
 
 .pic3capBottom {
   color: #1a5d57;
-  position: absolute;
   font-size: medium;
-  top: 80vh;
-  left: 73vw;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .map {
@@ -292,31 +233,24 @@ a {
 }
 
 .redDotMap {
-  width: 0.9vw;
+  display: block;
+  padding: 4px;
+  width: 1.5%;
   position: absolute;
-  top: 37.2vh;
-  left: 19.9vw;
+  top: 37.2%;
+  left: 19.9%;
+  transition: all 0.2s ease-in-out;
 }
 
-.NorthRedDotMap {
-  width: 0.9vw;
-  position: absolute;
-  left: 15.4vw;
-  top: 37.4vh;
-}
-
-.UofTDotMap {
-  width: 0.9vw;
-  position: absolute;
-  left: 19vw;
-  top: 35.3vh;
+.redDotMap:hover {
+  transform: scale(1.5);
 }
 
 #BrownU:hover + .innerText {
   display: block;
   border: 2px solid white;
   background-color: #fcfdfd;
-  width: 10vw;
+  width: 10%;
   color: #1a5d57;
   border-radius: 0.8em;
   position: absolute;
@@ -325,24 +259,51 @@ a {
   box-shadow: 0px 3px 20px #333333;
 }
 
-#uoft:hover + .innerText {
+.NorthRedDotMap {
   display: block;
-  border: 2px solid white;
-  background-color: #fcfdfd;
-  width: 10vw;
-  color: #1a5d57;
-  border-radius: 0.8em;
+  width: 1.5%;
   position: absolute;
-  left: 19.5vw;
-  top: 17vh;
-  box-shadow: 0px 3px 20px #333333;
+  left: 15.4%;
+  top: 37.4%;
+  transition: all 0.2s ease-in-out;
+}
+
+.NorthRedDotMap:hover {
+  transform: scale(1.5);
 }
 
 #NorthWestU:hover + .innerText {
   display: block;
   border: 2px solid white;
   background-color: #fcfdfd;
-  width: 10vw;
+  width: 10%;
+  color: #1a5d57;
+  border-radius: 0.8em;
+  position: absolute;
+  left: 16%;
+  top: 24%;
+  box-shadow: 0px 3px 20px #333333;
+  z-index: 99;
+}
+
+.GTechRedDotMap:hover {
+  transform: scale(1.5);
+}
+
+.GTechRedDotMap {
+  display: block;
+  width: 1.5%;
+  position: absolute;
+  left: 19%;
+  top: 39.3%;
+  transition: all 0.2s ease-in-out;
+}
+
+#GTech:hover + .innerText {
+  display: block;
+  border: 2px solid white;
+  background-color: #fcfdfd;
+  width: 10%;
   color: #1a5d57;
   border-radius: 0.8em;
   position: absolute;
@@ -350,6 +311,32 @@ a {
   top: 24vh;
   box-shadow: 0px 3px 20px #333333;
   z-index: 99;
+}
+
+.UofTDotMap {
+  display: block;
+  width: 1.5%;
+  position: absolute;
+  left: 19%;
+  top: 35.3%;
+  transition: all 0.2s ease-in-out;
+}
+
+.UofTDotMap:hover {
+  transform: scale(1.5);
+}
+
+#uoft:hover + .innerText {
+  display: block;
+  border: 2px solid white;
+  background-color: #fcfdfd;
+  width: 10%;
+  color: #1a5d57;
+  border-radius: 0.8em;
+  position: absolute;
+  left: 19.5%;
+  top: 17%;
+  box-shadow: 0px 3px 20px #333333;
 }
 
 #UniLogo {
@@ -369,19 +356,24 @@ a {
 }
 
 .network-title {
-  font-weight: 500;
-  position: absolute;
-  left: 80vw;
-  width: 10vw;
-  bottom: 60vh;
+  font-size: xx-large;
+  margin-bottom: 2%;
 }
 
 .network-cap {
-  font-weight: 200;
-  width: 20vw;
-  left: 75vw;
-  bottom: 45vh;
-  position: absolute;
+  width: 80%;
+  align-self: center;
+  font-size: large;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.home {
+  width: 80%;
+}
+
+.match {
+  width: 67.7%;
 }
 
 .keywords {
@@ -390,44 +382,48 @@ a {
   min-height: 29em;
   font-size: calc(10px + 2vmin);
   color: white;
-  scroll-behavior: smooth;
 }
 
 .keywords-text {
   color: #1a5d57;
-  position: absolute;
-  top: 25vh;
-  left: 15vw;
-}
-
-.keywords-placeholder {
-  color: #1a5d57;
-  position: absolute;
-  top: 70vh;
-  left: 80vw;
-}
-
-.keywords-caps-placeholder {
-  color: #1a5d57;
-  width: 11em;
-  font-size: medium;
-  position: absolute;
-  top: 78vh;
-  left: 77.5vw;
 }
 
 .keywords-caps {
   color: #1a5d57;
-  width: 11em;
   font-size: medium;
-  position: absolute;
-  top: 33vh;
-  left: 12.5vw;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.chat {
+  width: 80%;
+}
+
+.addinfo {
+  width: 73%;
+}
+.keywords2 {
+  background-color: #fcfdfd;
+  position: relative;
+  min-height: 27em;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.keywords-placeholder2 {
+  color: #1a5d57;
+}
+
+.keywords-caps-placeholder2 {
+  color: #1a5d57;
+  font-size: medium;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .contact-div {
   background-color: #e5efec;
-  min-height: 29em;
+  min-height: 27em;
   font-size: calc(10px + 2vmin);
   position: relative;
   scroll-behavior: smooth;
@@ -435,31 +431,22 @@ a {
 
 .contact-text {
   color: #1a5d57;
-  position: absolute;
   font-size: 200%;
-  font-weight: 100;
-  top: 25vh;
-  left: 15vw;
+  margin-bottom: 5%;
 }
 
 .sugg-text {
   color: #1a5d57;
-  position: absolute;
   font-size: large;
-  width: 14vw;
-  top: 35vh;
-  left: 15.25vw;
+  margin-top: 5%;
 }
 
 .forms {
-  position: absolute;
-  top: 20vh;
-  left: 40vw;
 }
 
-input[type='text'],
-input[type='email'],
-input[type='tel'] {
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
   color: #1a5d57;
   width: 25em;
   height: 4em;
@@ -482,7 +469,7 @@ textarea {
   left: 28em;
   bottom: 14.5em;
 }
-input[type='submit'] {
+input[type="submit"] {
   color: white;
   background-color: #1a5d57;
   width: 15em;
@@ -520,9 +507,6 @@ input:focus {
 }
 
 .social-media {
-  position: absolute;
-  top: 80vh;
-  left: 25vw;
 }
 
 .like-title {
@@ -547,6 +531,11 @@ input:focus {
   min-height: 12.4em;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 100%;
+}
+
+.AboutUs {
+  width: 80%;
 }
 
 .launch {
@@ -554,15 +543,6 @@ input:focus {
   position: relative;
   top: 8em;
   right: 28em;
-}
-
-
-.newHome {
-  background-color: #e5efec;
-  min-height: 33.5em;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .aboot-us-title {
@@ -584,58 +564,24 @@ input:focus {
   position: relative;
   font-weight: 100;
   font-size: medium;
-  margin-left: 60vw;
+  margin-left: 60em;
 }
 
-.nice-to-meet{
-  position: relative;
-  color: #1a5d57;
-  top: 40vh;
+.linkSecond ul {
+  /* margin: 0;
+  padding: 0; */
+  margin-top: 33%;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.about-us-page-title{
-  position: relative;
-  color: #1a5d57;
-  font-size: 10vh;
-  font-weight: 100;
-  top: 44vh;
-}
-
-.why-us{
-  color: #1a5d57;
-  position: relative;
-  top: 70vh;
-  margin-right: 50vw;
-}
-
-.findr-about{
-  color: #1a5d57;
-  position: relative;
-  top: 65vh;
-}
-
-.team-about{
-  color: #1a5d57;
-  position: relative;
-  top: 60vh;
-  margin-left: 50vw;
-}
-
-.why-findr-text1{
-  color: #1a5d57;
-  position: relative;
-  top: 15vh;
-  margin-bottom: 12vh;
-}
-
-.newNav ul li {
+.linkSecond ul li {
   display: inline-block;
-  font-size: 16px;
+  font-size: 22px;
+  margin-right: 10%;
 }
 
-a, a:hover, a:active, a:visited { color: white; }
-
-.newNav ul li a {
+.linkSecond ul li a {
   color: #1a5d57;
   text-decoration: none;
   display: inline-block;
@@ -643,7 +589,7 @@ a, a:hover, a:active, a:visited { color: white; }
   transition: color 0.5s;
 }
 
-.newNav ul li .underline {
+.linkSecond ul li .underline {
   height: 3px;
   background-color: transparent;
   width: 0%;
@@ -651,101 +597,70 @@ a, a:hover, a:active, a:visited { color: white; }
   margin: 0 auto;
 }
 
-.newNav ul li.active-link .underline {
-  width: 100vw;
+.linkSecond ul li.active-link .underline {
+  width: 100%;
   background-color: white;
 }
 
-.newNav ul li:hover .underline {
+.linkSecond ul li:hover .underline {
   background-color: #1a5d57;
   width: 100%;
 }
 
-
-.newNav ul li:active a {
+.linkSecond ul li:active a {
   transition: none;
   color: rgba(255, 255, 255, 0.76);
 }
 
-.newNav ul li:active .underline {
+.linkSecond ul li:active .underline {
   transition: none;
   background-color: rgba(255, 255, 255, 0.76);
 }
 
-.what-means{
-  color: #1a5d57;
-  position: relative;
-  top: 5vh;
+.links ul {
+  margin-left: 80%;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.meet-team{
-  color: #1a5d57;
-  position: relative;
-  top: 5vh;
+.links ul li {
+  display: inline-block;
+  font-size: 22px;
+  margin-right: 10%;
 }
 
-.listTerms{
-  position: relative;
-  margin-left: 45vw;
-  bottom: 11vh;
-  list-style-type: none;
-  font-size: large;
+.links ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: color 0.5s;
 }
 
-.listTerms li {
-  margin-bottom: 1vh;
+.links ul li .underline {
+  height: 3px;
+  background-color: transparent;
+  width: 0%;
+  transition: width 0.2s, background-color 0.5s;
+  margin: 0 auto;
 }
 
-.privacy-title{
-  /* text-align: center; */
-  margin-left: 20vw;
-  flex-grow: inherit;
-  color: #1a5d57;
+.links ul li.active-link .underline {
+  width: 100%;
+  background-color: white;
 }
 
-.privacy-title-logo{
-  /* text-align: center; */
-  margin-left: 25vw;
-  flex-grow: inherit;
-  color: #1a5d57;
+.links ul li:hover .underline {
+  background-color: white;
+  width: 100%;
 }
 
-.background{
-  background-color: #e5efec;
-  height: 100%;
+.links ul li:active a {
+  transition: none;
+  color: rgba(255, 255, 255, 0.76);
 }
 
-.theText{
-  margin-left: 20vw;
-  flex-grow: inherit;
-  width: 60vw;
-  color: #1a5d57;
-}
-
-.privacy-list{
-  margin-left: 20vw;
-  width: 55vw;
-  flex-direction: row;
-  color: #1a5d57;
-}
-
-.privacy-list-nested{
-  /* margin-left: 20vw; */
-  width: 55vw;
-  flex-direction: row;
-  color: #1a5d57;
-}
-
-.logo-for-terms{
-  width: 10vh;
-  height: auto;
-  top: 0.5vh;
-  position: absolute;
-  flex-grow: inherit;
-  margin-left: 20vw;
-  margin-right: 20vw;
-}
-
-.date{
-  margin-left: 88%;
+.links ul li:active .underline {
+  transition: none;
+  background-color: rgba(255, 255, 255, 0.76);
 }

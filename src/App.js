@@ -1,36 +1,28 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import "./App.css";
 
-import Nav from "./Components/Nav-Bar"
+import Nav from "./Components/Nav-Bar";
 import Home from "./Components/Home";
 import YFindr from "./Components/WhyFindr";
+import YFindr2 from "./Components/WhyFindr2";
 import Map from "./Components/Map";
 import Keywords from "./Components/Keywords";
+import Keywords2 from "./Components/Keywords2";
 import Contact from "./Components/Contact";
 import About from "./Components/AboutUs";
-import HomeAboutUs from "./Components/HomeAboutUs"
-import WhyFindrAbout from "./Components/WhyFindrAbout"
-import WhatAbout from "./Components/WhatMeans"
-import Team from "./Components/Team"
-import AboutUs from "./Components/About"
 
 function App() {
   return (
     <div className="App">
       <Nav />
-      {/* <Home />
+      <Home />
       <YFindr />
+      <YFindr2 />
       <Map />
       <Keywords />
+      <Keywords2 />
       <Contact />
-      <About/> */}
-
-      {/* this is the second page */}
-      <HomeAboutUs />
-      <WhyFindrAbout />
-      <WhatAbout />
-      <Team/>
-      <AboutUs/>
+      <About/>
     </div> 
   );
 }

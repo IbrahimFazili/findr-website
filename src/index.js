@@ -11,6 +11,7 @@ import Privacy from "./Components/Privacy";
 import TandC from "./Components/T&C";
 import Safety from "./Components/Safety"
 import Guidelines from "./Components/Guidelines"
+import SecondPage from "./SecondPage"
 
  const rootElement = document.getElementById("root");
  ReactDOM.render(
@@ -21,7 +22,7 @@ import Guidelines from "./Components/Guidelines"
      <Route path="/TermsAndConditions" component={TandC} />
      <Route path="/Safety" component={Safety} />
      <Route path="/Guidelines" component={Guidelines} />
-
+     <Route path="/AboutUs" component={SecondPage} />
    </Switch>
    </BrowserRouter>,
    rootElement

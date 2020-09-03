@@ -1,30 +1,49 @@
-import React from "react"
-import "../App.css"
-import {Link } from "react-router-dom";
+import React from "react";
+import "../App.css";
+import { Link } from "react-router-dom";
 
-
-function About(){
-    return(
+function About() {
+  return (
     <div className="bottom-header">
-        <div className="launch">Launching soon!</div>
-        <div className="aboot-us-div">
-          <div className="aboot-us-title">About Us</div>
-          <div className="aboot-big-box">
-            <div className="aboot-us-text"> Findr is a platform to help you grow and find the perfect partner</div>
-            <div className="aboot-us-text">-</div>
-            <div className="aboot-us-text">No, dummy, not a date! Partner for your courses, projects, startups, anything!</div>
-            <div>
-                <ul className="listTerms">
-                    <li><Link to="/Privacy">Privacy Policy</Link></li>
-                    <li><Link to="/TermsAndConditions">Terms and Conditions</Link></li>
-                    <li><Link to="/Safety">Safety Tips</Link></li>
-                    <li><Link to="/Guidelines">Community Guidlines</Link></li>
-                </ul>
-            </div>
-          </div>
-        </div>
+      <div style={{ display: "inline-block", width: "30% " }}>
+        <p className="launch">Launching soon!</p>
       </div>
-    )
+      <div>
+        <p
+          className="AboutUs"
+          style={{ display: "inline-block", width: "30%" }}
+        >
+          About Us
+          <br></br>
+          Findr is a platform to help you grow and find the perfect partner -
+          No, dummy, not a date! Partner for your courses, projects, startups,
+          anything!
+        </p>
+      </div>
+      <div className="links" style={{ display: "inline-block", width: "30%" }}>
+        <ul>
+          <div style={{ width: "80%" }}>
+            <li class="nav-link">
+              <Link to="/Privacy">Privacy Policy</Link>
+              <div class="underline"></div>
+            </li>
+            <li class="nav-link">
+              <Link to="/TermsAndConditions">Terms and Conditions</Link>
+              <div class="underline"></div>
+            </li>
+            <li class="nav-link" style={{ marginRight: "2%" }}>
+              <Link to="/Safety">Safety Tips</Link>
+              <div class="underline"></div>
+            </li>
+            <li class="nav-link" style={{ marginRight: "2%" }}>
+              <Link to="/Guidelines">Community Guidlines</Link>
+              <div class="underline"></div>
+            </li>
+          </div>
+        </ul>
+      </div>
+    </div>
+  );
 }
 
 export default About;
