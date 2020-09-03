@@ -6,12 +6,36 @@ import Match from "../Images/match.png";
 function Keywords() {
   return (
     <div className="keywords" id="Keywords">
-      <div className="keywords-text">keywords</div>
-      <div className="keywords-caps">
-        choose from a thousand of trendy keywords or make your own!
+      <div
+        style={{
+          display: "inline-block",
+          width: "40%",
+          alignContent: "center",
+          marginTop: "20%",
+        }}
+      >
+        <p className="keywords-text">keywords</p>
+        <p className="keywords-caps">
+          choose from thousands of trendy keywords or make your own!
+        </p>
       </div>
-      <img src={Home} className="home" />
-      <img src={Match} className="match" />
+
+      <div
+        style={{
+          display: "inline-block",
+          width: "40%",
+          verticalAlign: "top",
+          marginTop: "10%",
+        }}
+      >
+        <div style={{ display: "inline-block", width: "50%" }}>
+          <img src={Home} className="home" />
+        </div>
+
+        <div style={{ display: "inline-block", width: "50%" }}>
+          <img src={Match} className="match" />
+        </div>
+      </div>
     </div>
   );
 }

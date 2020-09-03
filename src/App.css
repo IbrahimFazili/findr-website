@@ -22,21 +22,18 @@ a {
   text-align: center;
   background-color: #fcfdfd;
   box-shadow: 0px -20px 5px 20px #333333;
-  padding: 10px;
-  font-size: 0;
+  /* padding: 10px; */
+  /* font-size: 0; */
   color: #e5efec;
   position: fixed;
-  top: 0;
   z-index: 9;
   width: 100%;
 }
 
 .navbar-container ul {
-  margin: 0;
-  padding: 0;
+  /* margin: 0;
+  padding: 0; */
   text-align: right;
-  /* display: inline-block;  */
-  /* uncomment ^ for center nav-bar */
   vertical-align: middle;
 }
 
@@ -110,19 +107,10 @@ a {
 }
 
 .logo {
-  width: 15%;
-  position: absolute;
-  left: 10%;
-  top: 35%;
-  /* right: 20em;
-  top: 10em;
-  height: 8em; */
+  width: 70%;
 }
 
 .caption {
-  position: absolute;
-  top: 60%;
-  left: 12%;
   /* right: 28.5em;
   top: 12em; */
   color: #1a5d57;
@@ -130,29 +118,19 @@ a {
 }
 
 .launching {
-  position: absolute;
   color: #1a5d57;
-  top: 70%;
-  left: 34%;
 }
 
 .home-screen-msg {
   color: #1a5d57;
-  position: absolute;
-  top: 35%;
-  left: 35%;
 }
 
 .home-screen-msg1 {
   color: #1a5d57;
-  position: absolute;
-  top: 45%;
-  left: 33.5%;
 }
 
 .why-findr {
   background-color: #fcfdfd;
-  /* background-color: red; */
   position: relative;
   bottom: 1em;
   min-height: 29.5em;
@@ -161,60 +139,37 @@ a {
 }
 
 .back-arrow {
-  position: absolute;
-  width: 2%;
-  top: 40%;
-  left: 57%;
+  width: 6%;
+  vertical-align: top;
+  margin-top: 40%;
 }
 
 .iphone {
-  position: absolute;
-  width: 15%;
-  height: 60%;
-  left: 65%;
-  top: 20%;
+  width: 40%;
+  vertical-align: top;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .forward-arrow {
-  position: absolute;
-  width: 2%;
-  top: 40%;
-  left: 86%;
+  width: 6%;
+  vertical-align: top;
+  margin-top: 40%;
 }
 
 .dots {
   width: 30%;
   opacity: 0.28;
-  position: absolute;
-  top: 19%;
-}
-
-.video {
-  width: 75vw;
-  align-self: center;
-  margin-left: 20%;
-  overflow: hidden;
-  /* border-color: red;
-  border-width: 10px; */
-}
-
-video::-webkit-media-controls-panel {
-  background-image: linear-gradient(transparent, transparent) !important;
 }
 
 .why-findr-title {
   color: #1a5d57;
   font-size: larger;
   align-self: center;
-  /* top: 5%; */
 }
 
 .main-image {
-  position: absolute;
-  top: 29%;
-  width: 300px;
-  height: 330px;
-  left: 6%;
+  width: 100%;
 }
 
 .pic1 {
@@ -392,19 +347,11 @@ video::-webkit-media-controls-panel {
 }
 
 .home {
-  position: absolute;
-  top: 15%;
-  left: 46%;
-  width: 190px;
-  height: 345px;
+  width: 80%;
 }
 
 .match {
-  position: absolute;
-  top: 15%;
-  left: 66%;
-  width: 190px;
-  height: 345px;
+  width: 67.7%;
 }
 
 .keywords {
@@ -413,64 +360,43 @@ video::-webkit-media-controls-panel {
   min-height: 27em;
   font-size: calc(10px + 2vmin);
   color: white;
-  scroll-behavior: smooth;
 }
 
 .keywords-text {
   color: #1a5d57;
-  position: absolute;
-  top: 25%;
-  left: 15%;
 }
 
 .keywords-caps {
   color: #1a5d57;
-  width: 11em;
   font-size: medium;
-  position: absolute;
-  top: 33%;
-  left: 12.5%;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .chat {
-  position: absolute;
-  top: 35%;
-  left: 16%;
-  width: 190px;
-  height: 345px;
+  width: 80%;
 }
 
 .addinfo {
-  position: absolute;
-  top: 35%;
-  left: 34%;
-  width: 190px;
-  height: 345px;
+  width: 73%;
 }
-
 .keywords2 {
   background-color: #fcfdfd;
   position: relative;
   min-height: 27em;
   font-size: calc(10px + 2vmin);
   color: white;
-  scroll-behavior: smooth;
 }
 
 .keywords-placeholder2 {
   color: #1a5d57;
-  position: absolute;
-  top: 50%;
-  left: 60%;
 }
 
 .keywords-caps-placeholder2 {
   color: #1a5d57;
-  width: 11em;
   font-size: medium;
-  position: absolute;
-  top: 58%;
-  left: 65.5%;
+  width: 70%;
+  margin-left: 15%;
 }
 
 .contact-div {

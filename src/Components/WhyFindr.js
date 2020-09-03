@@ -11,17 +11,15 @@ function WhyFindr() {
       </p>
 
       <div>
-        <img src={MainImage} className="main-image" style={{ zIndex: 2 }} />
-      </div>
-
-      <div
-        style={{
-          position: "relative",
-          justifyContent: "center",
-          alignContent: "center",
-          alignSelf: "center",
-        }}
-      >
+        <img
+          src={MainImage}
+          style={{
+            width: "18%",
+            marginLeft: "2%",
+            verticalAlign: "top",
+            marginTop: "8%",
+          }}
+        />
         <video
           autostart
           autoPlay
@@ -30,8 +28,8 @@ function WhyFindr() {
           disablePictureInPicture
           src={Video}
           type="video/mp4"
-          className="video"
-          style={{ zIndex: 0 }}
+          //  className="video"
+          style={{ zIndex: 0, width: "75%" }}
         />
       </div>
     </div>
