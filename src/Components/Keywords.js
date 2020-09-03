@@ -14,9 +14,9 @@ function Keywords() {
           marginTop: "20%",
         }}
       >
-        <p className="keywords-text">keywords</p>
+        <p className="keywords-text">unlimited matches</p>
         <p className="keywords-caps">
-          choose from thousands of trendy keywords or make your own!
+          find matches for any interest, in any industry!
         </p>
       </div>
 

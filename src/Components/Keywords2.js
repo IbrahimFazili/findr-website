@@ -30,9 +30,9 @@ function Keywords2() {
           marginBottom: "20%",
         }}
       >
-        <p className="keywords-placeholder2">keywords</p>
+        <p className="keywords-placeholder2">the key is in the details</p>
         <p className="keywords-caps-placeholder2">
-          choose from thousands of trendy keywords or make your own!
+          find partners who complement your skills and chat with them!
         </p>
       </div>
     </div>
