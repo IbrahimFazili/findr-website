@@ -111,10 +111,10 @@ a {
 }
 
 .caption {
-  /* right: 28.5em;
-  top: 12em; */
   color: #1a5d57;
   font-size: large;
+  margin-left: 6%;
+  width: 70%;
 }
 
 .launching {
@@ -331,19 +331,16 @@ a {
 }
 
 .network-title {
-  font-weight: 500;
-  position: absolute;
-  left: 80%;
-  width: 10%;
-  bottom: 60%;
+  font-size: xx-large;
+  margin-bottom: 2%;
 }
 
 .network-cap {
-  font-weight: 200;
-  width: 20%;
-  left: 75%;
-  bottom: 45%;
-  position: absolute;
+  width: 80%;
+  align-self: center;
+  font-size: large;
+  margin-left: 10%;
+  margin-top: 2%;
 }
 
 .home {
@@ -409,26 +406,17 @@ a {
 
 .contact-text {
   color: #1a5d57;
-  position: absolute;
   font-size: 200%;
-  font-weight: 100;
-  top: 25%;
-  left: 15%;
+  margin-bottom: 5%;
 }
 
 .sugg-text {
   color: #1a5d57;
-  position: absolute;
   font-size: large;
-  width: 14%;
-  top: 35%;
-  left: 15.25%;
+  margin-top: 5%;
 }
 
 .forms {
-  position: absolute;
-  top: 20%;
-  left: 40%;
 }
 
 input[type="text"],
@@ -494,9 +482,6 @@ input:focus {
 }
 
 .social-media {
-  position: absolute;
-  top: 80%;
-  left: 25%;
 }
 
 .like-title {

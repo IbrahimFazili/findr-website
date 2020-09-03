@@ -8,12 +8,25 @@ import UofT from "./Universities/UofT";
 function Map() {
   return (
     <div className="map">
-      <img src={MapPic} className="mapPic" />
-      <BrownU />
-      <NorthWestU />
-      <UofT />
-      <div className="network-title">our network</div>
-      <div className="network-cap">check out the universities we support!</div>
+      <div style={{ display: "inline-block", width: "70%" }}>
+        <img src={MapPic} className="mapPic" />
+        <BrownU />
+        <NorthWestU />
+        <UofT />
+      </div>
+      <div
+        style={{
+          display: "inline-block",
+          width: "30%",
+          verticalAlign: "top",
+          marginTop: "16%",
+          textAlign: "center",
+          float: "right",
+        }}
+      >
+        <p className="network-title">our network</p>
+        <p className="network-cap">check out the universities we support!</p>
+      </div>
     </div>
   );
 }

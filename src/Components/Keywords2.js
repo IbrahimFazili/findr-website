@@ -10,8 +10,8 @@ function Keywords2() {
         style={{
           display: "inline-block",
           width: "40%",
-          verticalAlign: "top",
-          marginTop: "10%",
+          verticalAlign: "bottom",
+          marginBottom: "10%",
         }}
       >
         <div style={{ display: "inline-block", width: "50%" }}>
@@ -27,7 +27,7 @@ function Keywords2() {
           display: "inline-block",
           width: "40%",
           alignContent: "center",
-          marginTop: "20%",
+          marginBottom: "20%",
         }}
       >
         <p className="keywords-placeholder2">keywords</p>

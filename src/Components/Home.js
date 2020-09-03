@@ -15,17 +15,24 @@ function Home() {
         position: "relative",
       }}
     >
-      <div style={{ position: "absolute", marginTop: "10%" }}>
+      <div style={{ position: "absolute", marginTop: "8%", width: "100%" }}>
         <div
           style={{
             display: "inline-block",
             width: "50%",
-            marginRight: "10%",
+            marginLeft: "7%",
             marginTop: "8%",
             verticalAlign: "top",
+            float: "left",
           }}
         >
-          <div style={{ display: "inline-block", width: "50%" }}>
+          <div
+            style={{
+              display: "inline-block",
+              width: "50%",
+              alignContent: "center",
+            }}
+          >
             <img src={logo} className="logo" />
             <figcaption className="caption">Keep Swiping</figcaption>
           </div>
@@ -39,7 +46,15 @@ function Home() {
           </div>
         </div>
 
-        <div style={{ display: "inline-block", width: "35%", marginTop: "5%" }}>
+        <div
+          style={{
+            display: "inline-block",
+            width: "35%",
+            marginTop: "2%",
+            float: "right",
+            marginRight: "5%",
+          }}
+        >
           <div style={{ width: "100%" }}>
             <img className="back-arrow" src={BackArrow} />
             <img src={iPhone} className="iphone" />
