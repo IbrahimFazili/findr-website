@@ -4,6 +4,7 @@ import MapPic from "../Images/world_map_final_web.svg";
 import BrownU from "./Universities/BrownU";
 import NorthWestU from "./Universities/NorthWestU";
 import UofT from "./Universities/UofT";
+import GTech from "./Universities/GTech";
 
 function Map() {
   return (
@@ -13,6 +14,7 @@ function Map() {
         <BrownU />
         <NorthWestU />
         <UofT />
+        <GTech />
       </div>
       <div
         style={{
