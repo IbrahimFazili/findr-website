@@ -5,8 +5,6 @@ import FrontArrow from "../Images/forward_icon_green.svg";
 import iPhone from "../Images/iphone.png";
 import logo from "../Images/Findr_logo2x.png";
 import Particles from "react-particles-js";
-import circle from "../Images/circle.svg";
-import { tsParticles } from "tsparticles";
 
 function Home() {
   return (
