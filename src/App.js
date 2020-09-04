@@ -22,8 +22,8 @@ function App() {
       <Keywords />
       <Keywords2 />
       <Contact />
-      <About />
-    </div>
+      <About/>
+    </div> 
   );
 }
 

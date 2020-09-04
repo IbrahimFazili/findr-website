@@ -95,6 +95,8 @@ a {
   min-height: 30.5em;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .App-link {
@@ -122,13 +124,14 @@ a {
 
 .home-screen-msg1 {
   color: #1a5d57;
+  font-size: 190%;
 }
 
 .why-findr {
   background-color: #fcfdfd;
   position: relative;
   bottom: 1em;
-  min-height: 29.5em;
+  min-height: 28.5em;
   font-size: calc(10px + 2vmin);
   padding-top: 2.5%;
 }
@@ -223,10 +226,10 @@ a {
 
 .mapPic {
   position: absolute;
-  top: 5%;
+  top: 5vh;
   left: 0;
-  width: 75%;
-  height: 90%;
+  width: 75vw;
+  height: 90vh;
 }
 
 .redDotMap {
@@ -251,8 +254,8 @@ a {
   color: #1a5d57;
   border-radius: 0.8em;
   position: absolute;
-  left: 20.5%;
-  top: 27%;
+  left: 20.5vw;
+  top: 27vh;
   box-shadow: 0px 3px 20px #333333;
 }
 
@@ -304,8 +307,8 @@ a {
   color: #1a5d57;
   border-radius: 0.8em;
   position: absolute;
-  left: 16%;
-  top: 24%;
+  left: 16vw;
+  top: 24vh;
   box-shadow: 0px 3px 20px #333333;
   z-index: 99;
 }
@@ -337,12 +340,12 @@ a {
 }
 
 #UniLogo {
-  width: 60%;
+  width: 60vw;
   padding: 6%;
 }
 
 #UniLogoAlt {
-  width: 70%;
+  width: 70vw;
 }
 
 .innerText {
@@ -376,7 +379,7 @@ a {
 .keywords {
   background-color: #fcfdfd;
   position: relative;
-  min-height: 27em;
+  min-height: 29em;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -510,46 +513,48 @@ input:focus {
   color: #1a5d57;
   position: absolute;
   font-size: x-large;
-  top: 74%;
-  left: 65%;
+  top: 74vh;
+  left: 65vw;
 }
 
 .like-plug {
   color: #1a5d57;
   font-size: large;
   position: absolute;
-  width: 14%;
-  top: 80%;
-  left: 62%;
+  width: 14vw;
+  top: 80vh;
+  left: 62vw;
 }
 
 .bottom-header {
   background-color: #1a5d57;
-  min-height: 12.4em;
-  font-size: calc(10px + 2vmin);
+  position: relative;
+  /* min-height: 29em; */
+  /* font-size: calc(10px + 2vmin); */
   color: white;
 }
 
 .launch {
   font-size: large;
-  position: relative;
+  color: white;
+  /* position: relative;
   top: 8em;
-  right: 28em;
+  right: 28em; */
 }
 
 .aboot-us-title {
   font-weight: 100;
   position: relative;
-  margin-top: 1%;
-  padding-bottom: 2%;
+  margin-top: 1vh;
+  padding-bottom: 2vh;
 }
 .aboot-us-text {
   font-weight: 100;
   width: 18em;
   font-size: large;
   position: relative;
-  margin-left: 39%;
-  margin-top: 1%;
+  margin-left: 39vw;
+  margin-top: 1vh;
 }
 
 .number {
@@ -557,4 +562,101 @@ input:focus {
   font-weight: 100;
   font-size: medium;
   margin-left: 60em;
+}
+
+.linkSecond ul {
+  /* margin: 0;
+  padding: 0; */
+  margin-top: 33%;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.linkSecond ul li {
+  display: inline-block;
+  font-size: 22px;
+  margin-right: 10%;
+}
+
+.linkSecond ul li a {
+  color: #1a5d57;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: color 0.5s;
+}
+
+.linkSecond ul li .underline {
+  height: 3px;
+  background-color: transparent;
+  width: 0%;
+  transition: width 0.2s, background-color 0.5s;
+  margin: 0 auto;
+}
+
+.linkSecond ul li.active-link .underline {
+  width: 100%;
+  background-color: white;
+}
+
+.linkSecond ul li:hover .underline {
+  background-color: #1a5d57;
+  width: 100%;
+}
+
+.linkSecond ul li:active a {
+  transition: none;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.linkSecond ul li:active .underline {
+  transition: none;
+  background-color: rgba(255, 255, 255, 0.76);
+}
+
+.links ul {
+  text-align: center;
+  vertical-align: middle;
+}
+
+.links ul li {
+  display: inline-block;
+  font-size: 22px;
+  margin-right: 10%;
+}
+
+.links ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  transition: color 0.5s;
+}
+
+.links ul li .underline {
+  height: 3px;
+  background-color: transparent;
+  width: 0%;
+  transition: width 0.2s, background-color 0.5s;
+  margin: 0 auto;
+}
+
+.links ul li.active-link .underline {
+  width: 100%;
+  background-color: white;
+}
+
+.links ul li:hover .underline {
+  background-color: white;
+  width: 100%;
+}
+
+.links ul li:active a {
+  transition: none;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+.links ul li:active .underline {
+  transition: none;
+  background-color: rgba(255, 255, 255, 0.76);
 }

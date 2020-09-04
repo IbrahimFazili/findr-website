@@ -16,24 +16,30 @@ function NavBar() {
           }}
         >
           <li>
-            <img src={navLogo} height="80" width="90" class="nav_logo" />
+            <img
+              src={navLogo}
+              alt="triangle with all three sides equal"
+              height="80"
+              width="90"
+              class="nav_logo"
+            />
           </li>
         </div>
         <div style={{ display: "inline-block", width: "40%" }}>
           <li class="nav-link">
-            <a href="#Home">home</a>
+            <Link to="/">home</Link>
             <div class="underline"></div>
           </li>
           <li class="nav-link">
-            <a><Link to="AboutUs">about us</Link></a>
+            <a href="#Home">about us</a>
             <div class="underline"></div>
           </li>
           <li class="nav-link">
-            <a href="#Keywords">features</a>
+            <a href="#Findr">testimonials</a>
             <div class="underline"></div>
           </li>
           <li class="nav-link" style={{ marginRight: "2%" }}>
-            <a href="#Contact-Us">contact</a>
+            <a href="#Team">team</a>
             <div class="underline"></div>
           </li>
         </div>
