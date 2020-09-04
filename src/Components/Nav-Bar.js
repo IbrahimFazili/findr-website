@@ -16,13 +16,7 @@ function NavBar() {
           }}
         >
           <li>
-            <img
-              src={navLogo}
-              alt="triangle with all three sides equal"
-              height="80"
-              width="90"
-              class="nav_logo"
-            />
+            <img src={navLogo} height="80" width="90" class="nav_logo" />
           </li>
         </div>
         <div style={{ display: "inline-block", width: "40%" }}>
