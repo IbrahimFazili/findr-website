@@ -9,7 +9,7 @@ import Map from "./Components/Map";
 import Keywords from "./Components/Keywords";
 import Keywords2 from "./Components/Keywords2";
 import Contact from "./Components/Contact";
-import About from "./Components/AboutUs";
+import About from "./Components/About";
 
 function App() {
   return (
@@ -22,8 +22,8 @@ function App() {
       <Keywords />
       <Keywords2 />
       <Contact />
-      <About/>
-    </div> 
+      <About />
+    </div>
   );
 }
 

@@ -4,8 +4,17 @@ import "../App.css";
 function WhyFindrAbout() {
   return (
     <div className="why-findr" id="WhyFindr">
-      <p style={{ color: "#1a5d57", display: "inline-block", marginTop: '4%'}}>why us?</p>
-      <div style={{marginTop: '5%'}}>
+      <p
+        style={{
+          color: "#1a5d57",
+          display: "inline-block",
+          marginTop: "4%",
+          fontSize: "130%",
+        }}
+      >
+        why us?
+      </p>
+      <div style={{ marginTop: "5%" }}>
         <p style={{ color: "#1a5d57", width: "70%", marginLeft: "15%" }}>
           The best partners are those who help you grow and learn better. They
           try to teach you while learning from you too. A partner is someone who
