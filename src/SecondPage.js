@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import Nav from "./Components/Nav-Bar";
+import Nav from "./Components/Nav-Bar-About";
 import HomeAboutUs from "./Components/HomeAboutUs"
 import WhyFindrAbout from "./Components/WhyFindrAbout"
 import WhatAbout from "./Components/WhatMeans"

@@ -41,7 +41,7 @@ function HomeAboutUs() {
             <br></br>
           </div>
         </div>
-        <div className="linkSecond">
+        {/* <div className="linkSecond">
           <ul>
             <div style={{ display: "inline-block", width: "80%" }}>
               <li class="nav-link">
@@ -58,7 +58,7 @@ function HomeAboutUs() {
               </li>
             </div>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

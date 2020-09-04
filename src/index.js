@@ -23,6 +23,7 @@ import SecondPage from "./SecondPage"
      <Route path="/Safety" component={Safety} />
      <Route path="/Guidelines" component={Guidelines} />
      <Route path="/AboutUs" component={SecondPage} />
+     <Route path="/" component={App} />
    </Switch>
    </BrowserRouter>,
    rootElement
