@@ -1,7 +1,7 @@
 import React from "react";
 import "../App.css";
 import navLogo from "../Images/Findr_logo_g.svg";
-import {Link} from "react-router-dom"
+import { Link } from "react-router-dom";
 
 function NavBar() {
   return (
@@ -25,7 +25,9 @@ function NavBar() {
             <div class="underline"></div>
           </li>
           <li class="nav-link">
-            <a><Link to="AboutUs">about us</Link></a>
+            <a>
+              <Link to="AboutUs">about us</Link>
+            </a>
             <div class="underline"></div>
           </li>
           <li class="nav-link">

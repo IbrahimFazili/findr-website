@@ -225,11 +225,12 @@ a {
 }
 
 .mapPic {
-  position: absolute;
-  top: 5vh;
-  left: 0;
-  width: 75vw;
-  height: 90vh;
+  /* width: 100%; */
+  /* padding: 3%; */
+  margin-top: 3%;
+  /* display: inline-block; */
+  /* margin-right: 100%; */
+  vertical-align: top;
 }
 
 .redDotMap {
@@ -369,11 +370,13 @@ a {
 }
 
 .home {
-  width: 80%;
+  width: 100%;
+  margin-right: 20%;
 }
 
 .match {
-  width: 67.7%;
+  width: 84.7%;
+  margin-left: 20%;
 }
 
 .keywords {
@@ -385,22 +388,28 @@ a {
 }
 
 .keywords-text {
-  color: #1a5d57;
+  font-size: 150%;
+  background: -webkit-linear-gradient(#1a5d57, #156070);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .keywords-caps {
   color: #1a5d57;
-  font-size: medium;
+  font-size: 70%;
   width: 70%;
   margin-left: 15%;
+  margin-top: -2%;
 }
 
 .chat {
-  width: 80%;
+  width: 100%;
+  margin-left: 7%;
 }
 
 .addinfo {
-  width: 73%;
+  width: 90%;
+  margin-right: 7%;
 }
 .keywords2 {
   background-color: #fcfdfd;
@@ -411,12 +420,15 @@ a {
 }
 
 .keywords-placeholder2 {
-  color: #1a5d57;
+  font-size: 150%;
+  background: -webkit-linear-gradient(#1a5d57, #156070);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .keywords-caps-placeholder2 {
   color: #1a5d57;
-  font-size: medium;
+  font-size: 70%;
   width: 70%;
   margin-left: 15%;
 }
@@ -659,4 +671,13 @@ input:focus {
 .links ul li:active .underline {
   transition: none;
   background-color: rgba(255, 255, 255, 0.76);
+}
+
+.why-us {
+  background: linear-gradient(to right, #509690 0%, #965056 100%);
+  width: 70%;
+  margin-left: 15%;
+  font-size: 120%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -9,9 +9,9 @@ function Keywords2() {
       <div
         style={{
           display: "inline-block",
-          width: "40%",
+          width: "50%",
           verticalAlign: "bottom",
-          marginBottom: "10%",
+          marginBottom: "3%",
         }}
       >
         <div style={{ display: "inline-block", width: "50%" }}>
@@ -25,8 +25,9 @@ function Keywords2() {
       <div
         style={{
           display: "inline-block",
-          width: "40%",
+          width: "30%",
           alignContent: "center",
+          marginLeft: "5%",
           marginBottom: "20%",
         }}
       >

@@ -9,7 +9,7 @@ function Keywords() {
       <div
         style={{
           display: "inline-block",
-          width: "40%",
+          width: "30%",
           alignContent: "center",
           marginTop: "20%",
         }}
@@ -23,9 +23,9 @@ function Keywords() {
       <div
         style={{
           display: "inline-block",
-          width: "40%",
+          width: "50%",
           verticalAlign: "top",
-          marginTop: "10%",
+          marginTop: "3%",
         }}
       >
         <div style={{ display: "inline-block", width: "50%" }}>

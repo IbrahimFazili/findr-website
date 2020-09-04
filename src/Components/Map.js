@@ -9,14 +9,21 @@ import GTech from "./Universities/GTech";
 function Map() {
   return (
     <div className="map">
-      <div style={{ display: "inline-block", width: "70%" }}>
+      <div
+        style={{
+          // display: "inline-block",
+          padding: "3%",
+          alignContent: "center",
+          // justifyContent: "center",
+        }}
+      >
         <img src={MapPic} className="mapPic" />
         <BrownU />
         <NorthWestU />
         <UofT />
         <GTech />
       </div>
-      <div
+      {/* <div
         style={{
           display: "inline-block",
           width: "30%",
@@ -28,7 +35,7 @@ function Map() {
       >
         <p className="network-title">our network</p>
         <p className="network-cap">check out the universities we support!</p>
-      </div>
+      </div> */}
     </div>
   );
 }
