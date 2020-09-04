@@ -5,7 +5,7 @@ import Match from "../Images/match.png";
 
 function Keywords() {
   return (
-    <div className="keywords" id="Keywords">
+    <div className="keywords" id="features">
       <div
         style={{
           display: "inline-block",

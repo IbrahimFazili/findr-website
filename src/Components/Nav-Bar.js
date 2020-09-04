@@ -29,11 +29,11 @@ function NavBar() {
             <div class="underline"></div>
           </li>
           <li class="nav-link">
-            <a href="#Keywords">features</a>
+            <a href="#features">features</a>
             <div class="underline"></div>
           </li>
           <li class="nav-link" style={{ marginRight: "2%" }}>
-            <a href="#Contact-Us">contact</a>
+            <a href="#contact-us">contact</a>
             <div class="underline"></div>
           </li>
         </div>

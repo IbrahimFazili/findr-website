@@ -23,7 +23,7 @@ function Contact() {
   const [message, handleMessageChange] = useState("");
 
   return (
-    <div className="contact-div" id="Contact-Us">
+    <div className="contact-div" id="contact-us">
       <div
         style={{
           display: "inline-block",
