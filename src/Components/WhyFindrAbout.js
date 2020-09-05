@@ -4,16 +4,7 @@ import "../App.css";
 function WhyFindrAbout() {
   return (
     <div className="why-findr" id="WhyFindr">
-      <p
-        style={{
-          color: "#1a5d57",
-          display: "inline-block",
-          marginTop: "4%",
-          fontSize: "130%",
-        }}
-      >
-        why us?
-      </p>
+      <p className="why-us2">why us?</p>
       <div>
         <p className="why-us">
           The best partners are those who help you grow and learn better. They

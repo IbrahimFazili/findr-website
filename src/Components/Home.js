@@ -35,13 +35,13 @@ function Home() {
         style={{ position: "absolute", left: 0, right: 0, top: 0, bottom: 0 }}
       />
 
-      <div style={{ position: "absolute", marginTop: "8%", width: "100%" }}>
+      <div style={{ position: "absolute", marginTop: "8Nvh", width: "100Nvw" }}>
         <div
           style={{
             display: "inline-block",
-            width: "50%",
-            marginLeft: "7%",
-            marginTop: "8%",
+            width: "50Nvw",
+            marginLeft: "7Nvw",
+            marginTop: "8Nvh",
             verticalAlign: "top",
             float: "left",
           }}
@@ -49,7 +49,7 @@ function Home() {
           <div
             style={{
               display: "inline-block",
-              width: "50%",
+              width: "50Nvw",
               alignContent: "center",
             }}
           >
@@ -57,9 +57,9 @@ function Home() {
             <figcaption className="caption">Keep Swiping</figcaption>
           </div>
 
-          <div style={{ display: "inline-block", width: "50%" }}>
+          <div style={{ display: "inline-block", width: "50Nvw" }}>
             <p className="home-screen-msg">Study Better!</p>
-            <p className="home-screen-msg">Network Smarter!</p>
+            <p className="home-screen-msg1">Network Smarter!</p>
             <br></br>
             <br></br>
             <p className="launching">Launching Soon!</p>
@@ -69,13 +69,13 @@ function Home() {
         <div
           style={{
             display: "inline-block",
-            width: "35%",
-            marginTop: "2%",
+            width: "35Nvw",
+            marginTop: "2Nvh",
             float: "right",
-            marginRight: "5%",
+            marginRight: "5Nvw",
           }}
         >
-          <div style={{ width: "100%" }}>
+          <div style={{ width: "100Nvw" }}>
             <img className="back-arrow" src={BackArrow} />
             <img src={iPhone} className="iphone" />
             <img className="forward-arrow" src={FrontArrow} />

@@ -68,9 +68,6 @@ a {
   width: 100%;
 }
 
-.navbar-container ul li:hover a {
-}
-
 .navbar-container ul li:active a {
   transition: none;
   color: rgba(255, 255, 255, 0.76);
@@ -81,9 +78,6 @@ a {
   background-color: rgba(255, 255, 255, 0.76);
 }
 
-.nav_logo {
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -92,7 +86,7 @@ a {
 
 .Home {
   background-color: #e5efec;
-  min-height: 30.5em;
+  min-height: 31.5em;
   font-size: calc(10px + 2vmin);
   color: white;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -110,8 +104,8 @@ a {
 .caption {
   color: #1a5d57;
   font-size: large;
-  margin-left: 6%;
-  width: 70%;
+  margin-left: 6vw;
+  width: 10vw;
 }
 
 .launching {
@@ -127,32 +121,23 @@ a {
   font-size: 190%;
 }
 
-.why-findr {
-  background-color: #fcfdfd;
-  position: relative;
-  bottom: 1em;
-  min-height: 28.5em;
-  font-size: calc(10px + 2vmin);
-  padding-top: 2.5%;
-}
-
 .back-arrow {
-  width: 6%;
+  width: 6Nvw;
   vertical-align: top;
-  margin-top: 40%;
+  margin-top: 40Nvh;
 }
 
 .iphone {
-  width: 40%;
+  width: 40Nvw;
   vertical-align: top;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 20Nvw;
+  margin-right: 20Nvw;
 }
 
 .forward-arrow {
-  width: 6%;
+  width: 6Nvw;
   vertical-align: top;
-  margin-top: 40%;
+  margin-top: 40Nvh;
 }
 
 .dots {
@@ -389,7 +374,7 @@ a {
 
 .keywords-text {
   font-size: 150%;
-  background: -webkit-linear-gradient(#1a5d57, #156070);
+  background: linear-gradient(to right, #1a5d57 0%, #156070 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -421,7 +406,7 @@ a {
 
 .keywords-placeholder2 {
   font-size: 150%;
-  background: -webkit-linear-gradient(#1a5d57, #156070);
+  background: linear-gradient(to right, #1a5d57 0%, #156070 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -451,9 +436,6 @@ a {
   color: #1a5d57;
   font-size: large;
   margin-top: 5%;
-}
-
-.forms {
 }
 
 input[type="text"],
@@ -516,9 +498,6 @@ input:focus {
   position: relative;
   bottom: 0.24em;
   padding-right: 1em;
-}
-
-.social-media {
 }
 
 .like-title {
@@ -680,4 +659,22 @@ input:focus {
   font-size: 120%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.why-us2 {
+  background: linear-gradient(to right, #1a5d57, #3d84a0);
+  width: 70%;
+  margin-left: 15%;
+  font-size: 120%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.why-findr {
+  background-color: #fcfdfd;
+  position: relative;
+  bottom: 1em;
+  min-height: 28.5em;
+  font-size: calc(10px + 2vmin);
+  padding-top: 2.5%;
 }
