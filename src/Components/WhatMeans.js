@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import Card from "react-bootstrap/Card";
 import Chat from "../Images/chat.png";
+import { CardDeck, CardColumns } from "react-bootstrap";
 
 function WhatMeans() {
   return (
@@ -9,7 +10,8 @@ function WhatMeans() {
       <p style={{ color: "#1a5d57", marginTop: "5%" }}>
         what does Findr mean to us?
       </p>
-      <div style={{ display: "inline-block" }}>
+      {/* <div style={{ display: "inline-block" }}> */}
+      <CardColumns>
         <Card style={{ display: "inline-block", width: "30%" }}>
           <Card.Img style={{ width: "30%" }} src={Chat} />
           <Card.Title style={{ color: "#1a5d57" }}>Yoothika Taneja</Card.Title>
@@ -84,7 +86,8 @@ function WhatMeans() {
             </p>
           </Card.Body>
         </Card>
-      </div>
+      </CardColumns>
+      {/* </div> */}
     </div>
   );
 }

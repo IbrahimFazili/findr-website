@@ -16,7 +16,7 @@ function NavBar() {
           }}
         >
           <li>
-            <img src={navLogo} height="80" width="90" class="nav_logo" />
+            <a href="#Home"><img src={navLogo} height="80" width="90" class="nav_logo" /></a>
           </li>
         </div>
         <div style={{ display: "inline-block", width: "40%" }}>
