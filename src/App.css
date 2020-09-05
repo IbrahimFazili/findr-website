@@ -122,22 +122,23 @@ a {
 }
 
 .back-arrow {
-  width: 6Nvw;
+  width: 6%;
   vertical-align: top;
-  margin-top: 40Nvh;
+  margin-top: 40%;
 }
 
 .iphone {
-  width: 40Nvw;
+  width: 40%;
+  height: 10px;
   vertical-align: top;
-  margin-left: 20Nvw;
-  margin-right: 20Nvw;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .forward-arrow {
-  width: 6Nvw;
+  width: 6%;
   vertical-align: top;
-  margin-top: 40Nvh;
+  margin-top: 40%;
 }
 
 .dots {
