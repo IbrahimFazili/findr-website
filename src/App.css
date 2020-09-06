@@ -30,19 +30,19 @@ a {
   width: 100%;
 }
 
-.navbar-container ul {
+.basic-navbar-nav {
   /* margin: 0;
   padding: 0; */
   text-align: right;
   vertical-align: middle;
 }
 
-.navbar-container ul li {
+.basic-navbar-nav .nav-link {
   display: inline-block;
   font-size: 16px;
 }
 
-.navbar-container ul li a {
+.basic-navbar-nav .link {
   color: #1a5d57;
   text-decoration: none;
   display: inline-block;
@@ -50,7 +50,7 @@ a {
   transition: color 0.5s;
 }
 
-.navbar-container ul li .underline {
+.basic-navbar-nav .nav-link .underline {
   height: 3px;
   background-color: transparent;
   width: 0%;
@@ -58,22 +58,22 @@ a {
   margin: 0 auto;
 }
 
-.navbar-container ul li.active-link .underline {
+.basic-navbar-nav .nav-link.active-link .underline {
   width: 100%;
   background-color: white;
 }
 
-.navbar-container ul li:hover .underline {
+.basic-navbar-nav .nav-link:hover .underline {
   background-color: #1a5d57;
   width: 100%;
 }
 
-.navbar-container ul li:active a {
+.basic-navbar-nav .nav-link:active .link {
   transition: none;
   color: rgba(255, 255, 255, 0.76);
 }
 
-.navbar-container ul li:active .underline {
+.basic-navbar-nav .nav-link:active .underline {
   transition: none;
   background-color: rgba(255, 255, 255, 0.76);
 }
@@ -383,9 +383,6 @@ a {
 .keywords-caps {
   color: #1a5d57;
   font-size: 70%;
-  width: 70%;
-  margin-left: 15%;
-  margin-top: -2%;
 }
 
 .chat {

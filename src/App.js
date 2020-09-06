@@ -1,23 +1,24 @@
 import React from "react";
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import Nav from "./Components/Nav-Bar";
-import Home from "./Components/Home";
-import YFindr from "./Components/WhyFindr";
-import YFindr2 from "./Components/WhyFindr2";
+import { NavBar } from "./Components/Nav-Bar";
+import { WhyFindr } from "./Components/WhyFindr";
+import { WhyFindr2 } from "./Components/WhyFindr2";
 import Map from "./Components/Map";
-import Keywords from "./Components/Keywords";
-import Keywords2 from "./Components/Keywords2";
+import { Keywords } from "./Components/Keywords";
+import { Keywords2 } from "./Components/Keywords2";
 import Contact from "./Components/Contact";
 import About from "./Components/About";
+import { Jumbotron } from "./Components/Jumbotron";
 
 function App() {
   return (
     <div className="App">
-      <Nav />
-      <Home />
-      <YFindr />
-      <YFindr2 />
+      <NavBar />
+      <Jumbotron />
+      <WhyFindr />
+      <WhyFindr2 />
       <Map />
       <Keywords />
       <Keywords2 />

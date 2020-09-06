@@ -3,56 +3,37 @@ import "../App.css";
 import Icon1 from "../Images/icon1.png";
 import Icon2 from "../Images/icon2.png";
 import Icon3 from "../Images/icon3.png";
+import { Container, Row, Col } from "react-bootstrap";
 
-function WhyFindr2() {
-  return (
-    <div className="why-findr">
-      <div
-        style={{
-          display: "inline-block",
-          width: "30%",
-          alignContent: "center",
-        }}
-      >
-        <img src={Icon1} className="pic1" />
+export const WhyFindr2 = () => (
+  // <Styles>
+  <Container fluid className="why-findr">
+    <Row>
+      <Col xs={12} sm={6} md={4}>
+        <img src={Icon1} style={{ width: "80%" }} />
         <figcaption className="pic1cap">don't stop swiping</figcaption>
         <figcaption className="pic1capBottom">
           <br></br>
           find partners for your courses, projects, research. Take your pick!
         </figcaption>
-      </div>
-
-      <div
-        style={{
-          display: "inline-block",
-          width: "30%",
-          alignContent: "center",
-        }}
-      >
-        <img src={Icon2} className="pic2" />
+      </Col>
+      <Col xs={12} sm={6} md={4}>
+        <img src={Icon2} style={{ width: "80%" }} />
         <figcaption className="pic2cap">network smarter</figcaption>
         <figcaption className="pic2capBottom">
           <br></br>
           find peers from different fields and expand your network!
         </figcaption>
-      </div>
-
-      <div
-        style={{
-          display: "inline-block",
-          width: "30%",
-          alignContent: "center",
-        }}
-      >
-        <img src={Icon3} className="pic3" />
+      </Col>
+      <Col xs={12} sm={12} md={4}>
+        <img src={Icon3} style={{ width: "80%" }} />
         <figcaption className="pic3cap">learn with others</figcaption>
         <figcaption className="pic3capBottom">
           <br></br>
           match with people and more! match with people and more!
         </figcaption>
-      </div>
-    </div>
-  );
-}
-
-export default WhyFindr2;
+      </Col>
+    </Row>
+  </Container>
+  // </Styles>
+);
