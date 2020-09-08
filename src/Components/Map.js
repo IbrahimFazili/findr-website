@@ -5,38 +5,17 @@ import BrownU from "./Universities/BrownU";
 import NorthWestU from "./Universities/NorthWestU";
 import UofT from "./Universities/UofT";
 import GTech from "./Universities/GTech";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 function Map() {
   return (
-    <div className="map">
-      <div
-        style={{
-          // display: "inline-block",
-          padding: "3%",
-          alignContent: "center",
-          // justifyContent: "center",
-        }}
-      >
-        <img src={MapPic} className="mapPic" />
-        <BrownU />
-        <NorthWestU />
-        <UofT />
-        <GTech />
-      </div>
-      {/* <div
-        style={{
-          display: "inline-block",
-          width: "30%",
-          verticalAlign: "top",
-          marginTop: "16%",
-          textAlign: "center",
-          float: "right",
-        }}
-      >
-        <p className="network-title">our network</p>
-        <p className="network-cap">check out the universities we support!</p>
-      </div> */}
-    </div>
+    <Container fluid className="map">
+      <Image src={MapPic} rounded fluid style={{ padding: "3%" }} />
+      <BrownU />
+      <NorthWestU />
+      <UofT />
+      <GTech />
+    </Container>
   );
 }
 

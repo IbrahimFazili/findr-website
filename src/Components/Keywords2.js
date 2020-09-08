@@ -8,13 +8,13 @@ export const Keywords2 = () => (
   // <Styles>
   <Container fluid className="keywords">
     <Row>
-      <Col xs={12} md={3} sm={6}>
-        <img src={AddInfo} style={{ width: "100%" }} />
+      <Col xs={12} md={3} sm={6} style={{ marginBottom: "5%" }}>
+        <img src={AddInfo} style={{ width: "90%" }} />
       </Col>
-      <Col xs={12} md={3} sm={6}>
-        <img src={Chat} style={{ width: "90%" }} />
+      <Col xs={12} md={3} sm={6} style={{ marginBottom: "5%" }}>
+        <img src={Chat} style={{ width: "100%" }} />
       </Col>
-      <Col xs={12} md={6} sm={12}>
+      <Col xs={12} md={6} sm={12} style={{ marginTop: "15%" }}>
         <p className="keywords-text">the key is in the details</p>
         <p className="keywords-caps">
           find partners who complement your skills and chat with them!

@@ -3,55 +3,23 @@ import "../App.css";
 import Instagram from "../Images/instagram.png";
 import LinkedIn from "../Images/linkedin-round-color.png";
 import Facebook from "../Images/facebook.svg";
+import { Container, Row, Col, Form } from "react-bootstrap";
 
-function handleSubmit(event, name, phone, uni, email, message) {
-  event.preventDefault();
-  console.log({
-    name,
-    phone,
-    uni,
-    email,
-    message,
-  });
-}
-
-function Contact() {
+export const Contact = () => {
+  // <Styles>
   const [name, handleNameChange] = useState("");
   const [phone, handlePhoneChange] = useState("");
   const [uni, handleUniChage] = useState("");
   const [email, handleEmailChange] = useState("");
   const [message, handleMessageChange] = useState("");
-
   return (
-    <div className="contact-div" id="Contact-Us">
-      <div
-        style={{
-          display: "inline-block",
-          width: "20%",
-          alignContent: "center",
-          verticalAlign: "top",
-          marginTop: "10%",
-        }}
-      >
-        <p className="contact-text">contact us</p>
-        <p className="sugg-text">send us your questions and suggestions!</p>
-      </div>
-      <div
-        style={{
-          display: "inline-block",
-          width: "50%",
-          verticalAlign: "top",
-          marginTop: "10%",
-          marginRight: "10%",
-        }}
-      >
-        <form
-          className="forms"
-          method="POST"
-          onSubmit={(event) =>
-            handleSubmit(event, name, phone, uni, email, message)
-          }
-        >
+    <Container fluid className="contact-div">
+      <Row>
+        <Col xs={12} md={3} sm={4} style={{ marginTop: "10%" }}>
+          <p className="contact-text">contact us</p>
+          <p className="sugg-text">send us your questions and suggestions!</p>
+        </Col>
+        <Col xs={12} md={4} sm={8} style={{ marginTop: "10%" }}>
           <input
             type="text"
             placeholder="full name"
@@ -78,7 +46,8 @@ function Contact() {
             onChange={(event) => handleUniChage(event.target.value)}
           />
           <br />
-
+        </Col>
+        <Col xs={12} md={4} sm={8} style={{ marginTop: "10%" }}>
           <input
             type="email"
             placeholder="e-mail address"
@@ -99,20 +68,17 @@ function Contact() {
             onChange={(event) => handleMessageChange(event.target.value)}
           ></textarea>
           <br />
-          <input type="submit" value="Submit" />
-        </form>
-      </div>
-
-      <div>
-        <div
-          className="social-media"
-          style={{
-            display: "inline-block",
-            width: "40%",
-            verticalAlign: "bottom",
-            marginBottom: "5%",
-          }}
-        >
+        </Col>
+      </Row>
+      <Row>
+        <input
+          type="submit"
+          value="Submit"
+          onClick={() => handleSubmit(name, phone, uni, email, message)}
+        />
+      </Row>
+      <Row style={{ marginTop: "8%" }}>
+        <Col xs={12} md={6} sm={6} className="social-media">
           <a href="https://www.instagram.com/findr.study/" target="_blank">
             <img src={Instagram} className="social-media-logo" />
           </a>
@@ -122,17 +88,25 @@ function Contact() {
           <a href="https://www.linkedin.com/company/findrapp/" target="_blank">
             <img src={LinkedIn} className="social-media-logo-facebook" />
           </a>
-        </div>
-
-        <div className="like" style={{ display: "inline-block", width: "40%" }}>
+        </Col>
+        <Col xs={12} md={6} sm={6} className="like">
           <p className="like-title">leave a like!</p>
           <p className="like-plug">
             follow us on social media for continuous updates
           </p>
-        </div>
-      </div>
-    </div>
+        </Col>
+      </Row>
+    </Container>
   );
-}
+  // </Styles>
+};
 
-export default Contact;
+function handleSubmit(name, phone, uni, email, message) {
+  console.log({
+    name,
+    phone,
+    uni,
+    email,
+    message,
+  });
+}

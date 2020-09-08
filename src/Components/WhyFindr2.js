@@ -6,10 +6,9 @@ import Icon3 from "../Images/icon3.png";
 import { Container, Row, Col } from "react-bootstrap";
 
 export const WhyFindr2 = () => (
-  // <Styles>
   <Container fluid className="why-findr">
     <Row>
-      <Col xs={12} sm={6} md={4}>
+      <Col xs={12} md={4}>
         <img src={Icon1} style={{ width: "80%" }} />
         <figcaption className="pic1cap">don't stop swiping</figcaption>
         <figcaption className="pic1capBottom">
@@ -17,7 +16,7 @@ export const WhyFindr2 = () => (
           find partners for your courses, projects, research. Take your pick!
         </figcaption>
       </Col>
-      <Col xs={12} sm={6} md={4}>
+      <Col xs={12} md={4}>
         <img src={Icon2} style={{ width: "80%" }} />
         <figcaption className="pic2cap">network smarter</figcaption>
         <figcaption className="pic2capBottom">
@@ -25,15 +24,14 @@ export const WhyFindr2 = () => (
           find peers from different fields and expand your network!
         </figcaption>
       </Col>
-      <Col xs={12} sm={12} md={4}>
-        <img src={Icon3} style={{ width: "80%" }} />
+      <Col xs={12} md={4}>
+        <img src={Icon3} style={{ width: "80%", marginTop: "-8%" }} />
         <figcaption className="pic3cap">learn with others</figcaption>
         <figcaption className="pic3capBottom">
           <br></br>
-          match with people and more! match with people and more!
+          match with people and more!
         </figcaption>
       </Col>
     </Row>
   </Container>
-  // </Styles>
 );

@@ -23,7 +23,7 @@ export const NavBar = () => (
   <Styles>
     <Navbar expand="lg">
       <Navbar.Brand href="/">
-        <img src={navLogo} height="30%" width="40%" class="nav_logo" />
+        <img src={navLogo} height="30%" width="40%" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="basic-navbar-nav">

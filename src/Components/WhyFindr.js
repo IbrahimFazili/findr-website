@@ -5,17 +5,18 @@ import Video from "../Images/website_video.mp4";
 import { Container, Row, Col } from "react-bootstrap";
 
 export const WhyFindr = () => (
-  // <Styles>
   <Container fluid className="why-findr">
     <Row xs={12} md={12}>
-      <p className="why-findr-title" style={{ alignSelf: "center" }}>
-        {" "}
+      <p
+        className="why-findr-title"
+        style={{ alignSelf: "center", marginLeft: "45%" }}
+      >
         why Findr?
       </p>
     </Row>
     <Row>
       <Col xs={12} md={3}>
-        <img src={MainImage} style={{ width: "80%" }} />
+        <img src={MainImage} style={{ width: "80%", marginTop: "40%" }} />
       </Col>
       <Col xs={12} md={9}>
         <video
@@ -31,5 +32,4 @@ export const WhyFindr = () => (
       </Col>
     </Row>
   </Container>
-  // </Styles>
 );

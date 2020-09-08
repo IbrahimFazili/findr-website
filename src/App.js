@@ -8,7 +8,7 @@ import { WhyFindr2 } from "./Components/WhyFindr2";
 import Map from "./Components/Map";
 import { Keywords } from "./Components/Keywords";
 import { Keywords2 } from "./Components/Keywords2";
-import Contact from "./Components/Contact";
+import { Contact } from "./Components/Contact";
 import About from "./Components/About";
 import { Jumbotron } from "./Components/Jumbotron";
 
