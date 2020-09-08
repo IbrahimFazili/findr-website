@@ -660,3 +660,20 @@ input:focus {
   transition: none;
   background-color: rgba(255, 255, 255, 0.76);
 }
+
+.logo-for-terms {
+  width: 8vw;
+  display: inline-block;
+  height: 12vh;
+  margin-left: 4vw;
+}
+
+.privacy-title-logo{
+  display: inline-block;
+  margin-left: 6vw;
+}
+
+.theText, .privacy-title, .privacy-list {
+  width: 60vw;
+  margin-left: 18vw;
+}

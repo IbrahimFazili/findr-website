@@ -7,7 +7,7 @@ function Safety() {
   return (
     <div>
       <div>
-        <img src={Logo} className="logo-for-terms" />
+        <Link to="/"><img src={Logo} className="logo-for-terms" /></Link>
         <h1 className="privacy-title-logo">Findr Safety Tips</h1>
         <hr />
         <p className="theText">

@@ -7,10 +7,10 @@ function TandC() {
   return (
     <div>
       <div>
-        <img src={Logo} className="logo-for-terms" />
+        <Link to="/"><img src={Logo} className="logo-for-terms" /></Link>
         <h1 className="privacy-title-logo">TERMS OF USE</h1>
         <hr />
-        <div className="date" style={{color: "#1a5d57"}}>Last Updated- June 30th, 2020</div>
+        <div className="date" style={{color: "#1a5d57", marginLeft: '87vw'}}>Last Updated- June 30th, 2020</div>
         <p className="theText">
           By creating a Findr account through one of our services (the mobile
           application or the website), you agree to be bound by:
