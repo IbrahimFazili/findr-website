@@ -2,42 +2,25 @@ import React from "react";
 import "../App.css";
 import Home from "../Images/home.png";
 import Match from "../Images/match.png";
+import { Container, Row, Col } from "react-bootstrap";
 
-function Keywords() {
-  return (
-    <div className="keywords" id="Keywords">
-      <div
-        style={{
-          display: "inline-block",
-          width: "40%",
-          alignContent: "center",
-          marginTop: "20%",
-        }}
-      >
+export const Keywords = () => (
+  // <Styles>
+  <Container fluid className="keywords" id = "Features">
+    <Row>
+      <Col xs={12} md={6} sm={12} style={{ marginTop: "20%" }}>
         <p className="keywords-text">unlimited matches</p>
         <p className="keywords-caps">
           find matches for any interest, in any industry!
         </p>
-      </div>
-
-      <div
-        style={{
-          display: "inline-block",
-          width: "40%",
-          verticalAlign: "top",
-          marginTop: "10%",
-        }}
-      >
-        <div style={{ display: "inline-block", width: "50%" }}>
-          <img src={Home} className="home" />
-        </div>
-
-        <div style={{ display: "inline-block", width: "50%" }}>
-          <img src={Match} className="match" />
-        </div>
-      </div>
-    </div>
-  );
-}
-
-export default Keywords;
+      </Col>
+      <Col xs={12} md={3} sm={6} style={{ marginTop: "5%" }}>
+        <img src={Home} style={{ width: "100%" }} />
+      </Col>
+      <Col xs={12} md={3} sm={6} style={{ marginTop: "5%" }}>
+        <img src={Match} style={{ width: "85%" }} />
+      </Col>
+    </Row>
+  </Container>
+  // </Styles>
+);

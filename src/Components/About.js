@@ -1,70 +1,65 @@
 import React from "react";
 import "../App.css";
 import { Link } from "react-router-dom";
+import { Container, Row, Col } from "react-bootstrap";
 
-function About() {
-  return (
-    <div className="bottom-header">
-      <div
-        style={{
-          display: "inline-block",
-          width: "30%",
-          float: "left",
-          verticalAlign: "top",
-          marginTop: "10%",
-        }}
-      >
+const About = () => (
+  // <Styles>
+  <Container fluid className="bottom-header">
+    <Row>
+      <Col xs={12} md={3}>
         <p className="launch">Launching Soon</p>
-      </div>
-
-      <div
-        style={{
-          display: "inline-block",
-          width: "30%",
-          verticalAlign: "top",
-          marginTop: "2.5%",
-        }}
-      >
-        <p style={{ fontSize: "larger" }}>
-          <p style={{ fontSize: "x-large" }}>About Us</p>
-          <br></br>
+      </Col>
+      <Col xs={12} md={3}>
+        <p>
+          <p style={{ fontSize: "x-large" }}>about</p>
           Findr is a platform to help you grow and find the perfect partner
           <br></br>-<br></br>
           No, dummy, not a date! Partner for your courses, projects, startups,
           anything!
         </p>
-      </div>
-      <div
-        className="links"
-        style={{
-          display: "inline-block",
-          width: "30%",
-          verticalAlign: "top",
-          marginTop: "4%",
-          marginRight: "5%",
-        }}
-      >
+      </Col>
+      <Col xs={12} md={3} className="links">
+        <span style={{ fontSize: "x-large" }}>policies</span>
         <ul>
           <li class="nav-link">
-            <Link to="/Privacy">Privacy Policy</Link>
+            <Link to="/Privacy" style={{ fontSize: "large" }}>
+              Privacy Policy
+            </Link>
             <div class="underline"></div>
           </li>
           <li class="nav-link">
-            <Link to="/TermsAndConditions">Terms and Conditions</Link>
+            <Link to="/TermsAndConditions" style={{ fontSize: "large" }}>
+              Terms and Conditions
+            </Link>
             <div class="underline"></div>
           </li>
           <li class="nav-link">
-            <Link to="/Safety">Safety Tips</Link>
+            <Link to="/Safety" style={{ fontSize: "large" }}>
+              Safety Tips
+            </Link>
             <div class="underline"></div>
           </li>
           <li class="nav-link">
-            <Link to="/Guidelines">Community Guidlines</Link>
+            <Link to="/Guidelines" style={{ fontSize: "large" }}>
+              Community Guidlines
+            </Link>
             <div class="underline"></div>
           </li>
         </ul>
-      </div>
-    </div>
-  );
-}
+      </Col>
+      <Col xs={12} md={3}>
+        <p style={{ fontSize: "large" }}>
+          <p style={{ fontSize: "x-large" }}>contact</p>
+          <br></br>
+          <br></br>
+          findr.study@gmail.com
+          <br></br>(647)-779-2407
+        </p>
+      </Col>
+    </Row>
+  </Container>
+  // </Styles>
+);
 
 export default About;
