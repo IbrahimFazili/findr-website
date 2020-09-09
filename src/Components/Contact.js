@@ -13,7 +13,7 @@ export const Contact = () => {
   const [email, handleEmailChange] = useState("");
   const [message, handleMessageChange] = useState("");
   return (
-    <Container fluid className="contact-div">
+    <Container fluid className="contact-div" id = "Contact">
       <Row>
         <Col xs={12} md={3} sm={4} style={{ marginTop: "10%" }}>
           <p className="contact-text">contact us</p>

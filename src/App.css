@@ -42,13 +42,18 @@ a {
   font-size: 16px;
 }
 
-.basic-navbar-nav .link {
+a {
+  text-decoration: none;
+}
+
+.basic-navbar-nav .link, a {
   color: #1a5d57;
   text-decoration: none;
   display: inline-block;
   padding: 10px;
   transition: color 0.5s;
 }
+
 
 .basic-navbar-nav .nav-link .underline {
   height: 3px;

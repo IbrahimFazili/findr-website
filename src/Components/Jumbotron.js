@@ -18,7 +18,7 @@ import carousel2 from "../Images/carousel2.png";
 const Styles = styled.div`
   .jumbo {
     background-size: cover;
-    height: 700px;
+    height: 90vh;
     position: relative;
     z-index: -2;
   }
@@ -34,58 +34,21 @@ const Styles = styled.div`
 `;
 
 export const Jumbotron = () => (
-  <Styles>
+  <Styles id="Home">
     <Jumbo fluid className="jumbo">
       <div className="overlay"></div>
       <Container>
         <Row>
-          <Col xs={6} md={3}>
+          <Col xs={6} md={3} style={{marginTop: '25%'}}>
             <img src={logo} style={{ width: "70%" }} />
           </Col>
-          <Col xs={6} md={3} className="caption">
+          <Col xs={6} md={3} className="caption" style={{marginTop: '25%'}}>
             <p>Study Better </p>
             <p>Network Smarter</p>
             <p>Launching Soon</p>
           </Col>
-          <Col xs={12} md={4}>
-            {/* <img src={IPhone} style={{ width: "150%" }} /> */}
-            <Carousel>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={carousel}
-                  alt="First slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={carousel2}
-                  alt="Third slide"
-                />
-              </Carousel.Item>
-              <Carousel.Item>
-                <img
-                  className="d-block w-100"
-                  src={carousel}
-                  alt="Third slide"
-                />
-              </Carousel.Item>
-            </Carousel>
-            {/* <Row style={{ float: "right" }}>
-              <Col xs={3} md={3}>
-                <img src={BackArrow} style={{ width: "30%", float: "left" }} />
-              </Col>
-              <Col xs={6} md={6}>
-                <img src={IPhone} style={{ width: "150%" }} />
-              </Col>
-              <Col xs={3} md={3}>
-                <img
-                  src={FrontArrow}
-                  style={{ width: "30%", float: "right" }}
-                />
-              </Col>
-            </Row> */}
+          <Col xs={12} md={4} style={{marginTop: '7.5%', marginLeft: '10%'}}>          
+            <img src={IPhone} style={{ width: "90%" }} />  
           </Col>
         </Row>
       </Container>

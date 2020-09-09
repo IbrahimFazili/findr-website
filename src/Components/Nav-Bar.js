@@ -21,7 +21,7 @@ const Styles = styled.div`
 
 export const NavBar = () => (
   <Styles>
-    <Navbar expand="lg">
+    <Navbar expand="lg" fixed="top" bg="white">
       <Navbar.Brand href="/">
         <img src={navLogo} height="30%" width="40%" />
       </Navbar.Brand>
@@ -30,15 +30,16 @@ export const NavBar = () => (
         <Nav className="ml-auto">
           <Nav.Item>
             <Nav.Link class="nav-link">
-              <Link class="link" to="/">
+              {/* <Link class="link" to="/">
                 home
-              </Link>
+              </Link> */}
+              <a href="#Home">home</a>
               <div class="underline"></div>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <Link class="link" to="/about">
+              <Link class="link" to="/About">
                 about
               </Link>
               <div class="underline"></div>
@@ -46,17 +47,21 @@ export const NavBar = () => (
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <Link class="link" to="/">
+              {/* <Link class="link" to="/">
                 features
-              </Link>
+              </Link> */}
+              <a href="#Features">features</a>
               <div class="underline"></div>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <Link class="link" to="/contact">
+              {/* <Link class="link" to="/contact">
                 contact
-              </Link>
+              </Link> */}
+              <a href="#Contact">
+                contact
+              </a>
               <div class="underline"></div>
             </Nav.Link>
           </Nav.Item>

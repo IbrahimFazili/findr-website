@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export const Keywords = () => (
   // <Styles>
-  <Container fluid className="keywords">
+  <Container fluid className="keywords" id = "Features">
     <Row>
       <Col xs={12} md={6} sm={12} style={{ marginTop: "20%" }}>
         <p className="keywords-text">unlimited matches</p>
