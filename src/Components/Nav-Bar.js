@@ -30,16 +30,13 @@ export const NavBar = () => (
         <Nav className="ml-auto">
           <Nav.Item>
             <Nav.Link class="nav-link">
-              {/* <Link class="link" to="/">
-                home
-              </Link> */}
-              <a href="#Home">home</a>
+              <a href="#Home" class="link">home</a>
               <div class="underline"></div>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <Link class="link" to="/About">
+              <Link class="link" to="/AboutUs">
                 about
               </Link>
               <div class="underline"></div>
@@ -47,19 +44,13 @@ export const NavBar = () => (
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              {/* <Link class="link" to="/">
-                features
-              </Link> */}
-              <a href="#Features">features</a>
+              <a href="#Features" class="link">features</a>
               <div class="underline"></div>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              {/* <Link class="link" to="/contact">
-                contact
-              </Link> */}
-              <a href="#Contact">
+              <a href="#Contact" class="link">
                 contact
               </a>
               <div class="underline"></div>
