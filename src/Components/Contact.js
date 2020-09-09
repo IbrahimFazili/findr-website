@@ -3,7 +3,7 @@ import "../App.css";
 import Instagram from "../Images/instagram.png";
 import LinkedIn from "../Images/linkedin-round-color.png";
 import Facebook from "../Images/facebook.svg";
-import { Container, Row, Col, Form } from "react-bootstrap";
+import { Container, Row, Col, Form, Button } from "react-bootstrap";
 
 export const Contact = () => {
   // <Styles>
@@ -15,7 +15,7 @@ export const Contact = () => {
   return (
     <Container fluid className="contact-div" id = "Contact">
       <Row>
-        <Col xs={12} md={3} sm={4} style={{ marginTop: "10%" }}>
+        {/* <Col xs={12} md={3} sm={4} style={{ marginTop: "10%" }}>
           <p className="contact-text">contact us</p>
           <p className="sugg-text">send us your questions and suggestions!</p>
         </Col>
@@ -68,14 +68,52 @@ export const Contact = () => {
             onChange={(event) => handleMessageChange(event.target.value)}
           ></textarea>
           <br />
+        </Col>*/}
+        <Col xs={12} md={4} sm={4} style={{ marginTop: "10%" }}>
+          <p className="contact-text">contact us</p>
+          <p className="sugg-text">send us your questions and suggestions!</p>
+        </Col>
+        <Col xs={12} md={4} sm={4} style={{ marginTop: "10%" }}>
+          <Form.Group>
+            <Form.Control type="text" placeholder="full name" />
+            <br />
+            <Form.Control type="text" placeholder="phone number" />
+            <br />
+            <Form.Control type="text" placeholder="university" />
+          </Form.Group>
+        </Col>
+        <Col xs={12} md={4} sm={4} style={{ marginTop: "10%" }}>
+          <Form.Group>
+            <Form.Control type="text" placeholder="email-address" />
+            <br />
+            <Form.Control as="textarea" rows="3" placeholder="message" />
+          </Form.Group>
         </Col>
       </Row>
       <Row>
-        <input
+        {/* Add alert for submit*/}
+        <Col md={4}></Col>
+        <Col md={8}>
+          <Button
+            type="submit"
+            variant="light"
+            style={{
+              backgroundColor: "#1a5d57",
+              color: "white",
+              borderRadius: "5em",
+              boxSizing: "border-box",
+              width: "15%",
+              height: "8vh",
+            }}
+          >
+            Submit
+          </Button>
+        </Col>
+        {/* <input
           type="submit"
           value="Submit"
           onClick={() => handleSubmit(name, phone, uni, email, message)}
-        />
+        /> */}
       </Row>
       <Row style={{ marginTop: "8%" }}>
         <Col xs={12} md={6} sm={6} className="social-media">
