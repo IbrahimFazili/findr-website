@@ -5,11 +5,13 @@ import { Link } from "react-router-dom";
 
 function Safety() {
   return (
-    <div>
+    <div className="legal-background">
       <div>
-        <Link to="/"><img src={Logo} className="logo-for-terms" /></Link>
-        <h1 className="privacy-title-logo">Findr Safety Tips</h1>
+        <Link to="/">
+          <img src={Logo} className="logo-for-terms" />
+        </Link>
         <hr />
+        <h1 className="privacy-title-logo">Findr Safety Tips</h1>
         <p className="theText">
           We’re glad you’ve joined the Findr community and can’t wait to help
           you find the perfect study partner. The{" "}

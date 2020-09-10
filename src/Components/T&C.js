@@ -5,12 +5,16 @@ import { Link } from "react-router-dom";
 
 function TandC() {
   return (
-    <div>
+    <div className="legal-background">
       <div>
-        <Link to="/"><img src={Logo} className="logo-for-terms" /></Link>
-        <h1 className="privacy-title-logo">TERMS OF USE</h1>
+        <Link to="/">
+          <img src={Logo} className="logo-for-terms" />
+        </Link>
         <hr />
-        <div className="date" style={{color: "#1a5d57", marginLeft: '87vw'}}>Last Updated- June 30th, 2020</div>
+        <h1 className="privacy-title-logo">TERMS OF USE</h1>
+        {/* <div className="date" style={{ color: "#1a5d57", marginLeft: "87vw" }}>
+          Last Updated- June 30th, 2020
+        </div> */}
         <p className="theText">
           By creating a Findr account through one of our services (the mobile
           application or the website), you agree to be bound by:
@@ -18,7 +22,7 @@ function TandC() {
         <ul className="privacy-list">
           <li>These Terms of Use</li>
           <li>
-            Our{" "}
+            Our
             <b>
               <Link
                 to="/Privacy"
@@ -64,7 +68,7 @@ function TandC() {
         </p>
       </div>
       <div>
-        <h3 className="privacy-title">USE AND ELIGIBILITY</h3>
+        <h3 className="privacy-title">Use and Elligibilty</h3>
         <p className="theText">
           You must be at least 13 years of age to create an account on Findr and
           use our services. By creating an account and using our services, you
@@ -128,7 +132,7 @@ function TandC() {
         </p>
       </div>
       <div>
-        <h3 className="privacy-title">MODIFYING THE SERVICE</h3>
+        <h3 className="privacy-title">Modyfing The Service</h3>
         <p className="theText">
           Findr is always striving to improve the Service and bring you
           additional functionality that you will find engaging and useful. This
@@ -552,7 +556,7 @@ function TandC() {
               Privacy Policy
             </Link>
           </b>
-          , the 
+          , the
           <b>
             <Link
               to="/Safety"

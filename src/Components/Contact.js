@@ -60,14 +60,17 @@ export const Contact = () => {
               as="textarea"
               rows="3"
               placeholder="message"
-              style={{ borderRadius: 40, width: "90%" }}
+              style={{
+                borderRadius: 40,
+                width: "90%",
+                outlineWidth: 0,
+              }}
               onChange={(event) => handleMessageChange(event.target.value)}
             />
           </Form.Group>
         </Col>
       </Row>
       <Row>
-        {/* Add alert for submit*/}
         <Col md={4}></Col>
         <Col md={8}>
           <ButtonGroup toggle style={{ width: "15%", borderRadius: "20%" }}>
@@ -76,7 +79,10 @@ export const Contact = () => {
               variant="secondary"
               checked={true}
               value="1"
-              onChange={() => handleSubmit(name, phone, uni, email, message)}
+              onClick={() => {
+                handleSubmit(name, phone, uni, email, message);
+                alert("You have successfully submitted!");
+              }}
               style={{
                 backgroundColor: "#1a5d57",
                 color: "white",
@@ -89,18 +95,25 @@ export const Contact = () => {
             </ToggleButton>
           </ButtonGroup>
         </Col>
-
       </Row>
       <Row style={{ marginTop: "8%" }}>
         <Col xs={12} md={6} sm={6} className="social-media">
           <a href="https://www.instagram.com/findr.study/" target="_blank">
-            <img src={Instagram} style={{width: '12.5%'}} className="social-media-logo" />
+            <img
+              src={Instagram}
+              style={{ width: "12.5%" }}
+              className="social-media-logo"
+            />
           </a>
           <a href="https://www.facebook.com/findr.study.3" target="_blank">
             <img src={Facebook} className="social-media-logo-facebook" />
           </a>
           <a href="https://www.linkedin.com/company/findrapp/" target="_blank">
-            <img src={LinkedIn} style={{width: '15%'}} className="social-media-logo-facebook" />
+            <img
+              src={LinkedIn}
+              style={{ width: "15%" }}
+              className="social-media-logo-facebook"
+            />
           </a>
         </Col>
         <Col xs={12} md={6} sm={6} className="like">

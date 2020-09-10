@@ -644,16 +644,42 @@ input:focus {
 }
 
 .privacy-title-logo {
-  display: inline-block;
-  margin-left: 6vw;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  font-family: europa, sans-serif;
+}
+
+.legal-background {
+  background-color: #fcfdfd;
 }
 
 .theText,
-.privacy-title,
 .privacy-list {
-  width: 60vw;
-  margin-left: 18vw;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: europa, sans-serif;
 }
+
+.privacy-title {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: europa, sans-serif;
+  font-weight: 600;
+}
+
+.privacy-sub-title {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: europa, sans-serif;
+  font-weight: 600;
+  font-size: larger;
+}
+
 .why-us {
   background: linear-gradient(to right, #509690 0%, #965056 100%);
   width: 70%;

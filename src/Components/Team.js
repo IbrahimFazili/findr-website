@@ -40,7 +40,7 @@ function Team() {
           />
           <Card.Body>
             <Card.Title style={{ color: "#1a5d57" }}>
-              Harsh Jhunjhunwala{" "}
+              Harsh Jhunjhunwala
             </Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Founder
@@ -63,9 +63,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Lakshya Gupta
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Lakshya Gupta</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Backend Developer
             </Card.Text>
@@ -87,9 +85,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Parnikaa Uppal
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Parnikaa Uppal</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Lead Design
             </Card.Text>
@@ -111,9 +107,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Gautam Gireesh
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Gautam Gireesh</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Frontend Developer
             </Card.Text>
@@ -135,9 +129,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Shakshi Sharma
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Shakshi Sharma</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Marketing Strategy
             </Card.Text>
@@ -159,9 +151,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Parnikaa Uppal
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Parnikaa Uppal</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Lead Design
             </Card.Text>
@@ -183,9 +173,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Ibrahim Fazili
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Ibrahim Fazili</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Frontend Developer
             </Card.Text>
@@ -207,9 +195,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Parnikaa Uppal
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Parnikaa Uppal</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Lead Design
             </Card.Text>
@@ -231,9 +217,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Parshva Shah
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Parshva Shah</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Frontend Developer
             </Card.Text>
@@ -255,9 +239,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Saakshi Shah
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Saakshi Shah</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Lead Design
             </Card.Text>
@@ -279,9 +261,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Aditi Dagar
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Aditi Dagar</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Backend Developer
             </Card.Text>
@@ -303,9 +283,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Mahak Jain
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Mahak Jain</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Student Ambassador - University of Toronto
             </Card.Text>
@@ -327,9 +305,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Yoothika Tanja
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Yoothika Tanja</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Student Ambassador - University of Toronto
             </Card.Text>
@@ -351,9 +327,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Alexie El Morr
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Alexie El Morr</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Student Ambassador - University of Toronto
             </Card.Text>
@@ -399,9 +373,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Hans Bala
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Hans Bala</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Student Ambassador - University of Brown
             </Card.Text>
@@ -423,9 +395,7 @@ function Team() {
             }}
           />
           <Card.Body>
-            <Card.Title style={{ color: "#1a5d57" }}>
-              Aavi Deora
-            </Card.Title>
+            <Card.Title style={{ color: "#1a5d57" }}>Aavi Deora</Card.Title>
             <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
               Student Ambassador - Northwestern University
             </Card.Text>

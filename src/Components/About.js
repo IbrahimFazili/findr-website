@@ -20,7 +20,7 @@ const About = () => (
         </p>
       </Col>
       <Col xs={12} md={3} className="links">
-        <span style={{ fontSize: "x-large" }}>policies</span>
+        <span style={{ fontSize: "x-large" }}>legal</span>
         <ul>
           <li class="nav-link">
             <Link to="/Privacy" style={{ fontSize: "large" }}>
