@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import "../../App.css";
 import RedDot from "../../Images/pin.svg";
 import BrownUni from "../../Images/Universities/brown_uni.png";
+import { Container, Row, Col, Image } from "react-bootstrap";
 
 function BrownU() {
   const [isVisible, setVisible] = useState(false);
   var keepPopupAlive = false;
 
   return (
-    <div id="BostonUDot">
+    <Container id="BostonUDot">
       <img
         src={RedDot}
         id="BrownU"
@@ -32,7 +33,7 @@ function BrownU() {
       >
         <img src={BrownUni} id="UniLogo" />
       </div>
-    </div>
+    </Container>
   );
 }
 
