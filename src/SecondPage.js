@@ -1,7 +1,7 @@
 import React from "react";
 import "./App.css";
 
-import { NavBar } from "./Components/Nav-Bar";
+import NavBar from "./Components/Nav-Bar-About";
 import { AboutHome } from "./Components/HomeAboutUs";
 import { WhyFindrAbout } from "./Components/WhyFindrAbout";
 import WhatAbout from "./Components/WhatMeans";

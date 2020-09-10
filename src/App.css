@@ -46,14 +46,14 @@ a {
   text-decoration: none;
 }
 
-.basic-navbar-nav .link, a {
+.basic-navbar-nav .link,
+a {
   color: #1a5d57;
   text-decoration: none;
   display: inline-block;
   padding: 10px;
   transition: color 0.5s;
 }
-
 
 .basic-navbar-nav .nav-link .underline {
   height: 3px;
@@ -636,6 +636,24 @@ input:focus {
   background-color: rgba(255, 255, 255, 0.76);
 }
 
+.logo-for-terms {
+  width: 8vw;
+  display: inline-block;
+  height: 12vh;
+  margin-left: 4vw;
+}
+
+.privacy-title-logo {
+  display: inline-block;
+  margin-left: 6vw;
+}
+
+.theText,
+.privacy-title,
+.privacy-list {
+  width: 60vw;
+  margin-left: 18vw;
+}
 .why-us {
   background: linear-gradient(to right, #509690 0%, #965056 100%);
   width: 70%;
@@ -649,6 +667,7 @@ input:focus {
   background: linear-gradient(to right, #1a5d57, #3d84a0);
   width: 70%;
   margin-left: 15%;
+  margin-top: 5%;
   font-size: 120%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -656,6 +675,14 @@ input:focus {
 
 .why-findr {
   background-color: #fcfdfd;
+  position: relative;
+  min-height: 28.5em;
+  font-size: calc(10px + 2vmin);
+  padding-top: 2.5%;
+}
+
+.why-findr-means {
+  background-color: #1a5d57;
   position: relative;
   min-height: 28.5em;
   font-size: calc(10px + 2vmin);

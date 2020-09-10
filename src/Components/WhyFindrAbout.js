@@ -3,7 +3,7 @@ import "../App.css";
 import { Container, Row, Col } from "react-bootstrap";
 
 export const WhyFindrAbout = () => (
-  <Container fluid className="why-findr">
+  <Container fluid className="why-findr" id="WhyFindr">
     <Row>
       <p className="why-us2">why us?</p>
     </Row>

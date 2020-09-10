@@ -35,12 +35,10 @@ export const NavBar = () => (
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link>
-              <Link class="link" to="/AboutUs">
+              <Link class="link" to="AboutUs">
                 about
               </Link>
               <div class="underline"></div>
-            </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>

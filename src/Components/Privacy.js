@@ -1,13 +1,16 @@
 import React from "react"
 import "../App.css"
 import Logo from "../Images/Findr_logo2x.png"
+import {Link} from "react-router-dom"
 
 function Privacy(){
     return(
-        <div>
+        <div>               
             <div>
-                <img src={Logo} className="logo-for-terms"/>
+                <Link to="/"><img src={Logo} className="logo-for-terms"/></Link>
                 <h1 className="privacy-title-logo">PRIVACY POLICY</h1>
+            </div>
+            <div>
                 <hr/>
                 <p className="theText">Welcome to Findr’s Privacy Policy. Thank you for taking the time to read through this.</p>
                 <p className="theText">Maintaining the privacy of our users is our top priority. We recognise that your privacy is 
