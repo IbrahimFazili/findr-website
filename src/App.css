@@ -14,6 +14,10 @@ html {
   font-family: europa, sans-serif;
 }
 
+.nav-name {
+  font-family: europa, sans-serif;
+}
+
 a {
   outline: none;
 }
@@ -136,6 +140,7 @@ a {
   color: #1a5d57;
   font-size: larger;
   align-self: center;
+  font-family: europa, sans-serif;
 }
 
 .main-image {
@@ -357,6 +362,7 @@ a {
   min-height: 29em;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: europa, sans-serif;
 }
 
 .keywords-text {
@@ -364,11 +370,13 @@ a {
   background: linear-gradient(to right, #1a5d57 0%, #156070 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: europa, sans-serif;
 }
 
 .keywords-caps {
   color: #1a5d57;
   font-size: 70%;
+  font-family: europa, sans-serif;
 }
 
 .chat {
@@ -386,6 +394,7 @@ a {
   min-height: 27em;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: europa, sans-serif;
 }
 
 .keywords-placeholder2 {
@@ -393,6 +402,7 @@ a {
   background: linear-gradient(to right, #1a5d57 0%, #156070 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: europa, sans-serif;
 }
 
 .keywords-caps-placeholder2 {
@@ -400,6 +410,7 @@ a {
   font-size: 70%;
   width: 70%;
   margin-left: 15%;
+  font-family: europa, sans-serif;
 }
 
 .contact-div {
@@ -407,12 +418,14 @@ a {
   min-height: 27em;
   font-size: calc(10px + 2vmin);
   position: relative;
+  font-family: europa, sans-serif;
 }
 
 .contact-text {
   color: #1a5d57;
   font-size: 200%;
   margin-bottom: 5%;
+  font-family: europa, sans-serif;
 }
 
 .sugg-text {
@@ -705,6 +718,7 @@ input:focus {
   min-height: 28.5em;
   font-size: calc(10px + 2vmin);
   padding-top: 2.5%;
+  font-family: europa, sans-serif;
 }
 
 .why-findr-means {
@@ -713,4 +727,9 @@ input:focus {
   min-height: 28.5em;
   font-size: calc(10px + 2vmin);
   padding-top: 2.5%;
+  font-family: europa, sans-serif;
+}
+
+.testimonial-text {
+  font-family: europa, sans-serif;
 }
