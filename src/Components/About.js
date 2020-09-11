@@ -8,11 +8,19 @@ const About = () => (
   <Container fluid className="bottom-header">
     <Row>
       <Col xs={12} md={3}>
-        <p className="launch">Launching Soon</p>
+        <p className="launch" style={{ textAlign: "left", padding: "5%" }}>
+          Launching Soon
+        </p>
       </Col>
       <Col xs={12} md={3}>
-        <p>
-          <p style={{ fontSize: "x-large" }}>about</p>
+        <p
+          style={{
+            textAlign: "left",
+            padding: "5%",
+            lineHeight: "35px",
+          }}
+        >
+          <p style={{ fontSize: "x-large" }}> about </p>
           Findr is a platform to help you grow and find the perfect partner
           <br></br>-<br></br>
           No, dummy, not a date! Partner for your courses, projects, startups,
@@ -20,8 +28,10 @@ const About = () => (
         </p>
       </Col>
       <Col xs={12} md={3} className="links">
-        <span style={{ fontSize: "x-large" }}>legal</span>
-        <ul>
+        <span style={{ fontSize: "x-large", textAlign: "left", padding: "5%" }}>
+          legal
+        </span>
+        <ul style={{ textAlign: "left", padding: "5%", lineHeight: "-35px" }}>
           <li class="nav-link">
             <Link to="/Privacy" style={{ fontSize: "large" }}>
               Privacy Policy
@@ -49,9 +59,8 @@ const About = () => (
         </ul>
       </Col>
       <Col xs={12} md={3}>
-        <p style={{ fontSize: "large" }}>
+        <p style={{ fontSize: "large", textAlign: "left", padding: "5%" }}>
           <p style={{ fontSize: "x-large" }}>contact</p>
-          <br></br>
           <br></br>
           findr.study@gmail.com
           <br></br>(647)-779-2407

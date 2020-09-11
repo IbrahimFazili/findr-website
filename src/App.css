@@ -517,6 +517,7 @@ input:focus {
 .bottom-header {
   background-color: #1a5d57;
   position: relative;
+  font-family: europa, sans-serif;
   /* min-height: 29em; */
   /* font-size: calc(10px + 2vmin); */
   color: white;
@@ -603,13 +604,13 @@ input:focus {
 }
 
 .links ul {
-  text-align: center;
-  vertical-align: middle;
+  /* text-align: center; */
+  /* vertical-align: middle; */
 }
 
 .links ul li {
   display: inline-block;
-  font-size: 22px;
+  /* font-size: 22px; */
   margin-right: 10%;
 }
 
@@ -617,7 +618,7 @@ input:focus {
   color: white;
   text-decoration: none;
   display: inline-block;
-  padding: 10px;
+  /* padding: 10px; */
   transition: color 0.5s;
 }
 
@@ -626,7 +627,7 @@ input:focus {
   background-color: transparent;
   width: 0%;
   transition: width 0.2s, background-color 0.5s;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .links ul li.active-link .underline {
@@ -727,6 +728,15 @@ input:focus {
   background-color: #fcfdfd;
   position: relative;
   min-height: 28.5em;
+  font-size: calc(10px + 2vmin);
+  padding-top: 2.5%;
+  font-family: europa, sans-serif;
+}
+
+.findr-team {
+  background-color: #fcfdfd;
+  position: relative;
+  min-height: 20em;
   font-size: calc(10px + 2vmin);
   padding-top: 2.5%;
   font-family: europa, sans-serif;

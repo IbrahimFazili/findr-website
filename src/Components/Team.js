@@ -31,8 +31,10 @@ function Team() {
   const [openDev, setOpenDev] = useState(false);
   const [openAmbass, setOpenAmbass] = useState(false);
   return (
-    <div className="why-findr" id="Team">
-      <p style={{ color: "#1a5d57", marginTop: "5%" }}>meet the team!</p>
+    <div className="findr-team" id="Team">
+      <p style={{ color: "#1a5d57", marginTop: "5%", fontSize: "xx-large" }}>
+        meet the team!
+      </p>
       <Button
         style={{
           backgroundColor: "#fcfdfd",
@@ -43,13 +45,14 @@ function Team() {
           padding: "8px 32px",
           borderWidth: "0",
           position: "relative",
+          fontSize: "x-large",
           // textAlign: "left",
         }}
         onClick={() => setOpenMarketing(!openMarketing)}
         aria-controls="example-collapse-text"
         aria-expanded={openMarketing}
       >
-        marketing team
+        marketing team - the ones behind our awesome instagram
       </Button>
       <Collapse in={openMarketing}>
         <CardColumns>
@@ -149,6 +152,7 @@ function Team() {
           </Card>
         </CardColumns>
       </Collapse>
+      <br></br>
       <Button
         style={{
           backgroundColor: "#fcfdfd",
@@ -159,13 +163,14 @@ function Team() {
           padding: "8px 32px",
           borderWidth: "0",
           position: "relative",
+          fontSize: "x-large",
           // textAlign: "left",
         }}
         onClick={() => setOpenDev(!openDev)}
         aria-controls="example-collapse-text"
         aria-expanded={openDev}
       >
-        development team
+        development team - the ones we fire if you find bugs in the app
       </Button>
       <Collapse in={openDev}>
         <CardColumns>
@@ -287,6 +292,7 @@ function Team() {
           </Card>
         </CardColumns>
       </Collapse>
+      <br></br>
       <Button
         style={{
           backgroundColor: "#fcfdfd",
@@ -297,13 +303,14 @@ function Team() {
           padding: "8px 32px",
           borderWidth: "0",
           position: "relative",
+          fontSize: "x-large",
           // textAlign: "left",
         }}
         onClick={() => setOpenAmbass(!openAmbass)}
         aria-controls="example-collapse-text"
         aria-expanded={openAmbass}
       >
-        student ambassador team
+        student ambassador team - the ones who hype sh*t up!
       </Button>
       <Collapse in={openAmbass}>
         <CardColumns>
