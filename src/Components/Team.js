@@ -125,6 +125,18 @@ function Team() {
               </Card.Text>
             </Card.Body>
           </Card>
+
+          {/* dummy cards which need to be there  */}
+          <Card
+            style={{ border: "transparent", borderRadius: "10%" }}
+            bg="transparent"
+          >
+            <Card.Body>
+              <Card.Title style={{ color: "#1a5d57" }}></Card.Title>
+              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}></Card.Text>
+            </Card.Body>
+          </Card>
+
           <Card
             style={{ border: "transparent", borderRadius: "10%" }}
             bg="transparent"
