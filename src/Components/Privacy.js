@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import Logo from "../Images/Findr_logo2x.png";
 import { Link } from "react-router-dom";
+import About from "./About";
 
 function Privacy() {
   return (
@@ -324,6 +325,7 @@ function Privacy() {
           have time to review the changes.
         </p>
       </div>
+      <About />
     </div>
   );
 }

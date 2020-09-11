@@ -2,6 +2,7 @@ import React from "react";
 import "../App.css";
 import Logo from "../Images/Findr_logo2x.png";
 import { Link } from "react-router-dom";
+import About from "./About";
 
 function Safety() {
   return (
@@ -150,6 +151,7 @@ function Safety() {
           <b>IMMEDIATELY </b>contact your local law enforcement.{" "}
         </p>
       </div>
+      <About />
     </div>
   );
 }
