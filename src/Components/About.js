@@ -29,7 +29,6 @@ function About() {
               fontSize: "x-large",
               textAlign: "left",
               padding: "5%",
-              marginLeft: "4%",
             }}
           >
             legal
@@ -39,29 +38,30 @@ function About() {
               textAlign: "left",
               padding: "0",
               margin: "0",
+              marginTop: "-5%",
             }}
           >
             <li class="nav-link">
               <Link to="/Privacy" style={{ fontSize: "large" }}>
-                Privacy Policy
+                {">"} Privacy Policy
               </Link>
               <div class="underline"></div>
             </li>
             <li class="nav-link">
               <Link to="/TermsAndConditions" style={{ fontSize: "large" }}>
-                Terms and Conditions
+                {">"} Terms and Conditions
               </Link>
               <div class="underline"></div>
             </li>
             <li class="nav-link">
               <Link to="/Safety" style={{ fontSize: "large" }}>
-                Safety Tips
+                {">"} Safety Tips
               </Link>
               <div class="underline"></div>
             </li>
             <li class="nav-link">
               <Link to="/Guidelines" style={{ fontSize: "large" }}>
-                Community Guidlines
+                {">"} Community Guidlines
               </Link>
               <div class="underline"></div>
             </li>

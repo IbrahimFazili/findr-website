@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../App.css";
-import Logo from "../Images/Findr_logo2x.png";
+import Logo from "../Images/Findr_logo_main.svg";
 import { Link } from "react-router-dom";
 import { Fade } from "react-bootstrap";
 import About from "./About";
@@ -8,6 +8,7 @@ import About from "./About";
 function Privacy() {
   const [open, setOpen] = useState(false);
   setTimeout(() => setOpen(true), 500);
+  window.scrollTo(0, 0);
   return (
     <Fade in={open}>
       <div className="legal-background">

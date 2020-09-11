@@ -41,6 +41,7 @@ const hoverStyle = {
   border: "2px solid white",
   backgroundColor: "#fcfdfd",
   width: "10%",
+  // height: "10%",
   color: "#1a5d57",
   borderRadius: "0.8em",
   position: "absolute",

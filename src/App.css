@@ -11,11 +11,7 @@
 body,
 html {
   margin: 0;
-  font-family: europa, sans-serif;
-}
-
-.nav-name {
-  font-family: europa, sans-serif;
+  font-family: europa, sans-serif !important;
 }
 
 a {
@@ -140,7 +136,6 @@ a {
   color: #1a5d57;
   font-size: larger;
   align-self: center;
-  font-family: europa, sans-serif;
 }
 
 .main-image {
@@ -195,7 +190,7 @@ a {
 
 .map {
   background-color: #1a5d57;
-  min-height: 28em;
+  min-height: 13em;
   font-size: calc(10px + 2vmin);
   color: white;
   position: relative;
@@ -212,11 +207,10 @@ a {
 
 .redDotMap {
   display: block;
-  padding: 4px;
-  width: 1.5%;
   position: absolute;
-  top: 37.2%;
-  left: 19.9%;
+  top: 36%;
+  left: 27.8%;
+  width: 1.5%;
   transition: all 0.2s ease-in-out;
 }
 
@@ -229,6 +223,7 @@ a {
   border: 2px solid white;
   background-color: #fcfdfd;
   width: 10%;
+  height: 10%;
   color: #1a5d57;
   border-radius: 0.8em;
   position: absolute;
@@ -241,8 +236,8 @@ a {
   display: block;
   width: 1.5%;
   position: absolute;
-  left: 15.4%;
-  top: 37.4%;
+  left: 21.4%;
+  top: 30%;
   transition: all 0.2s ease-in-out;
 }
 
@@ -272,8 +267,8 @@ a {
   display: block;
   width: 1.5%;
   position: absolute;
-  left: 19%;
-  top: 39.3%;
+  left: 23.7%;
+  top: 40.5%;
   transition: all 0.2s ease-in-out;
 }
 
@@ -295,8 +290,8 @@ a {
   display: block;
   width: 1.5%;
   position: absolute;
-  left: 19%;
-  top: 35.3%;
+  left: 25.8%;
+  top: 30%;
   transition: all 0.2s ease-in-out;
 }
 
@@ -318,12 +313,13 @@ a {
 }
 
 #UniLogo {
-  width: 60vw;
+  width: 100%;
   padding: 6%;
 }
 
 #UniLogoAlt {
-  width: 70vw;
+  width: 100%;
+  padding: 6%;
 }
 
 .innerText {
@@ -362,7 +358,6 @@ a {
   min-height: 29em;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: europa, sans-serif;
 }
 
 .keywords-text {
@@ -370,13 +365,11 @@ a {
   background: linear-gradient(to right, #1a5d57 0%, #156070 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: europa, sans-serif;
 }
 
 .keywords-caps {
   color: #1a5d57;
   font-size: 70%;
-  font-family: europa, sans-serif;
 }
 
 .chat {
@@ -394,7 +387,6 @@ a {
   min-height: 27em;
   font-size: calc(10px + 2vmin);
   color: white;
-  font-family: europa, sans-serif;
 }
 
 .keywords-placeholder2 {
@@ -402,7 +394,6 @@ a {
   background: linear-gradient(to right, #1a5d57 0%, #156070 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: europa, sans-serif;
 }
 
 .keywords-caps-placeholder2 {
@@ -410,7 +401,6 @@ a {
   font-size: 70%;
   width: 70%;
   margin-left: 15%;
-  font-family: europa, sans-serif;
 }
 
 .contact-div {
@@ -418,14 +408,12 @@ a {
   min-height: 27em;
   font-size: calc(10px + 2vmin);
   position: relative;
-  font-family: europa, sans-serif;
 }
 
 .contact-text {
   color: #1a5d57;
   font-size: 200%;
   margin-bottom: 5%;
-  font-family: europa, sans-serif;
 }
 
 .sugg-text {
@@ -517,7 +505,6 @@ input:focus {
 .bottom-header {
   background-color: #1a5d57;
   position: relative;
-  font-family: europa, sans-serif;
   /* min-height: 29em; */
   /* font-size: calc(10px + 2vmin); */
   color: white;
@@ -611,7 +598,7 @@ input:focus {
 .links ul li {
   display: inline-block;
   /* font-size: 22px; */
-  margin-right: 10%;
+  /* margin-right: 10%; */
 }
 
 .links ul li a {
@@ -651,10 +638,9 @@ input:focus {
 }
 
 .logo-for-terms {
-  width: 8vw;
+  width: 60%;
   display: inline-block;
-  height: 12vh;
-  margin-left: 4vw;
+  margin-left: 5%;
 }
 
 .privacy-title-logo {
@@ -662,7 +648,6 @@ input:focus {
   margin-left: auto;
   margin-right: auto;
   font-weight: 800;
-  font-family: europa, sans-serif;
 }
 
 .legal-background {
@@ -674,14 +659,12 @@ input:focus {
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
-  font-family: europa, sans-serif;
 }
 
 .privacy-title {
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
-  font-family: europa, sans-serif;
   font-weight: 600;
 }
 
@@ -689,7 +672,6 @@ input:focus {
   width: 80vw;
   margin-left: auto;
   margin-right: auto;
-  font-family: europa, sans-serif;
   font-weight: 600;
   font-size: larger;
 }
@@ -730,7 +712,6 @@ input:focus {
   min-height: 28.5em;
   font-size: calc(10px + 2vmin);
   padding-top: 2.5%;
-  font-family: europa, sans-serif;
 }
 
 .findr-team {
@@ -739,7 +720,6 @@ input:focus {
   min-height: 20em;
   font-size: calc(10px + 2vmin);
   padding-top: 2.5%;
-  font-family: europa, sans-serif;
 }
 
 .why-findr-means {
@@ -748,11 +728,9 @@ input:focus {
   min-height: 28.5em;
   font-size: calc(10px + 2vmin);
   padding-top: 2.5%;
-  font-family: europa, sans-serif;
 }
 
 .testimonial-text {
-  font-family: europa, sans-serif;
 }
 
 embed:focus {

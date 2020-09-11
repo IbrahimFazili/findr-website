@@ -13,6 +13,7 @@ import About from "./Components/About";
 import { Jumbotron } from "./Components/Jumbotron";
 
 function App() {
+  window.scrollTo(0, 0);
   return (
     <div className="App">
       <NavBar />

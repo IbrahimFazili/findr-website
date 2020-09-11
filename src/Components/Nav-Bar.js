@@ -30,28 +30,30 @@ export const NavBar = () => (
       }}
     >
       <Navbar.Brand href="/">
-        <img src={navLogo} height="30%" width="40%" />
+        <img src={navLogo} height="30%" width="40%" style={{ float: "left" }} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Item>
             <Nav.Link class="nav-link">
-              <a href="#Home" class="link" className="nav-name">
+              <a href="#Home" class="link">
                 home
               </a>
               <div class="underline"></div>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Link class="link" to="AboutUs" className="nav-name">
-              about
-            </Link>
-            <div class="underline"></div>
+            <Nav.Link class="nav-link" as={Link}>
+              <Link to="AboutUs" class="link">
+                about
+              </Link>
+              <div class="underline"></div>
+            </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <a href="#Features" class="link" className="nav-name">
+              <a href="#Features" class="link">
                 features
               </a>
               <div class="underline"></div>
@@ -59,7 +61,7 @@ export const NavBar = () => (
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <a href="#Contact" class="link" className="nav-name">
+              <a href="#Contact" class="link">
                 contact
               </a>
               <div class="underline"></div>

@@ -23,16 +23,16 @@ export const NavBar = () => (
   <Styles>
     <Navbar expand="lg" fixed="top" bg="white">
       <Navbar.Brand href="/">
-        <img src={navLogo} height="30%" width="40%" />
+        <img src={navLogo} height="30%" width="40%" style={{ float: "left" }} />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="basic-navbar-nav">
         <Nav className="ml-auto">
           <Nav.Item>
-            <Nav.Link class="nav-link">
-              <a href="#Home" class="link">
+            <Nav.Link class="nav-link" as={Link}>
+              <Link to="Home" class="link">
                 home
-              </a>
+              </Link>
               <div class="underline"></div>
             </Nav.Link>
           </Nav.Item>

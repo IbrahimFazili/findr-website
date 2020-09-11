@@ -9,6 +9,7 @@ import Team from "./Components/Team";
 import AboutUs from "./Components/About";
 
 function SecondPage() {
+  window.scrollTo(0, 0);
   return (
     <div className="App">
       <NavBar />
