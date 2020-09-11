@@ -7,12 +7,12 @@ const About = () => (
   // <Styles>
   <Container fluid className="bottom-header">
     <Row>
-      <Col xs={12} md={3}>
+      <Col xs={12} md={3} sm={6}>
         <p className="launch" style={{ textAlign: "left", padding: "5%" }}>
           Launching Soon
         </p>
       </Col>
-      <Col xs={12} md={3}>
+      <Col xs={12} md={3} sm={6}>
         <p
           style={{
             textAlign: "left",
@@ -27,7 +27,7 @@ const About = () => (
           anything!
         </p>
       </Col>
-      <Col xs={12} md={3} className="links">
+      <Col xs={12} md={3} sm={6} className="links">
         <span style={{ fontSize: "x-large", textAlign: "left", padding: "5%" }}>
           legal
         </span>
@@ -58,7 +58,7 @@ const About = () => (
           </li>
         </ul>
       </Col>
-      <Col xs={12} md={3}>
+      <Col xs={12} md={3} sm={6}>
         <p style={{ fontSize: "large", textAlign: "left", padding: "5%" }}>
           <p style={{ fontSize: "x-large" }}>contact</p>
           <br></br>
