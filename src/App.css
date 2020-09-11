@@ -14,6 +14,10 @@ html {
   font-family: europa, sans-serif;
 }
 
+.nav-name {
+  font-family: europa, sans-serif;
+}
+
 a {
   outline: none;
 }
@@ -136,6 +140,7 @@ a {
   color: #1a5d57;
   font-size: larger;
   align-self: center;
+  font-family: europa, sans-serif;
 }
 
 .main-image {
@@ -357,6 +362,7 @@ a {
   min-height: 29em;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: europa, sans-serif;
 }
 
 .keywords-text {
@@ -364,11 +370,13 @@ a {
   background: linear-gradient(to right, #1a5d57 0%, #156070 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: europa, sans-serif;
 }
 
 .keywords-caps {
   color: #1a5d57;
   font-size: 70%;
+  font-family: europa, sans-serif;
 }
 
 .chat {
@@ -386,6 +394,7 @@ a {
   min-height: 27em;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: europa, sans-serif;
 }
 
 .keywords-placeholder2 {
@@ -393,6 +402,7 @@ a {
   background: linear-gradient(to right, #1a5d57 0%, #156070 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  font-family: europa, sans-serif;
 }
 
 .keywords-caps-placeholder2 {
@@ -400,6 +410,7 @@ a {
   font-size: 70%;
   width: 70%;
   margin-left: 15%;
+  font-family: europa, sans-serif;
 }
 
 .contact-div {
@@ -407,12 +418,14 @@ a {
   min-height: 27em;
   font-size: calc(10px + 2vmin);
   position: relative;
+  font-family: europa, sans-serif;
 }
 
 .contact-text {
   color: #1a5d57;
   font-size: 200%;
   margin-bottom: 5%;
+  font-family: europa, sans-serif;
 }
 
 .sugg-text {
@@ -504,6 +517,7 @@ input:focus {
 .bottom-header {
   background-color: #1a5d57;
   position: relative;
+  font-family: europa, sans-serif;
   /* min-height: 29em; */
   /* font-size: calc(10px + 2vmin); */
   color: white;
@@ -590,13 +604,13 @@ input:focus {
 }
 
 .links ul {
-  text-align: center;
-  vertical-align: middle;
+  /* text-align: center; */
+  /* vertical-align: middle; */
 }
 
 .links ul li {
   display: inline-block;
-  font-size: 22px;
+  /* font-size: 22px; */
   margin-right: 10%;
 }
 
@@ -604,7 +618,7 @@ input:focus {
   color: white;
   text-decoration: none;
   display: inline-block;
-  padding: 10px;
+  /* padding: 10px; */
   transition: color 0.5s;
 }
 
@@ -613,7 +627,7 @@ input:focus {
   background-color: transparent;
   width: 0%;
   transition: width 0.2s, background-color 0.5s;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 
 .links ul li.active-link .underline {
@@ -644,16 +658,42 @@ input:focus {
 }
 
 .privacy-title-logo {
-  display: inline-block;
-  margin-left: 6vw;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: 800;
+  font-family: europa, sans-serif;
+}
+
+.legal-background {
+  background-color: #fcfdfd;
 }
 
 .theText,
-.privacy-title,
 .privacy-list {
-  width: 60vw;
-  margin-left: 18vw;
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: europa, sans-serif;
 }
+
+.privacy-title {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: europa, sans-serif;
+  font-weight: 600;
+}
+
+.privacy-sub-title {
+  width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: europa, sans-serif;
+  font-weight: 600;
+  font-size: larger;
+}
+
 .why-us {
   background: linear-gradient(to right, #509690 0%, #965056 100%);
   width: 70%;
@@ -661,6 +701,17 @@ input:focus {
   font-size: 120%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.content {
+  cursor: pointer;
+  border-left: solid 1px #f2f2f2;
+  border-right: solid 1px #f2f2f2;
+  border-bottom: solid 1px #f2f2f2;
+  border-radius: 0 0 5px 5px;
+  padding: 15px;
+  font-family: verdana;
+  font-size: 14px;
 }
 
 .why-us2 {
@@ -679,6 +730,16 @@ input:focus {
   min-height: 28.5em;
   font-size: calc(10px + 2vmin);
   padding-top: 2.5%;
+  font-family: europa, sans-serif;
+}
+
+.findr-team {
+  background-color: #fcfdfd;
+  position: relative;
+  min-height: 20em;
+  font-size: calc(10px + 2vmin);
+  padding-top: 2.5%;
+  font-family: europa, sans-serif;
 }
 
 .why-findr-means {
@@ -687,4 +748,13 @@ input:focus {
   min-height: 28.5em;
   font-size: calc(10px + 2vmin);
   padding-top: 2.5%;
+  font-family: europa, sans-serif;
+}
+
+.testimonial-text {
+  font-family: europa, sans-serif;
+}
+
+embed:focus {
+  outline: none;
 }

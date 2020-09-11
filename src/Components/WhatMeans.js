@@ -30,7 +30,7 @@ function WhatMeans() {
         </p>
       </Row>
       <Row>
-        <CardColumns>
+        <CardColumns className="testimonial-text">
           <Col md={60}>
             <Card
               style={{
