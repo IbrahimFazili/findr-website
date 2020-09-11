@@ -1,10 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Jumbotron as Jumbo,
   Container,
   Row,
   Col,
   Carousel,
+  Fade,
 } from "react-bootstrap";
 import styled from "styled-components";
 import logo from "../Images/Findr_logo2x.png";
@@ -34,44 +35,61 @@ const Styles = styled.div`
   }
 `;
 
-export const Jumbotron = () => (
-  <Styles id="Home">
-    <Jumbo fluid className="jumbo">
-      <div className="overlay"></div>
-      <Container>
-        <Row>
-          <Col xs={6} md={3} style={{ marginTop: "25%" }}>
-            <img src={logo} style={{ width: "70%" }} />
-          </Col>
-          <Col xs={6} md={3} className="caption" style={{ marginTop: "25%" }}>
-            <p>Study Better </p>
-            <p>Network Smarter</p>
-            <p>Launching Soon</p>
-          </Col>
-          <Col xs={12} md={4} style={{ marginTop: "7.5%", marginLeft: "10%" }}>
-            <img src={IPhone} style={{ width: "90%" }} />
-          </Col>
-        </Row>
-      </Container>
-      <Particles
-        params={{
-          particles: {
-            line_linked: {
-              color: "#1a5d57",
-              number: {
-                value: 15,
+export const Jumbotron = () => {
+  const [open, setOpen] = useState(false);
+  setTimeout(() => setOpen(true), 500);
+  return (
+    <Styles id="Home">
+      <Jumbo fluid className="jumbo">
+        <div className="overlay"></div>
+        <Container>
+          <Row>
+            <Col xs={6} md={3} style={{ marginTop: "25%" }}>
+              <Fade in={open}>
+                <img src={logo} style={{ width: "70%" }} />
+              </Fade>
+            </Col>
+
+            <Col xs={6} md={3} className="caption" style={{ marginTop: "25%" }}>
+              <Fade in={open}>
+                <div>
+                  <p>Study Better </p>
+                  <p>Network Smarter</p>
+                  <p>Launching Soon</p>
+                </div>
+              </Fade>
+            </Col>
+            <Col
+              xs={12}
+              md={4}
+              style={{ marginTop: "7.5%", marginLeft: "10%" }}
+            >
+              <Fade in={open}>
+                <img src={IPhone} style={{ width: "50%" }} />
+              </Fade>
+            </Col>
+          </Row>
+        </Container>
+        <Particles
+          params={{
+            particles: {
+              line_linked: {
+                color: "#1a5d57",
+                number: {
+                  value: 15,
+                },
+                size: {
+                  value: 1,
+                },
               },
-              size: {
-                value: 1,
+              color: {
+                value: "#1a5d57",
               },
             },
-            color: {
-              value: "#1a5d57",
-            },
-          },
-        }}
-        style={{ position: "absolute", left: 0, right: 0, top: 0, bottom: 0 }}
-      />
-    </Jumbo>
-  </Styles>
-);
+          }}
+          style={{ position: "absolute", left: 0, right: 0, top: 0, bottom: 0 }}
+        />
+      </Jumbo>
+    </Styles>
+  );
+};

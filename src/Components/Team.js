@@ -426,7 +426,7 @@ function Team() {
             <Card.Body>
               <Card.Title style={{ color: "#1a5d57" }}>Hans Bala</Card.Title>
               <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Student Ambassador - University of Brown
+                Student Ambassador - Brown University
               </Card.Text>
             </Card.Body>
           </Card>
