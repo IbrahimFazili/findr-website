@@ -97,7 +97,7 @@ export const Contact = () => {
             <img src={Instagram} style={{width: '12.5%'}} className="social-media-logo" />
           </a>
           <a href="https://www.facebook.com/findr.study.3" target="_blank">
-            <img src={Facebook} className="social-media-logo-facebook" />
+            <img src={Facebook} style={{width: '5%', marginRight: '3%'}} />
           </a>
           <a href="https://www.linkedin.com/company/findrapp/" target="_blank">
             <img src={LinkedIn} style={{width: '15%'}} className="social-media-logo-facebook" />

@@ -7,21 +7,21 @@ const About = () => (
   // <Styles>
   <Container fluid className="bottom-header">
     <Row>
-      <Col xs={12} md={3}>
-        <p className="launch">Launching Soon</p>
+      <Col xs={6} md={3} sm={6}>
+        <p className="launch" style={{color: '#e5efec', marginTop: '2%'}}>Launching Soon</p>
       </Col>
-      <Col xs={12} md={3}>
+      <Col xs={6} md={3} sm={6}>
         <p>
-          <p style={{ fontSize: "x-large" }}>about</p>
-          Findr is a platform to help you grow and find the perfect partner
+          <p style={{ fontSize: "x-large", color: '#e5efec' }}>about</p>
+          <p style={{marginTop: '7%'}}>Findr is a platform to help you grow and find the perfect partner
           <br></br>-<br></br>
           No, dummy, not a date! Partner for your courses, projects, startups,
-          anything!
+          anything!</p>
         </p>
       </Col>
-      <Col xs={12} md={3} className="links">
-        <span style={{ fontSize: "x-large" }}>policies</span>
-        <ul>
+      <Col xs={6} md={3} sm={6} className="links">
+        <span style={{ fontSize: "x-large", color: '#e5efec' }}>policies</span>
+        <ul style={{marginTop: '2%'}}>
           <li class="nav-link">
             <Link to="/Privacy" style={{ fontSize: "large" }}>
               Privacy Policy
@@ -48,9 +48,9 @@ const About = () => (
           </li>
         </ul>
       </Col>
-      <Col xs={12} md={3}>
+      <Col xs={6} md={3} sm={6}>
         <p style={{ fontSize: "large" }}>
-          <p style={{ fontSize: "x-large" }}>contact</p>
+          <p style={{ fontSize: "x-large", color: '#e5efec' }}>contact</p>
           <br></br>
           <br></br>
           findr.study@gmail.com
