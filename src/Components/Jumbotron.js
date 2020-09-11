@@ -59,11 +59,7 @@ export const Jumbotron = () => {
                 </div>
               </Fade>
             </Col>
-            <Col
-              xs={12}
-              md={4}
-              style={{ marginTop: "7.5%", marginLeft: "10%" }}
-            >
+            <Col xs={12} md={4} style={{ marginTop: "7.5%" }}>
               <Fade in={open}>
                 <img src={IPhone} style={{ width: "50%" }} />
               </Fade>
