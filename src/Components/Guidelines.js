@@ -8,6 +8,7 @@ import About from "./About";
 function Guidelines() {
   const [open, setOpen] = useState(false);
   setTimeout(() => setOpen(true), 500);
+  window.scrollTo(0, 0);
   return (
     <Fade in={open}>
       <div className="legal-background">

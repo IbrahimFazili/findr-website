@@ -9,7 +9,7 @@ function BrownU() {
   var keepPopupAlive = false;
 
   return (
-    <Container id="BostonUDot">
+    <Container fluid id="BostonUDot">
       <img
         src={RedDot}
         id="BrownU"
@@ -19,8 +19,9 @@ function BrownU() {
           setTimeout(() => !keepPopupAlive && setVisible(false), 1000)
         }
       />
+      {/* <div className="brown-box"></div> */}
       <div
-        class="innerText"
+        className="innerText"
         onMouseEnter={() => {
           keepPopupAlive = true;
           setVisible(true);
@@ -42,6 +43,7 @@ const hoverStyle = {
   border: "2px solid white",
   backgroundColor: "#fcfdfd",
   width: "10%",
+  height: "10%",
   color: "#1a5d57",
   borderRadius: "0.8em",
   position: "absolute",
