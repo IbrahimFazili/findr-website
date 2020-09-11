@@ -63,7 +63,9 @@ export const Contact = () => {
               style={{
                 borderRadius: 40,
                 width: "90%",
-                outlineWidth: 0,
+                height: "25vh",
+                borderWidth: 0,
+                marginLeft: "5%",
               }}
               onChange={(event) => handleMessageChange(event.target.value)}
             />
@@ -73,7 +75,7 @@ export const Contact = () => {
       <Row>
         <Col md={4}></Col>
         <Col md={8}>
-          <ButtonGroup toggle style={{ width: "15%", borderRadius: "20%" }}>
+          <ButtonGroup toggle>
             <ToggleButton
               type="checkbox"
               variant="secondary"
@@ -86,9 +88,13 @@ export const Contact = () => {
               style={{
                 backgroundColor: "#1a5d57",
                 color: "white",
-                borderRadius: "35%",
-                width: "35%",
+                width: "25%",
                 height: "5vh",
+                borderRadius: "30%",
+                boxsizing: "border-box",
+                padding: "8px 32px",
+                borderWidth: "0",
+                position: "relative",
               }}
             >
               Submit
@@ -96,27 +102,36 @@ export const Contact = () => {
           </ButtonGroup>
         </Col>
       </Row>
-      <Row style={{ marginTop: "8%" }}>
-        <Col xs={12} md={6} sm={6} className="social-media">
+      <Row style={{ marginTop: "5%" }}>
+        <Col md={3}></Col>
+        <Col xs={4} md={1}>
           <a href="https://www.instagram.com/findr.study/" target="_blank">
             <img
               src={Instagram}
-              style={{ width: "12.5%" }}
+              style={{ width: "100%" }}
               className="social-media-logo"
             />
           </a>
+        </Col>
+        <Col xs={4} md={1}>
           <a href="https://www.facebook.com/findr.study.3" target="_blank">
-            <img src={Facebook} className="social-media-logo-facebook" />
+            <img
+              src={Facebook}
+              className="social-media-logo-facebook"
+              style={{ width: "100%" }}
+            />
           </a>
+        </Col>
+        <Col xs={4} md={1}>
           <a href="https://www.linkedin.com/company/findrapp/" target="_blank">
             <img
               src={LinkedIn}
-              style={{ width: "15%" }}
+              style={{ width: "100%" }}
               className="social-media-logo-facebook"
             />
           </a>
         </Col>
-        <Col xs={12} md={6} sm={6} className="like">
+        <Col xs={12} md={6} className="like">
           <p className="like-title">leave a like!</p>
           <p className="like-plug">
             follow us on social media for continuous updates

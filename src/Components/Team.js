@@ -1,7 +1,13 @@
-import React from "react";
+import React, { Component, useState } from "react";
 import "../App.css";
 import Card from "react-bootstrap/Card";
-import { CardDeck, CardColumns, CardImg } from "react-bootstrap";
+import {
+  CardDeck,
+  CardColumns,
+  CardImg,
+  Collapse,
+  Button,
+} from "react-bootstrap";
 import Harsh from "../Images/Team/team-harsh.jpg";
 import Lux from "../Images/Team/team-lux.jpg";
 import Parry from "../Images/Team/team-parry.jpg";
@@ -19,9 +25,87 @@ import Hans from "../Images/Team/team-hans.jpg";
 import Aavi from "../Images/Team/team-aavi.jpg";
 
 function Team() {
+  const [openMarketing, setOpenMarketing] = useState(false);
+  const [openDev, setOpenDev] = useState(false);
+  const [openAmbass, setOpenAmbass] = useState(false);
   return (
     <div className="why-findr" id="Team">
       <p style={{ color: "#1a5d57", marginTop: "5%" }}>meet the team!</p>
+      <Button
+        style={{
+          backgroundColor: "#fcfdfd",
+          color: "#1a5d57",
+          width: "100%",
+          height: "5vh",
+          boxsizing: "border-box",
+          padding: "8px 32px",
+          borderWidth: "0",
+          position: "relative",
+          // textAlign: "left",
+        }}
+        onClick={() => setOpenMarketing(!openMarketing)}
+        aria-controls="example-collapse-text"
+        aria-expanded={openMarketing}
+      >
+        marketing team
+      </Button>
+      <Collapse in={openMarketing}>
+        <div id="example-collapse-text">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+          labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+      </Collapse>
+      <Button
+        style={{
+          backgroundColor: "#fcfdfd",
+          color: "#1a5d57",
+          width: "100%",
+          height: "5vh",
+          boxsizing: "border-box",
+          padding: "8px 32px",
+          borderWidth: "0",
+          position: "relative",
+          // textAlign: "left",
+        }}
+        onClick={() => setOpenDev(!openDev)}
+        aria-controls="example-collapse-text"
+        aria-expanded={openDev}
+      >
+        development team
+      </Button>
+      <Collapse in={openDev}>
+        <div id="example-collapse-text">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+          labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+      </Collapse>
+      <Button
+        style={{
+          backgroundColor: "#fcfdfd",
+          color: "#1a5d57",
+          width: "100%",
+          height: "5vh",
+          boxsizing: "border-box",
+          padding: "8px 32px",
+          borderWidth: "0",
+          position: "relative",
+          // textAlign: "left",
+        }}
+        onClick={() => setOpenAmbass(!openAmbass)}
+        aria-controls="example-collapse-text"
+        aria-expanded={openAmbass}
+      >
+        student ambassador team
+      </Button>
+      <Collapse in={openAmbass}>
+        <div id="example-collapse-text">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus
+          terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer
+          labore wes anderson cred nesciunt sapiente ea proident.
+        </div>
+      </Collapse>
       <CardColumns>
         <Card
           style={{ border: "transparent", borderRadius: "10%" }}
