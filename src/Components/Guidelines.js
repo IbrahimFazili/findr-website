@@ -1,14 +1,19 @@
 import React from "react";
 import "../App.css";
 import Logo from "../Images/Findr_logo2x.png";
+import { Link } from "react-router-dom";
+import About from "./About";
 
 function Guidelines() {
   return (
-    <div>
+    <div className="legal-background">
       <div>
-        <img src={Logo} className="logo-for-terms" />
-        <h1 className="privacy-title-logo">Findr Community Guidelines</h1>
+        <Link to="/">
+          <img src={Logo} className="logo-for-terms" />
+        </Link>
         <hr />
+        <h1 className="privacy-title-logo">Findr Community Guidelines</h1>
+
         <p className="theText">
           We’re glad you’ve joined the Findr community and can’t wait to help
           you find the perfect study partner. The Safety Tips, our Findr
@@ -115,6 +120,7 @@ function Guidelines() {
           behaviour.
         </p>
       </div>
+      <About />
     </div>
   );
 }

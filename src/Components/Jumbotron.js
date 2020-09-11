@@ -21,6 +21,7 @@ const Styles = styled.div`
     height: 90vh;
     position: relative;
     z-index: -2;
+    font-family: europa, sans-serif;
   }
   .overlay {
     background-color: #e5efec;
@@ -39,16 +40,16 @@ export const Jumbotron = () => (
       <div className="overlay"></div>
       <Container>
         <Row>
-          <Col xs={6} md={3} style={{marginTop: '25%'}}>
+          <Col xs={6} md={3} style={{ marginTop: "25%" }}>
             <img src={logo} style={{ width: "70%" }} />
           </Col>
-          <Col xs={6} md={3} className="caption" style={{marginTop: '25%'}}>
+          <Col xs={6} md={3} className="caption" style={{ marginTop: "25%" }}>
             <p>Study Better </p>
             <p>Network Smarter</p>
             <p>Launching Soon</p>
           </Col>
-          <Col xs={12} md={4} style={{marginTop: '7.5%', marginLeft: '10%'}}>          
-            <img src={IPhone} style={{ width: "90%" }} />  
+          <Col xs={12} md={4} style={{ marginTop: "7.5%", marginLeft: "10%" }}>
+            <img src={IPhone} style={{ width: "90%" }} />
           </Col>
         </Row>
       </Container>

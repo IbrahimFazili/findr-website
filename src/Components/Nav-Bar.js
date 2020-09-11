@@ -21,7 +21,14 @@ const Styles = styled.div`
 
 export const NavBar = () => (
   <Styles>
-    <Navbar expand="lg" fixed="top" bg="white">
+    <Navbar
+      expand="lg"
+      fixed="top"
+      style={{
+        backgroundColor: "#fcfdfd",
+        boxShadow: "0 2px 2px -2px rgba(0,0,0,.2)",
+      }}
+    >
       <Navbar.Brand href="/">
         <img src={navLogo} height="30%" width="40%" />
       </Navbar.Brand>
@@ -30,25 +37,29 @@ export const NavBar = () => (
         <Nav className="ml-auto">
           <Nav.Item>
             <Nav.Link class="nav-link">
-              <a href="#Home" class="link">home</a>
+              <a href="#Home" class="link" className="nav-name">
+                home
+              </a>
               <div class="underline"></div>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-              <Link class="link" to="AboutUs">
-                about
-              </Link>
-              <div class="underline"></div>
+            <Link class="link" to="AboutUs" className="nav-name">
+              about
+            </Link>
+            <div class="underline"></div>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <a href="#Features" class="link">features</a>
+              <a href="#Features" class="link" className="nav-name">
+                features
+              </a>
               <div class="underline"></div>
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
             <Nav.Link>
-              <a href="#Contact" class="link">
+              <a href="#Contact" class="link" className="nav-name">
                 contact
               </a>
               <div class="underline"></div>
