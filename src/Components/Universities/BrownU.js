@@ -50,6 +50,7 @@ const hoverStyle = {
   left: "20.5%",
   top: "27%",
   boxShadow: "0px 3px 20px #333333",
+  zIndex: 1
 };
 
 export default BrownU;

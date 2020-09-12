@@ -230,6 +230,7 @@ a {
   left: 20.5vw;
   top: 27vh;
   box-shadow: 0px 3px 20px #333333;
+  z-index: 1;
 }
 
 .NorthRedDotMap {
