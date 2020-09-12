@@ -42,6 +42,13 @@ a {
   font-size: 16px;
 }
 
+.jumbo {
+  background-color: #e5efec;
+  height: 90vh;
+  position: relative;
+  font-family: europa, sans-serif;
+}
+
 a {
   text-decoration: none;
 }
@@ -117,8 +124,6 @@ a {
   width: 40%;
   height: 10px;
   vertical-align: top;
-  margin-left: 20%;
-  margin-right: 20%;
 }
 
 .forward-arrow {
@@ -127,15 +132,11 @@ a {
   margin-top: 40%;
 }
 
-.dots {
-  width: 30%;
-  opacity: 0.28;
-}
-
 .why-findr-title {
   color: #1a5d57;
   font-size: larger;
   align-self: center;
+  margin-top: 2%;
 }
 
 .main-image {
@@ -144,7 +145,7 @@ a {
 
 .pic1 {
   width: 100%;
-  margin-bottom: -10%;
+  /* margin-bottom: -10%; */
 }
 
 .pic1cap {
@@ -199,10 +200,10 @@ a {
 .mapPic {
   /* width: 100%; */
   /* padding: 3%; */
-  margin-top: 3%;
+  /* margin-top: 3%; */
   display: inline-block;
   /* margin-right: 100%; */
-  vertical-align: top;
+  /* vertical-align: top; */
 }
 
 .redDotMap {
@@ -698,19 +699,19 @@ input:focus {
 }
 
 .why-us2 {
-  background: linear-gradient(to right, #1a5d57, #3d84a0);
+  /* background: linear-gradient(to right, #1a5d57, #3d84a0); */
+  color: #1a5d57;
   width: 70%;
   margin-left: 15%;
-  margin-top: 5%;
-  font-size: 120%;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 150%;
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .why-findr {
   background-color: #fcfdfd;
   position: relative;
-  min-height: 28.5em;
+  min-height: 25em;
   font-size: calc(10px + 2vmin);
   padding-top: 2.5%;
 }
@@ -736,4 +737,10 @@ input:focus {
 
 embed:focus {
   outline: none;
+}
+
+.team-subtext {
+  text-transform: uppercase;
+  font-size: small;
+  color: #1a5d57;
 }
