@@ -55,82 +55,109 @@ function Team() {
         marketing team - the ones behind our awesome instagram
       </Button>
       <Collapse in={openMarketing}>
-        <CardColumns>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Harsh}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>
-                Harsh Jhunjhunwala
-              </Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Founder
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Parry}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>
-                Parnikaa Uppal
-              </Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Lead Design
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Shakshi}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>
-                Shakshi Sharma
-              </Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Marketing Strategy
-              </Card.Text>
-            </Card.Body>
-          </Card>
-
-          {/* dummy cards which need to be there  */}
-          <Card
+        <div>
+          <CardColumns style={{ display: "flex", flexDirection: "row" }}>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: 1 }}
+              bg="transparent"
+              md={3}
+            >
+              <Card.Img
+                variant="top"
+                src={Harsh}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Harsh Jhunjhunwala
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Founder
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: 1 }}
+              bg="transparent"
+              md={3}
+            >
+              <Card.Img
+                variant="top"
+                src={Parry}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Parnikaa Uppal
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Lead Design
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: 1 }}
+              bg="transparent"
+              md={3}
+            >
+              <Card.Img
+                variant="top"
+                src={Shakshi}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Shakshi Sharma
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Marketing Strategy
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: 1 }}
+              bg="transparent"
+              md={3}
+            >
+              <Card.Img
+                variant="top"
+                src={Saakshi}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Saakshi Shah
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Lead Design
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            {/* <Card
             style={{ border: "transparent", borderRadius: "10%" }}
             bg="transparent"
           >
@@ -138,31 +165,9 @@ function Team() {
               <Card.Title style={{ color: "#1a5d57" }}></Card.Title>
               <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}></Card.Text>
             </Card.Body>
-          </Card>
-
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Saakshi}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>Saakshi Shah</Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Lead Design
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </CardColumns>
+          </Card> */}
+          </CardColumns>
+        </div>
       </Collapse>
       <br></br>
       <Button
@@ -185,124 +190,154 @@ function Team() {
         development team - the ones we fire if you find bugs in the app
       </Button>
       <Collapse in={openDev}>
-        <CardColumns>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={GG}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>
-                Gautam Gireesh
-              </Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Frontend Developer
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Lux}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>
-                Lakshya Gupta
-              </Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Backend Developer
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Ibby}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>
-                Ibrahim Fazili
-              </Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Frontend Developer
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Parshva}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>Parshva Shah</Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Frontend Developer
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Adits}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>Aditi Dagar</Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Backend Developer
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </CardColumns>
+        <div>
+          <CardColumns style={{ display: "flex", flexDirection: "row" }}>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: 1 }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={GG}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Gautam Gireesh
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Frontend Developer
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: 1 }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={Lux}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Lakshya Gupta
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Backend Developer
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: 1 }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={Ibby}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Ibrahim Fazili
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Frontend Developer
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: 1 }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={Parshva}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Parshva Shah
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Frontend Developer
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </CardColumns>
+          <CardColumns style={{ display: "flex", flexDirection: "row" }}>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: 1 }}
+              bg="transparent"
+            >
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}></Card.Title>
+                <Card.Text
+                  style={{ color: "#1a5d57", fontSize: 20 }}
+                ></Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: 1 }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={Adits}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Aditi Dagar
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Backend Developer
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: 1 }}
+              bg="transparent"
+            >
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}></Card.Title>
+                <Card.Text
+                  style={{ color: "#1a5d57", fontSize: 20 }}
+                ></Card.Text>
+              </Card.Body>
+            </Card>
+          </CardColumns>
+        </div>
       </Collapse>
       <br></br>
       <Button
@@ -325,194 +360,198 @@ function Team() {
         student ambassador team - the ones who hype sh*t up!
       </Button>
       <Collapse in={openAmbass}>
-        <CardColumns>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Mahak}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>Mahak Jain</Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Student Ambassador - University of Toronto
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Yoothika}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>
-                Yoothika Tanja
-              </Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Student Ambassador - University of Toronto
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Alexie}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>
-                Alexie El Morr
-              </Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Student Ambassador - University of Toronto
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Vasudev}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>
-                Vasudev Agarwal
-              </Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Student Ambassador - Brown University
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Hans}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>Hans Bala</Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Student Ambassador - Brown University
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Aavi}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>Aavi Deora</Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Student Ambassador - Northwestern University
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Jahnvi}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>
-                Jahnvi Hariani
-              </Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Student Ambassador - Georgia Tech University
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card
-            style={{ border: "transparent", borderRadius: "10%" }}
-            bg="transparent"
-          >
-            <Card.Img
-              variant="top"
-              src={Hodo}
-              style={{
-                width: "30%",
-                height: "20vh",
-                marginLeft: "auto",
-                marginRight: "auto",
-                borderRadius: "50%",
-              }}
-            />
-            <Card.Body>
-              <Card.Title style={{ color: "#1a5d57" }}>
-                Hodo Wardheer
-              </Card.Title>
-              <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
-                Student Ambassador - Ryerson University
-              </Card.Text>
-            </Card.Body>
-          </Card>
-        </CardColumns>
+        <div>
+          <CardColumns style={{ display: "flex", flexDirection: "row" }}>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: "1" }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={Mahak}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>Mahak Jain</Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Student Ambassador - University of Toronto
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: "1" }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={Yoothika}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Yoothika Tanja
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Student Ambassador - University of Toronto
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: "1" }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={Alexie}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Alexie El Morr
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Student Ambassador - University of Toronto
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: "1" }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={Vasudev}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Vasudev Agarwal
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Student Ambassador - Brown University
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </CardColumns>
+          <CardColumns style={{ display: "flex", flexDirection: "row" }}>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: "1" }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={Hans}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>Hans Bala</Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Student Ambassador - Brown University
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: "1" }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={Aavi}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>Aavi Deora</Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Student Ambassador - Northwestern University
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: "1" }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={Jahnvi}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Jahnvi Hariani
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Student Ambassador - Georgia Tech University
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card
+              style={{ border: "transparent", borderRadius: "10%", flex: "1" }}
+              bg="transparent"
+            >
+              <Card.Img
+                variant="top"
+                src={Hodo}
+                style={{
+                  width: "20%",
+                  height: "13vh",
+                  marginLeft: "auto",
+                  marginRight: "auto",
+                  borderRadius: "50%",
+                }}
+              />
+              <Card.Body>
+                <Card.Title style={{ color: "#1a5d57" }}>
+                  Hodo Wardheer
+                </Card.Title>
+                <Card.Text style={{ color: "#1a5d57", fontSize: 20 }}>
+                  Student Ambassador - Ryerson University
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </CardColumns>
+        </div>
       </Collapse>
     </div>
   );
