@@ -43,25 +43,25 @@ function About() {
           >
             <li class="nav-link">
               <Link to="/Privacy" style={{ fontSize: "large" }}>
-                {">"} Privacy Policy
+                Privacy Policy
               </Link>
               <div class="underline"></div>
             </li>
             <li class="nav-link">
               <Link to="/TermsAndConditions" style={{ fontSize: "large" }}>
-                {">"} Terms and Conditions
+                Terms and Conditions
               </Link>
               <div class="underline"></div>
             </li>
             <li class="nav-link">
               <Link to="/Safety" style={{ fontSize: "large" }}>
-                {">"} Safety Tips
+                Safety Tips
               </Link>
               <div class="underline"></div>
             </li>
             <li class="nav-link">
               <Link to="/Guidelines" style={{ fontSize: "large" }}>
-                {">"} Community Guidlines
+                Community Guidlines
               </Link>
               <div class="underline"></div>
             </li>
