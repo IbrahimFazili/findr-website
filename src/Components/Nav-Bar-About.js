@@ -21,7 +21,14 @@ const Styles = styled.div`
 
 export const NavBar = () => (
   <Styles>
-    <Navbar expand="lg" fixed="top" bg="white">
+    <Navbar
+      expand="lg"
+      fixed="top"
+      style={{
+        backgroundColor: "#fcfdfd",
+        boxShadow: "0 2px 2px -2px rgba(0,0,0,.2)",
+      }}
+    >
       <Navbar.Brand href="/">
         <img src={navLogo} height="30%" width="40%" style={{ float: "left" }} />
       </Navbar.Brand>
