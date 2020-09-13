@@ -16,7 +16,15 @@ function About() {
               lineHeight: "35px",
             }}
           >
-            <p style={{ fontSize: "x-large" }}> about </p>
+            <p
+              style={{
+                fontSize: "20px",
+                letterSpacing: "3px",
+                color: "#A9A9A9",
+              }}
+            >
+              ABOUT
+            </p>
             Findr is a platform to help you grow and find the perfect partner
             <br></br>-<br></br>
             No, dummy, not a date! Partner for your courses, projects, startups,
@@ -29,9 +37,12 @@ function About() {
               fontSize: "x-large",
               textAlign: "left",
               padding: "5%",
+              fontSize: "20px",
+              letterSpacing: "3px",
+              color: "#A9A9A9",
             }}
           >
-            legal
+            LEGAL
           </p>
           <ul
             style={{
@@ -69,8 +80,22 @@ function About() {
         </Col>
 
         <Col xs={12} md={3} sm={6}>
-          <p style={{ fontSize: "large", textAlign: "left", padding: "5%" }}>
-            <p style={{ fontSize: "x-large" }}>contact</p>
+          <p
+            style={{
+              fontSize: "large",
+              textAlign: "left",
+              padding: "5%",
+            }}
+          >
+            <p
+              style={{
+                fontSize: "20px",
+                letterSpacing: "3px",
+                color: "#A9A9A9",
+              }}
+            >
+              CONTACT
+            </p>
             <br></br>
             <a
               href="mailto:findr.study@gmail.com"
@@ -89,6 +114,7 @@ function About() {
               textAlign: "left",
               padding: "5%",
               fontSize: "25px",
+              letterSpacing: "3px",
             }}
           >
             Launching Soon
