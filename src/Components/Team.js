@@ -36,10 +36,22 @@ function Team() {
   const [openAmbass, setOpenAmbass] = useState(false);
   return (
     <div className="findr-team" id="Team">
-      <p style={{ color: "#1a5d57", marginTop: "5%", fontSize: "xx-large" }}>
-        meet the team!
-      </p>
-      <Container fluid>
+      <p className="meet-team">meet the team!</p>
+      <Container style={{ marginBottom: "3%" }}>
+        <Row>
+          <Col md={1}></Col>
+          <Col md={10}>
+            <p style={{ fontSize: "22px" }}>
+              Meet this awesome group who have been with us through this entire
+              journey. From the ones in charge of our awesome social media to
+              those who hype it up on each campus. And of course, the ones we
+              fire if there are bugs on the app!
+            </p>
+          </Col>
+          <Col md={1}></Col>
+        </Row>
+      </Container>
+      <Container fluid style={{ marginLeft: "1%" }}>
         <Row>
           <Button
             style={{
@@ -59,13 +71,14 @@ function Team() {
             aria-controls="example-collapse-text"
             aria-expanded={openMarketing}
           >
+            marketing team&nbsp; &nbsp;{" "}
             <img
               src={arrow}
-              style={{ transform: "rotate(270deg)", width: "1%" }}
+              style={{ transform: "rotate(180deg)", width: "0.5%" }}
             />
-            &nbsp; &nbsp; &nbsp; &nbsp; marketing team - the ones behind our
-            awesome instagram
           </Button>
+          {/* - the ones behind our
+            awesome instagram */}
           <Collapse in={openMarketing} style={{ marginTop: "3%" }}>
             <div>
               <CardColumns style={{ display: "flex", flexDirection: "row" }}>
@@ -212,13 +225,14 @@ function Team() {
             aria-controls="example-collapse-text"
             aria-expanded={openDev}
           >
+            development team&nbsp; &nbsp;
             <img
               src={arrow}
-              style={{ transform: "rotate(270deg)", width: "1%" }}
+              style={{ transform: "rotate(180deg)", width: "0.5%" }}
             />
-            &nbsp; &nbsp; &nbsp; &nbsp;development team - the ones we fire if
-            you find bugs in the app
           </Button>
+          {/* - the ones we fire if
+            you find bugs in the app */}
           <Collapse in={openDev} style={{ marginTop: "3%" }}>
             <div>
               <CardColumns style={{ display: "flex", flexDirection: "row" }}>
@@ -414,13 +428,14 @@ function Team() {
             aria-controls="example-collapse-text"
             aria-expanded={openAmbass}
           >
+            student ambassador team &nbsp; &nbsp;
             <img
               src={arrow}
-              style={{ transform: "rotate(270deg)", width: "1%" }}
+              style={{ transform: "rotate(180deg)", width: "0.5%" }}
             />
-            &nbsp; &nbsp; &nbsp; &nbsp;student ambassador team - the ones who
-            hype sh*t up!
           </Button>
+          {/* - the ones who
+            hype sh*t up! */}
           <Collapse in={openAmbass} style={{ marginTop: "3%" }}>
             <div>
               <CardColumns style={{ display: "flex", flexDirection: "row" }}>

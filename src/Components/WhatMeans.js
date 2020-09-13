@@ -21,9 +21,11 @@ function WhatMeans() {
         <p
           style={{
             color: "#ffffff",
-            marginTop: "5%",
+            marginTop: "1%",
+            marginBottom: "3%",
             marginLeft: "auto",
             marginRight: "auto",
+            fontSize: "30px",
           }}
         >
           what does Findr mean to us?

@@ -19,7 +19,7 @@ a {
 }
 
 .navbar-style {
-  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2); */
   background-image: linear-gradient(to top right, #1a5d57, #156070);
 }
 
@@ -54,6 +54,14 @@ a {
   position: relative;
   font-family: europa, sans-serif;
 }
+
+/* .findr-logo-main {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+} */
 
 a {
   text-decoration: none;
@@ -733,8 +741,14 @@ input:focus {
   padding-top: 2.5%;
 }
 
+.meet-team {
+  font-weight: "light";
+  color: #1a5d57;
+  font-size: 40px;
+}
+
 .why-findr-means {
-  background-color: #1a5d57;
+  background-image: linear-gradient(to bottom right, #1a5d57, #156070);
   position: relative;
   min-height: 28.5em;
   font-size: calc(10px + 2vmin);

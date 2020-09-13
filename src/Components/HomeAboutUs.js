@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
-import logo from "../Images/Findr_logo2x.png";
+// import logo from "../Images/Findr_logo2x.png";
+import logo from "../Images/findr-logo-white-main.svg";
 import NavBar from "./Nav-Bar-About";
 import Particles from "react-particles-js";
 import { Jumbotron as Jumbo, Container, Row, Col, Fade } from "react-bootstrap";
@@ -14,7 +15,7 @@ export const AboutHome = () => {
         <Fade in={open}>
           <div>
             <Row>
-              <Col xs={6} md={3} style={{ marginTop: "25%" }}>
+              <Col xs={6} md={3} style={{ marginTop: "15%" }}>
                 <img src={logo} style={{ width: "70%" }} />
               </Col>
               <Col
@@ -34,7 +35,7 @@ export const AboutHome = () => {
         params={{
           particles: {
             line_linked: {
-              color: "#1a5d57",
+              color: "#ffffff",
               number: {
                 value: 15,
               },
@@ -43,7 +44,7 @@ export const AboutHome = () => {
               },
             },
             color: {
-              value: "#1a5d57",
+              value: "#ffffff",
             },
           },
         }}

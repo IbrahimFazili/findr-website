@@ -25,7 +25,11 @@ export const Jumbotron = () => {
         <Row>
           <Col xs={6} md={3} style={{ marginTop: "15%", verticalAlign: "top" }}>
             <Fade in={open}>
-              <img src={logo} style={{ width: "70%" }} />
+              <img
+                src={logo}
+                className="findr-logo-main"
+                style={{ width: "70%" }}
+              />
             </Fade>
           </Col>
 
