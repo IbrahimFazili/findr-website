@@ -1,9 +1,10 @@
 import React from "react";
 import "../App.css";
-import navLogo from "../Images/Findr_logo_g.svg";
+// import navLogo from "../Images/Findr_logo_g.svg";
 import { Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 import styled from "styled-components";
+import navLogo from "../Images/Findr-logo-white.svg";
 
 const Styles = styled.div`
   .navbar {
@@ -21,14 +22,7 @@ const Styles = styled.div`
 
 export const NavBar = () => (
   <Styles>
-    <Navbar
-      expand="lg"
-      fixed="top"
-      style={{
-        backgroundColor: "#fcfdfd",
-        boxShadow: "0 2px 2px -2px rgba(0,0,0,.2)",
-      }}
-    >
+    <Navbar expand="lg" fixed="top" className="navbar-style">
       <Navbar.Brand href="/">
         <img src={navLogo} height="30%" width="40%" style={{ float: "left" }} />
       </Navbar.Brand>
@@ -72,46 +66,3 @@ export const NavBar = () => (
     </Navbar>
   </Styles>
 );
-
-// function NavBar() {
-//   return (
-//     <div class="navbar-container">
-//       <ul>
-//         <div
-//           style={{
-//             display: "inline-block",
-//             width: "5%",
-//             float: "left",
-//             marginTop: "-1.2%",
-//           }}
-//         >
-//           <li>
-//             <img src={navLogo} height="80" width="90" class="nav_logo" />
-//           </li>
-//         </div>
-//         <div style={{ display: "inline-block", width: "40%" }}>
-//           <li class="nav-link">
-//             <a href="#Home">home</a>
-//             <div class="underline"></div>
-//           </li>
-//           <li class="nav-link">
-//             <a>
-//               <Link to="AboutUs">about us</Link>
-//             </a>
-//             <div class="underline"></div>
-//           </li>
-//           <li class="nav-link">
-//             <a href="#Keywords">features</a>
-//             <div class="underline"></div>
-//           </li>
-//           <li class="nav-link" style={{ marginRight: "2%" }}>
-//             <a href="#Contact-Us">contact</a>
-//             <div class="underline"></div>
-//           </li>
-//         </div>
-//       </ul>
-//     </div>
-//   );
-// }
-
-// export default NavBar;

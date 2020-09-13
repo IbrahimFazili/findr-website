@@ -18,12 +18,15 @@ a {
   outline: none;
 }
 
+.navbar-style {
+  /* box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2); */
+  background-image: linear-gradient(to top right, #1a5d57, #156070);
+}
+
 .navbar-container {
   text-align: center;
   background-color: #fcfdfd;
   box-shadow: 0px -20px 5px 20px #333333;
-  /* padding: 10px; */
-  /* font-size: 0; */
   color: #e5efec;
   position: fixed;
   z-index: 9;
@@ -43,11 +46,20 @@ a {
 }
 
 .jumbo {
-  background-color: #e5efec;
+  background-image: linear-gradient(to bottom right, #1a5d57, #156070);
+  /* background-color: #e5efec; */
   height: 90vh;
   position: relative;
   font-family: europa, sans-serif;
 }
+
+/* .findr-logo-main {
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
+} */
 
 a {
   text-decoration: none;
@@ -55,7 +67,8 @@ a {
 
 .basic-navbar-nav .link,
 a {
-  color: #1a5d57;
+  color: #ffffff;
+  /* color: #1a5d57; */
   text-decoration: none;
   display: inline-block;
   padding: 10px;
@@ -76,7 +89,7 @@ a {
 }
 
 .basic-navbar-nav .nav-link:hover .underline {
-  background-color: #1a5d57;
+  background-color: #ffffff;
   width: 100%;
 }
 
@@ -97,20 +110,21 @@ a {
 }
 
 .App-link {
-  color: #61dafb;
+  color: "transparent";
 }
 
 .caption {
-  color: #1a5d57;
+  /* color: #1a5d57; */
+  color: #ffffff;
   font-size: large;
 }
 
 .home-screen-msg {
-  color: #1a5d57;
+  color: #ffffff;
 }
 
 .home-screen-msg1 {
-  color: #1a5d57;
+  color: #ffffff;
   font-size: 190%;
 }
 
@@ -190,7 +204,8 @@ a {
 }
 
 .map {
-  background-color: #1a5d57;
+  /* background-color: #1a5d57;*/
+  background-image: linear-gradient(to bottom right, #1a5d57, #156070);
   min-height: 13em;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -505,7 +520,7 @@ input:focus {
 }
 
 .bottom-header {
-  background-color: #1a5d57;
+  background-image: linear-gradient(to bottom right, #1a5d57, #156070);
   position: relative;
   /* min-height: 29em; */
   /* font-size: calc(10px + 2vmin); */
@@ -724,8 +739,14 @@ input:focus {
   padding-top: 2.5%;
 }
 
+.meet-team {
+  font-weight: "light";
+  color: #1a5d57;
+  font-size: 40px;
+}
+
 .why-findr-means {
-  background-color: #1a5d57;
+  background-image: linear-gradient(to bottom right, #1a5d57, #156070);
   position: relative;
   min-height: 28.5em;
   font-size: calc(10px + 2vmin);

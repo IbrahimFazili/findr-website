@@ -8,10 +8,10 @@ export const Keywords2 = () => (
   // <Styles>
   <Container fluid className="keywords">
     <Row>
-      <Col xs={12} md={3} sm={6} style={{ marginBottom: "5%" }}>
+      <Col xs={6} md={3} sm={6} style={{ marginBottom: "5%" }}>
         <img src={AddInfo} style={{ width: "90%" }} />
       </Col>
-      <Col xs={12} md={3} sm={6} style={{ marginBottom: "5%" }}>
+      <Col xs={6} md={3} sm={6} style={{ marginBottom: "5%" }}>
         <img src={Chat} style={{ width: "100%" }} />
       </Col>
       <Col xs={12} md={6} sm={12} style={{ marginTop: "15%" }}>

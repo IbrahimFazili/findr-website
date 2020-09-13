@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
-import logo from "../Images/Findr_logo2x.png";
+// import logo from "../Images/Findr_logo2x.png";
+import logo from "../Images/findr-logo-white-main.svg";
 import NavBar from "./Nav-Bar-About";
 import Particles from "react-particles-js";
 import { Jumbotron as Jumbo, Container, Row, Col, Fade } from "react-bootstrap";
@@ -12,29 +13,28 @@ export const AboutHome = () => {
     <div>
       <Container fluid className="jumbo">
         <Fade in={open}>
-          <div>
+          <Container>
             <Row>
-              <Col xs={6} md={3} style={{ marginTop: "25%" }}>
-                <img src={logo} style={{ width: "70%" }} />
-              </Col>
-              <Col
-                xs={6}
-                md={3}
-                className="caption"
-                style={{ marginTop: "20%", marginLeft: "20%" }}
-              >
-                <p style={{ fontSize: "360%" }}>about us</p>
-                <p>checkout who we are!</p>
+              <Col>
+                <img src={logo} style={{ width: "20%", marginTop: "15%" }} />
               </Col>
             </Row>
-          </div>
+            <Row>
+              <Col className="caption" style={{ marginTop: "3%" }}>
+                <p style={{ fontSize: "75px" }}>about us</p>
+                <p style={{ fontSize: "20px", fontStyle: "italic" }}>
+                  checkout who we are!
+                </p>
+              </Col>
+            </Row>
+          </Container>
         </Fade>
       </Container>
       <Particles
         params={{
           particles: {
             line_linked: {
-              color: "#1a5d57",
+              color: "#ffffff",
               number: {
                 value: 15,
               },
@@ -43,7 +43,7 @@ export const AboutHome = () => {
               },
             },
             color: {
-              value: "#1a5d57",
+              value: "#ffffff",
             },
           },
         }}

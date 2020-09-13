@@ -1,9 +1,10 @@
 import React from "react";
 import "../App.css";
-import navLogo from "../Images/Findr_logo_g.svg";
+// import navLogo from "../Images/Findr_logo_g.svg";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
 import { Nav, Navbar } from "react-bootstrap";
+import navLogo from "../Images/Findr-logo-white.svg";
 
 const Styles = styled.div`
   .navbar {
@@ -21,14 +22,7 @@ const Styles = styled.div`
 
 export const NavBar = () => (
   <Styles>
-    <Navbar
-      expand="lg"
-      fixed="top"
-      style={{
-        backgroundColor: "#fcfdfd",
-        boxShadow: "0 2px 2px -2px rgba(0,0,0,.2)",
-      }}
-    >
+    <Navbar expand="lg" fixed="top" className="navbar-style">
       <Navbar.Brand href="/">
         <img src={navLogo} height="30%" width="40%" style={{ float: "left" }} />
       </Navbar.Brand>
