@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../App.css";
 // import logo from "../Images/Findr_logo2x.png";
-import logo from "../Images/findr-logo-white-main.svg";
+import logo from "../Images/Findr_logo_white.svg";
 import NavBar from "./Nav-Bar-About";
 import Particles from "react-particles-js";
 import { Jumbotron as Jumbo, Container, Row, Col, Fade } from "react-bootstrap";
@@ -11,16 +11,23 @@ export const AboutHome = () => {
   setTimeout(() => setOpen(true), 500);
   return (
     <div>
-      <Container fluid className="jumbo">
+      <Container
+        fluid
+        className="jumbo"
+        style={{ display: "flex", alignItems: "center" }}
+      >
         <Fade in={open}>
-          <Container>
+          <Container
+            fluid
+            style={{ display: "inline-block", verticalAlign: "middle" }}
+          >
             <Row>
               <Col>
-                <img src={logo} style={{ width: "20%", marginTop: "15%" }} />
+                <img src={logo} style={{ width: "20%", marginTop: "10%" }} />
               </Col>
             </Row>
             <Row>
-              <Col className="caption" style={{ marginTop: "3%" }}>
+              <Col className="caption">
                 <p style={{ fontSize: "75px" }}>about us</p>
                 <p style={{ fontSize: "20px", fontStyle: "italic" }}>
                   checkout who we are!

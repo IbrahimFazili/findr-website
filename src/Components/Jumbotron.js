@@ -8,7 +8,7 @@ import {
   Fade,
 } from "react-bootstrap";
 // import logo from "../Images/Findr_logo2x.png";
-import logo from "../Images/findr-logo-white-main.svg";
+import logo from "../Images/Findr_logo_white.svg";
 import Particles from "react-particles-js";
 import BackArrow from "../Images/back_arrow_green.svg";
 import FrontArrow from "../Images/forward_icon_green.svg";
@@ -24,7 +24,7 @@ export const Jumbotron = () => {
       <Container fluid className="jumbo">
         <Row>
           <Col md={1}></Col>
-          <Col xs={6} md={6} style={{ marginTop: "7%", verticalAlign: "top" }}>
+          <Col xs={12} md={6} style={{ marginTop: "7%", verticalAlign: "top" }}>
             <Fade in={open}>
               <Container style={{ marginLeft: "10%" }}>
                 <img
@@ -39,11 +39,21 @@ export const Jumbotron = () => {
                     letterSpacing: "4px",
                     fontSize: "20px",
                     marginTop: "-4%",
-                    marginLeft: "-3.5%",
+                    width: "90%",
                   }}
                 >
                   Keep Swiping
                 </p>
+                <Container
+                  style={{
+                    fontSize: "25px",
+                    letterSpacing: "4px",
+                    marginTop: "8%",
+                  }}
+                  className="caption"
+                >
+                  <p>Study Better &nbsp; | &nbsp; Network Smarter </p>
+                </Container>
               </Container>
             </Fade>
           </Col>
@@ -56,44 +66,21 @@ export const Jumbotron = () => {
             </Fade>
           </Col>
         </Row>
-        <Row>
-          <Col xs={6} md={6} className="caption">
-            <Fade in={open}>
-              <Container
-                style={{
-                  fontSize: "25px",
-                  marginLeft: "28%",
-                  letterSpacing: "4px",
-                  marginTop: "-15%",
-                }}
-              >
-                <p>Study Better &nbsp; | &nbsp; Network Smarter </p>
-              </Container>
-            </Fade>
+        {/* <Row>
+          <Col md={1}></Col>
+          <Col xs={12} md={6} className="caption">
+            <Fade in={open}></Fade>
           </Col>
-          {/* <Col xs={6} md={6}>
-            <p
-              className="caption"
-              style={{
-                fontSize: "25px",
-                marginLeft: "-5%",
-                marginTop: "3%",
-                fontStyle: "italic",
-                letterSpacing: "4px",
-              }}
-            >
-              launching soon
-            </p>
-          </Col> */}
-        </Row>
+        </Row> */}
       </Container>
       <Particles
+        style={{ zIndex: "2" }}
         params={{
           particles: {
             line_linked: {
               color: "#ffffff",
               number: {
-                value: 15,
+                value: 10,
               },
               size: {
                 value: 1,
@@ -103,6 +90,14 @@ export const Jumbotron = () => {
               value: "#ffffff",
             },
           },
+          // interactivity: {
+          //   events: {
+          //     onhover: {
+          //       enable: true,
+          //       mode: "repulse",
+          //     },
+          //   },
+          // },
         }}
         style={{ position: "absolute", left: 0, right: 0, top: 0, bottom: 0 }}
       />
