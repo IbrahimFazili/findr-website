@@ -23,30 +23,68 @@ export const Jumbotron = () => {
     <div>
       <Container fluid className="jumbo">
         <Row>
-          <Col xs={6} md={3} style={{ marginTop: "15%", verticalAlign: "top" }}>
+          <Col md={1}></Col>
+          <Col xs={6} md={6} style={{ marginTop: "7%", verticalAlign: "top" }}>
+            <Fade in={open}>
+              <Container style={{ marginLeft: "10%" }}>
+                <img
+                  src={logo}
+                  className="findr-logo-main"
+                  style={{ width: "60%" }}
+                />
+                <p
+                  className="caption"
+                  style={{
+                    fontStyle: "italic",
+                    letterSpacing: "4px",
+                    fontSize: "20px",
+                    marginTop: "-4%",
+                    marginLeft: "-3.5%",
+                  }}
+                >
+                  Keep Swiping
+                </p>
+              </Container>
+            </Fade>
+          </Col>
+          <Col xs={12} md={5}>
             <Fade in={open}>
               <img
-                src={logo}
-                className="findr-logo-main"
-                style={{ width: "70%" }}
+                src={IPhone}
+                style={{ width: "45%", marginTop: "20%", marginRight: "30%" }}
               />
             </Fade>
           </Col>
-
-          <Col xs={6} md={3} className="caption" style={{ marginTop: "20%" }}>
+        </Row>
+        <Row>
+          <Col xs={6} md={6} className="caption">
             <Fade in={open}>
-              <div>
-                <p>Study Better </p>
-                <p>Network Smarter</p>
-                <p>Launching Soon</p>
-              </div>
+              <Container
+                style={{
+                  fontSize: "25px",
+                  marginLeft: "28%",
+                  letterSpacing: "4px",
+                  marginTop: "-15%",
+                }}
+              >
+                <p>Study Better &nbsp; | &nbsp; Network Smarter </p>
+              </Container>
             </Fade>
           </Col>
-          <Col xs={12} md={4} style={{ marginTop: "7.5%" }}>
-            <Fade in={open}>
-              <img src={IPhone} style={{ width: "50%" }} />
-            </Fade>
-          </Col>
+          {/* <Col xs={6} md={6}>
+            <p
+              className="caption"
+              style={{
+                fontSize: "25px",
+                marginLeft: "-5%",
+                marginTop: "3%",
+                fontStyle: "italic",
+                letterSpacing: "4px",
+              }}
+            >
+              launching soon
+            </p>
+          </Col> */}
         </Row>
       </Container>
       <Particles
