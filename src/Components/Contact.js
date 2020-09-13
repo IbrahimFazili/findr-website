@@ -65,7 +65,7 @@ export const Contact = () => {
                 width: "90%",
                 height: "25vh",
                 borderWidth: 0,
-                marginLeft: "5%",
+                marginLeft: "3%",
                 padding: "5%",
               }}
               onChange={(event) => handleMessageChange(event.target.value)}
@@ -89,11 +89,11 @@ export const Contact = () => {
               style={{
                 backgroundColor: "#1a5d57",
                 color: "white",
-                width: "15vh",
-                height: "5vh",
-                borderRadius: 20,
+                width: "20vh",
+                height: "7vh",
+                borderRadius: 30,
                 boxsizing: "border-box",
-                padding: "5%",
+                padding: "8%",
                 borderWidth: "0",
                 position: "relative",
                 marginTop: "30%",

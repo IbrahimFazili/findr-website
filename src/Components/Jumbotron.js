@@ -7,7 +7,8 @@ import {
   Carousel,
   Fade,
 } from "react-bootstrap";
-import logo from "../Images/Findr_logo2x.png";
+// import logo from "../Images/Findr_logo2x.png";
+import logo from "../Images/findr-logo-white-main.svg";
 import Particles from "react-particles-js";
 import BackArrow from "../Images/back_arrow_green.svg";
 import FrontArrow from "../Images/forward_icon_green.svg";
@@ -22,13 +23,13 @@ export const Jumbotron = () => {
     <div>
       <Container fluid className="jumbo">
         <Row>
-          <Col xs={6} md={3} style={{ marginTop: "25%" }}>
+          <Col xs={6} md={3} style={{ marginTop: "15%", verticalAlign: "top" }}>
             <Fade in={open}>
               <img src={logo} style={{ width: "70%" }} />
             </Fade>
           </Col>
 
-          <Col xs={6} md={3} className="caption" style={{ marginTop: "25%" }}>
+          <Col xs={6} md={3} className="caption" style={{ marginTop: "20%" }}>
             <Fade in={open}>
               <div>
                 <p>Study Better </p>
@@ -48,7 +49,7 @@ export const Jumbotron = () => {
         params={{
           particles: {
             line_linked: {
-              color: "#1a5d57",
+              color: "#ffffff",
               number: {
                 value: 15,
               },
@@ -57,7 +58,7 @@ export const Jumbotron = () => {
               },
             },
             color: {
-              value: "#1a5d57",
+              value: "#ffffff",
             },
           },
         }}

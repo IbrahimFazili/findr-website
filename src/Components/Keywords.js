@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 
 export const Keywords = () => (
   // <Styles>
-  <Container fluid className="keywords" id = "Features">
+  <Container fluid className="keywords" id="Features">
     <Row>
       <Col xs={12} md={6} sm={12} style={{ marginTop: "20%" }}>
         <p className="keywords-text">unlimited matches</p>
@@ -14,10 +14,10 @@ export const Keywords = () => (
           find matches for any interest, in any industry!
         </p>
       </Col>
-      <Col xs={12} md={3} sm={6} style={{ marginTop: "5%" }}>
+      <Col xs={6} md={3} sm={6} style={{ marginTop: "5%" }}>
         <img src={Home} style={{ width: "100%" }} />
       </Col>
-      <Col xs={12} md={3} sm={6} style={{ marginTop: "5%" }}>
+      <Col xs={6} md={3} sm={6} style={{ marginTop: "5%" }}>
         <img src={Match} style={{ width: "85%" }} />
       </Col>
     </Row>

@@ -18,6 +18,11 @@ a {
   outline: none;
 }
 
+.navbar-style {
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to top right, #1a5d57, #156070);
+}
+
 .navbar-container {
   text-align: center;
   background-color: #fcfdfd;
@@ -43,7 +48,8 @@ a {
 }
 
 .jumbo {
-  background-color: #e5efec;
+  background-image: linear-gradient(to bottom right, #1a5d57, #156070);
+  /* background-color: #e5efec; */
   height: 90vh;
   position: relative;
   font-family: europa, sans-serif;
@@ -55,7 +61,8 @@ a {
 
 .basic-navbar-nav .link,
 a {
-  color: #1a5d57;
+  color: #ffffff;
+  /* color: #1a5d57; */
   text-decoration: none;
   display: inline-block;
   padding: 10px;
@@ -101,7 +108,8 @@ a {
 }
 
 .caption {
-  color: #1a5d57;
+  /* color: #1a5d57; */
+  color: #ffffff;
   font-size: large;
 }
 
@@ -190,7 +198,8 @@ a {
 }
 
 .map {
-  background-color: #1a5d57;
+  /* background-color: #1a5d57;*/
+  background-image: linear-gradient(to bottom right, #1a5d57, #156070);
   min-height: 13em;
   font-size: calc(10px + 2vmin);
   color: white;
@@ -505,7 +514,7 @@ input:focus {
 }
 
 .bottom-header {
-  background-color: #1a5d57;
+  background-image: linear-gradient(to bottom right, #1a5d57, #156070);
   position: relative;
   /* min-height: 29em; */
   /* font-size: calc(10px + 2vmin); */
