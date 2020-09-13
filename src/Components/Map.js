@@ -6,6 +6,7 @@ import NorthWestU from "./Universities/NorthWestU";
 import UofT from "./Universities/UofT";
 import GTech from "./Universities/GTech";
 import { Container, Row, Col, Image } from "react-bootstrap";
+import GTA from "./Universities/GTAUni"
 
 function Map() {
   return (
@@ -13,7 +14,8 @@ function Map() {
       <Image src={MapPic} rounded fluid style={{ padding: "3%" }} />
       <BrownU />
       <NorthWestU />
-      <UofT />
+      {/* <UofT /> */}
+      <GTA />
       <GTech />
     </Container>
   );

@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import "../../App.css";
-import UofTDot from "../../Images/Universities/uoft.png";
+import RyersonDot from "../../Images/Universities/ryerson.png";
 import RedDot from "../../Images/pin.svg";
 import { Button } from "react-bootstrap";
 import Fade from "react-bootstrap/Fade";
 
-class UofT extends React.Component {
+class Ryerson extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -21,36 +21,28 @@ class UofT extends React.Component {
           id="uoft"
           className="UofTDotMap"
           onMouseOver={() => this.setState({ isVisible: true })}
-          onMouseOut={() => {
+          onMouseOut={() =>
             setTimeout(
-              () =>
-                this.setState({
-                  keepPopupAlive: !this.state.keepPopupAlive,
-                  isVisible: false,
-                }),
+              () => this.setState({ isVisible: false, keepPopupAlive: false }),
               2000
-            );
-            this.props.reset();
-          }}
+            )
+          }
         />
         <div
           class="innerText"
           onMouseEnter={() => {
-            this.setState({ isVisible: true, keepPopupAlive: true });
+            this.setState({ keepPopupAlive: true, isVisible: true });
           }}
           onMouseLeave={() => {
-            {
-              this.setState({ isVisible: false, keepPopupAlive: false });
-              this.props.reset();
-            }
+            this.setState({ isVisible: false, keepPopupAlive: false });
           }}
           style={this.state.isVisible ? hoverStyle : { display: "none" }}
         >
           <Fade in={this.state.isVisible}>
             <div>
-              <img src={UofTDot} id="UniLogoAlt" />
-              <Button variant="light" onClick={() => this.props.incre()}>
-                {">"}
+              <img src={RyersonDot} id="UniLogoAlt" />
+              <Button variant="light" onClick={() => this.props.decre()}>
+                {"<"}
               </Button>
             </div>
           </Fade>
@@ -72,7 +64,6 @@ const hoverStyle = {
   left: "19.5%",
   top: "17%",
   boxShadow: "0px 3px 20px #333333",
-  zIndex: "1",
 };
 
-export default UofT;
+export default Ryerson;
