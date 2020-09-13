@@ -27,8 +27,6 @@ a {
   text-align: center;
   background-color: #fcfdfd;
   box-shadow: 0px -20px 5px 20px #333333;
-  /* padding: 10px; */
-  /* font-size: 0; */
   color: #e5efec;
   position: fixed;
   z-index: 9;
@@ -91,7 +89,7 @@ a {
 }
 
 .basic-navbar-nav .nav-link:hover .underline {
-  background-color: #1a5d57;
+  background-color: #ffffff;
   width: 100%;
 }
 
@@ -112,7 +110,7 @@ a {
 }
 
 .App-link {
-  color: #61dafb;
+  color: "transparent";
 }
 
 .caption {
@@ -122,11 +120,11 @@ a {
 }
 
 .home-screen-msg {
-  color: #1a5d57;
+  color: #ffffff;
 }
 
 .home-screen-msg1 {
-  color: #1a5d57;
+  color: #ffffff;
   font-size: 190%;
 }
 

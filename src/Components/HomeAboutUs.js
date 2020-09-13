@@ -13,22 +13,21 @@ export const AboutHome = () => {
     <div>
       <Container fluid className="jumbo">
         <Fade in={open}>
-          <div>
+          <Container>
             <Row>
-              <Col xs={6} md={3} style={{ marginTop: "15%" }}>
-                <img src={logo} style={{ width: "70%" }} />
-              </Col>
-              <Col
-                xs={6}
-                md={3}
-                className="caption"
-                style={{ marginTop: "20%", marginLeft: "20%" }}
-              >
-                <p style={{ fontSize: "360%" }}>about us</p>
-                <p>checkout who we are!</p>
+              <Col>
+                <img src={logo} style={{ width: "20%", marginTop: "15%" }} />
               </Col>
             </Row>
-          </div>
+            <Row>
+              <Col className="caption" style={{ marginTop: "3%" }}>
+                <p style={{ fontSize: "75px" }}>about us</p>
+                <p style={{ fontSize: "20px", fontStyle: "italic" }}>
+                  checkout who we are!
+                </p>
+              </Col>
+            </Row>
+          </Container>
         </Fade>
       </Container>
       <Particles

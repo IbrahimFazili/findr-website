@@ -95,8 +95,8 @@ function Team() {
                     variant="top"
                     src={Harsh}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -122,8 +122,8 @@ function Team() {
                     variant="top"
                     src={Parry}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -149,8 +149,8 @@ function Team() {
                     variant="top"
                     src={Shakshi}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -178,8 +178,8 @@ function Team() {
                     variant="top"
                     src={Saakshi}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -248,8 +248,8 @@ function Team() {
                     variant="top"
                     src={GG}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -276,8 +276,8 @@ function Team() {
                     variant="top"
                     src={Lux}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -304,8 +304,8 @@ function Team() {
                     variant="top"
                     src={Ibby}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -332,8 +332,8 @@ function Team() {
                     variant="top"
                     src={Parshva}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -375,8 +375,8 @@ function Team() {
                     variant="top"
                     src={Adits}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -451,8 +451,8 @@ function Team() {
                     variant="top"
                     src={Mahak}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -479,8 +479,8 @@ function Team() {
                     variant="top"
                     src={Yoothika}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -507,8 +507,8 @@ function Team() {
                     variant="top"
                     src={Alexie}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -535,8 +535,8 @@ function Team() {
                     variant="top"
                     src={Vasudev}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -565,8 +565,8 @@ function Team() {
                     variant="top"
                     src={Hans}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -593,8 +593,8 @@ function Team() {
                     variant="top"
                     src={Aavi}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -621,8 +621,8 @@ function Team() {
                     variant="top"
                     src={Jahnvi}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
@@ -649,8 +649,8 @@ function Team() {
                     variant="top"
                     src={Hodo}
                     style={{
-                      width: "20%",
-                      height: "13vh",
+                      width: "25%",
+                      height: "12vh",
                       marginLeft: "auto",
                       marginRight: "auto",
                       borderRadius: "50%",
