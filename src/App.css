@@ -694,10 +694,11 @@ input:focus {
 }
 
 .why-us {
-  background: linear-gradient(to right, #509690 0%, #965056 100%);
+  background: linear-gradient(to right, #1a5d57 0%, #156070 100%);
   width: 70%;
+  margin-top: 3%;
   margin-left: 15%;
-  font-size: 120%;
+  font-size: 100%;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -714,13 +715,13 @@ input:focus {
 }
 
 .why-us2 {
-  /* background: linear-gradient(to right, #1a5d57, #3d84a0); */
-  color: #1a5d57;
+  background: linear-gradient(to right, #1a5d57, #156070);
+  /* color: #1a5d57; */
   width: 70%;
   margin-left: 15%;
-  font-size: 150%;
-  /* -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  font-size: 55px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .why-findr {
