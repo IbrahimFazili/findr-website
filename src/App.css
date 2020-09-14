@@ -321,6 +321,21 @@ a {
   box-shadow: 0px 3px 20px #333333;
 }
 
+@media (max-width: 700px){
+  .arrow{
+    width: 10px; 
+    height: 10px;
+    margin-bottom: 1px;
+  }
+
+  .arrow-text{
+    font-size: 5px;
+    height: 1px;
+    width: 1px;
+    position: relative;
+  bottom: 3px;  }
+}
+
 #UniLogo {
   width: 100%;
   padding: 6%;
