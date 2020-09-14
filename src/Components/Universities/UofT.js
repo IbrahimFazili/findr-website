@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "../../App.css";
 import UofTDot from "../../Images/Universities/uoft.png";
 import RedDot from "../../Images/pin.svg";
@@ -49,8 +49,12 @@ class UofT extends React.Component {
           <Fade in={this.state.isVisible}>
             <div>
               <img src={UofTDot} id="UniLogoAlt" />
-              <Button variant="light" onClick={() => this.props.incre()}>
-                {">"}
+              <Button
+                variant="light"
+                className="arrow"
+                onClick={() => this.props.incre()}
+              >
+                <div className="arrow-text">{">"}</div>
               </Button>
             </div>
           </Fade>

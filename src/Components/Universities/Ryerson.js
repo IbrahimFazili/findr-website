@@ -41,8 +41,8 @@ class Ryerson extends React.Component {
           <Fade in={this.state.isVisible}>
             <div>
               <img src={RyersonDot} id="UniLogoAlt" />
-              <Button variant="light" onClick={() => this.props.decre()}>
-                {"<"}
+              <Button variant="light" className="arrow" onClick={() => this.props.decre()}>
+              <div className="arrow-text">{"<"}</div>
               </Button>
             </div>
           </Fade>
