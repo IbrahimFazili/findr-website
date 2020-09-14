@@ -9,29 +9,20 @@ export const WhyFindr = () => {
   return (
     <Container fluid className="why-findr">
       <Row xs={12} md={12}>
-        <p
-          className="why-findr-title"
-          style={{
-            marginLeft: "45%",
-            fontSize: "45px",
-            letterSpacing: "0px",
-            marginTop: "0%",
-          }}
-        >
-          why Findr?
-        </p>
+        <p className="why-findr-title">why Findr?</p>
       </Row>
       <Row>
         <Col xs={12} md={4}>
-          <img src={MainImage} style={{ width: "95%", marginLeft: "3%" }} />
+          <img src={MainImage} className="girl-image" />
         </Col>
         <Col xs={12} md={8}>
           <ResponsiveEmbed aspectRatio="16by9">
             <video
               autostart
-              autoPlay
-              loop
-              muted
+              autoplay="autoplay"
+              loop="loop"
+              muted="muted"
+              playsInline
               disablePictureInPicture
               src={Video}
               type="video/mp4"

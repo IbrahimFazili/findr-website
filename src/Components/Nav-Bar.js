@@ -24,7 +24,7 @@ export const NavBar = () => (
   <Styles>
     <Navbar expand="lg" fixed="top" className="navbar-style">
       <Navbar.Brand href="/">
-        <img src={navLogo} style={{ float: "left", width: "40%" }} />
+        <img src={navLogo} className="navLogo" />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="basic-navbar-nav">
