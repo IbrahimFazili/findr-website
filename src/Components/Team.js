@@ -39,8 +39,7 @@ function Team() {
       <p className="meet-team">meet the team!</p>
       <Container style={{ marginBottom: "3%" }}>
         <Row>
-          <Col md={1}></Col>
-          <Col md={10}>
+          <Col>
             <p style={{ fontSize: "22px" }}>
               Meet this awesome group who have been with us through this entire
               journey. From the ones in charge of our awesome social media to
@@ -48,7 +47,6 @@ function Team() {
               fire if there are bugs on the app!
             </p>
           </Col>
-          <Col md={1}></Col>
         </Row>
       </Container>
       <Container fluid style={{ marginLeft: "1%" }}>
@@ -81,7 +79,7 @@ function Team() {
             awesome instagram */}
           <Collapse in={openMarketing} style={{ marginTop: "3%" }}>
             <div>
-              <CardColumns style={{ display: "flex", flexDirection: "row" }}>
+              <CardColumns className="team-styles">
                 <Card
                   style={{
                     border: "transparent",
@@ -235,7 +233,7 @@ function Team() {
             you find bugs in the app */}
           <Collapse in={openDev} style={{ marginTop: "3%" }}>
             <div>
-              <CardColumns style={{ display: "flex", flexDirection: "row" }}>
+              <CardColumns className="team-styles">
                 <Card
                   style={{
                     border: "transparent",
@@ -438,7 +436,7 @@ function Team() {
             hype sh*t up! */}
           <Collapse in={openAmbass} style={{ marginTop: "3%" }}>
             <div>
-              <CardColumns style={{ display: "flex", flexDirection: "row" }}>
+              <CardColumns className="team-styles">
                 <Card
                   style={{
                     border: "transparent",
@@ -552,7 +550,7 @@ function Team() {
                   </Card.Body>
                 </Card>
               </CardColumns>
-              <CardColumns style={{ display: "flex", flexDirection: "row" }}>
+              <CardColumns className="team-styles">
                 <Card
                   style={{
                     border: "transparent",

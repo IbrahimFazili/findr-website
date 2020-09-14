@@ -18,22 +18,11 @@ function WhatMeans() {
   return (
     <Container fluid className="why-findr-means" id="Testimonials">
       <Row>
-        <p
-          style={{
-            color: "#ffffff",
-            marginTop: "1%",
-            marginBottom: "3%",
-            marginLeft: "auto",
-            marginRight: "auto",
-            fontSize: "30px",
-          }}
-        >
-          what does Findr mean to us?
-        </p>
+        <p className="findr-mean-title">what does Findr mean to us?</p>
       </Row>
       <Row>
-        <CardColumns className="testimonial-text">
-          <Col md={60}>
+        <CardColumns fluid className="testimonial-text">
+          <Col md={4}>
             <Card
               style={{
                 border: "transparent",
@@ -41,16 +30,15 @@ function WhatMeans() {
                 padding: "7%",
                 width: "90%",
                 marginLeft: "4%",
+                flex: "1",
               }}
             >
               <Card.Img
                 variant="top"
                 src={Yoothika}
+                className="testimonial-image"
                 style={{
                   width: "40%",
-                  height: "20vh",
-                  marginLeft: "auto",
-                  marginRight: "auto",
                   borderRadius: "50%",
                 }}
               />
@@ -67,7 +55,7 @@ function WhatMeans() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={30}>
+          <Col md={4}>
             <Card
               style={{
                 border: "transparent",
@@ -75,16 +63,15 @@ function WhatMeans() {
                 padding: "7%",
                 width: "90%",
                 marginLeft: "5%",
+                flex: "1",
               }}
             >
               <Card.Img
                 variant="top"
                 src={Mahak}
+                className="testimonial-image"
                 style={{
                   width: "40%",
-                  height: "20vh",
-                  marginLeft: "auto",
-                  marginRight: "auto",
                   borderRadius: "50%",
                 }}
               />
@@ -101,7 +88,7 @@ function WhatMeans() {
               </Card.Body>
             </Card>
           </Col>
-          <Col md={30}>
+          <Col md={4}>
             <Card
               style={{
                 border: "transparent",
@@ -109,16 +96,15 @@ function WhatMeans() {
                 padding: "7%",
                 width: "90%",
                 marginLeft: "5%",
+                flex: "1",
               }}
             >
               <Card.Img
                 variant="top"
                 src={Adits}
+                className="testimonial-image"
                 style={{
                   width: "40%",
-                  height: "20vh",
-                  marginLeft: "auto",
-                  marginRight: "auto",
                   borderRadius: "50%",
                 }}
               />
