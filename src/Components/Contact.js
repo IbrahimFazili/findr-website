@@ -108,29 +108,17 @@ export const Contact = () => {
         <Col md={3}></Col>
         <Col xs={4} md={1}>
           <a href="https://www.instagram.com/findr.study/" target="_blank">
-            <img
-              src={Instagram}
-              style={{ width: "100%" }}
-              className="social-media-logo"
-            />
+            <img src={Instagram} className="social-media-logo" />
           </a>
         </Col>
         <Col xs={4} md={1}>
           <a href="https://www.facebook.com/findr.study.3" target="_blank">
-            <img
-              src={Facebook}
-              className="social-media-logo-facebook"
-              style={{ width: "100%" }}
-            />
+            <img src={Facebook} className="social-media-logo-facebook" />
           </a>
         </Col>
         <Col xs={4} md={1}>
           <a href="https://www.linkedin.com/company/findrapp/" target="_blank">
-            <img
-              src={LinkedIn}
-              style={{ width: "100%" }}
-              className="social-media-logo-facebook"
-            />
+            <img src={LinkedIn} className="social-media-logo-facebook" />
           </a>
         </Col>
         <Col xs={12} md={6} className="like">

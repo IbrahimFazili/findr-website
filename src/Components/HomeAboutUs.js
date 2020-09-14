@@ -13,7 +13,7 @@ export const AboutHome = () => {
     <div>
       <Container
         fluid
-        className="jumbo"
+        className="about-jumbo"
         style={{ display: "flex", alignItems: "center" }}
       >
         <Fade in={open}>
@@ -23,7 +23,7 @@ export const AboutHome = () => {
           >
             <Row>
               <Col>
-                <img src={logo} style={{ width: "20%", marginTop: "10%" }} />
+                <img src={logo} class="about-logo" />
               </Col>
             </Row>
             <Row>
