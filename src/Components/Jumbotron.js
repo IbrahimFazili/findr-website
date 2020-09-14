@@ -24,7 +24,7 @@ export const Jumbotron = () => {
       <Container fluid className="jumbo">
         <Row>
           <Col md={1}></Col>
-          <Col xs={12} md={6} style={{ marginTop: "7%", verticalAlign: "top" }}>
+          <Col xs={11} md={6} style={{ marginTop: "7%", verticalAlign: "top" }}>
             <Fade in={open}>
               <Container style={{ marginLeft: "10%" }}>
                 <img
@@ -44,14 +44,7 @@ export const Jumbotron = () => {
                 >
                   Keep Swiping
                 </p>
-                <Container
-                  style={{
-                    fontSize: "25px",
-                    letterSpacing: "4px",
-                    marginTop: "8%",
-                  }}
-                  className="caption"
-                >
+                <Container fluid className="sub-text">
                   <p>Study Better &nbsp; | &nbsp; Network Smarter </p>
                 </Container>
               </Container>
@@ -59,19 +52,10 @@ export const Jumbotron = () => {
           </Col>
           <Col xs={12} md={5}>
             <Fade in={open}>
-              <img
-                src={IPhone}
-                style={{ width: "45%", marginTop: "20%", marginRight: "30%" }}
-              />
+              <img src={IPhone} className="iphone" />
             </Fade>
           </Col>
         </Row>
-        {/* <Row>
-          <Col md={1}></Col>
-          <Col xs={12} md={6} className="caption">
-            <Fade in={open}></Fade>
-          </Col>
-        </Row> */}
       </Container>
       <Particles
         style={{ zIndex: "2" }}
@@ -90,14 +74,6 @@ export const Jumbotron = () => {
               value: "#ffffff",
             },
           },
-          // interactivity: {
-          //   events: {
-          //     onhover: {
-          //       enable: true,
-          //       mode: "repulse",
-          //     },
-          //   },
-          // },
         }}
         style={{ position: "absolute", left: 0, right: 0, top: 0, bottom: 0 }}
       />

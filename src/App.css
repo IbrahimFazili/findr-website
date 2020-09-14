@@ -23,6 +23,11 @@ a {
   background-image: linear-gradient(to top right, #1a5d57, #156070);
 }
 
+.navLogo {
+  float: left;
+  width: 40%;
+}
+
 .navbar-container {
   text-align: center;
   background-color: #fcfdfd;
@@ -43,14 +48,6 @@ a {
 .basic-navbar-nav .nav-link {
   display: inline-block;
   font-size: 16px;
-}
-
-.jumbo {
-  background-image: linear-gradient(to bottom right, #1a5d57, #156070);
-  /* background-color: #e5efec; */
-  height: 90vh;
-  position: relative;
-  font-family: europa, sans-serif;
 }
 
 a {
@@ -101,14 +98,28 @@ a {
   }
 }
 
+.jumbo {
+  background-image: linear-gradient(to bottom right, #1a5d57, #156070);
+  /* background-color: #e5efec; */
+  height: 90vh;
+  position: relative;
+  font-family: europa, sans-serif;
+}
+
 .App-link {
   color: "transparent";
 }
 
 .caption {
-  /* color: #1a5d57; */
   color: #ffffff;
   font-size: large;
+}
+
+.sub-text {
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 4px;
+  margin-top: 8%;
 }
 
 .home-screen-msg {
@@ -127,9 +138,9 @@ a {
 }
 
 .iphone {
-  width: 40%;
-  height: 10px;
-  vertical-align: top;
+  width: 45%;
+  margin-top: 20%;
+  margin-right: 30%;
 }
 
 .forward-arrow {
@@ -140,13 +151,19 @@ a {
 
 .why-findr-title {
   color: #1a5d57;
-  font-size: larger;
+  font-size: 45px;
   align-self: center;
   margin-top: 2%;
+  margin-left: 45%;
 }
 
 .main-image {
   width: 100%;
+}
+
+.girl-image {
+  width: 95%;
+  margin-left: 3%;
 }
 
 .pic1 {
@@ -757,4 +774,30 @@ embed:focus {
   text-transform: uppercase;
   font-size: small;
   color: #1a5d57;
+}
+
+@media (max-width: 700px) {
+  .navLogo {
+    width: 20%;
+  }
+  .jumbo {
+    height: 110vh;
+  }
+  .findr-logo-main {
+    margin-top: 45%;
+  }
+  .sub-text {
+    font-size: 16px;
+    /* display: flex; */
+  }
+  .iphone {
+    margin-left: 27%;
+  }
+  .why-findr-title {
+    margin-left: 35%;
+    font-size: 25px;
+  }
+  .girl-image {
+    width: 60%;
+  }
 }
