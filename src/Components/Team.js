@@ -40,7 +40,7 @@ function Team() {
       <Container style={{ marginBottom: "3%" }}>
         <Row>
           <Col>
-            <p style={{ fontSize: "22px" }}>
+            <p className="meet-team-sub">
               Meet this awesome group who have been with us through this entire
               journey. From the ones in charge of our awesome social media to
               those who hype it up on each campus. And of course, the ones we
@@ -70,10 +70,7 @@ function Team() {
             aria-expanded={openMarketing}
           >
             marketing team&nbsp; &nbsp;{" "}
-            <img
-              src={arrow}
-              style={{ transform: "rotate(180deg)", width: "0.5%" }}
-            />
+            <img src={arrow} className="meet-team-arrow" />
           </Button>
           {/* - the ones behind our
             awesome instagram */}
@@ -224,10 +221,7 @@ function Team() {
             aria-expanded={openDev}
           >
             development team&nbsp; &nbsp;
-            <img
-              src={arrow}
-              style={{ transform: "rotate(180deg)", width: "0.5%" }}
-            />
+            <img src={arrow} className="meet-team-arrow" />
           </Button>
           {/* - the ones we fire if
             you find bugs in the app */}
@@ -420,17 +414,13 @@ function Team() {
               position: "relative",
               fontSize: "x-large",
               marginBottom: "1%",
-              // textAlign: "left",
             }}
             onClick={() => setOpenAmbass(!openAmbass)}
             aria-controls="example-collapse-text"
             aria-expanded={openAmbass}
           >
             student ambassador team &nbsp; &nbsp;
-            <img
-              src={arrow}
-              style={{ transform: "rotate(180deg)", width: "0.5%" }}
-            />
+            <img src={arrow} className="meet-team-arrow" />
           </Button>
           {/* - the ones who
             hype sh*t up! */}

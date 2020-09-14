@@ -361,19 +361,20 @@ a {
   box-shadow: 0px 3px 20px #333333;
 }
 
-@media (max-width: 700px){
-  .arrow{
-    width: 10px; 
+@media (max-width: 700px) {
+  .arrow {
+    width: 10px;
     height: 10px;
     margin-bottom: 1px;
   }
 
-  .arrow-text{
+  .arrow-text {
     font-size: 5px;
     height: 1px;
     width: 1px;
     position: relative;
-  bottom: 3px;  }
+    bottom: 3px;
+  }
 }
 
 #UniLogo {
@@ -465,6 +466,14 @@ a {
   font-size: 70%;
   width: 70%;
   margin-left: 15%;
+}
+
+.keywords2-caption {
+  margin-top: 15%;
+}
+
+.keywords-caption {
+  margin-top: 20%;
 }
 
 .contact-div {
@@ -577,9 +586,16 @@ input:focus {
 .launch {
   font-size: large;
   color: white;
-  /* position: relative;
-  top: 8em;
-  right: 28em; */
+}
+
+.launching-soon {
+  font-size: large;
+  color: white;
+  text-align: left;
+  padding: 5%;
+  font-size: 25px;
+  letter-spacing: 3px;
+  margin-top: 40%;
 }
 
 .aboot-us-title {
@@ -788,9 +804,17 @@ input:focus {
 }
 
 .meet-team {
-  font-weight: "light";
   color: #1a5d57;
   font-size: 40px;
+}
+
+.meet-team-sub {
+  font-size: 22px;
+}
+
+.meet-team-arrow {
+  transform: rotate(180deg);
+  width: 0.5%;
 }
 
 .why-findr-means {
@@ -895,5 +919,41 @@ embed:focus {
   .social-media-logo-facebook {
     width: 50%;
     padding: 0%;
+  }
+  .UofTDotMap {
+    left: 25.8%;
+    top: 28%;
+  }
+  .GTechRedDotMap {
+    left: 23.9%;
+    top: 35.5%;
+  }
+  .NorthRedDotMap {
+    left: 21.4%;
+    top: 30%;
+  }
+  .redDotMap {
+    top: 30.6%;
+    left: 28.2%;
+  }
+  .keywords2-caption {
+    margin-top: 5%;
+  }
+
+  .keywords-caption {
+    margin-top: 10%;
+  }
+  .launching-soon {
+    margin-top: 10%;
+  }
+
+  .meet-team {
+    font-size: 30px;
+  }
+  .meet-team-sub {
+    font-size: 16px;
+  }
+  .meet-team-arrow {
+    width: 2%;
   }
 }

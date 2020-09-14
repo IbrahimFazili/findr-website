@@ -8,7 +8,7 @@ export const Keywords = () => (
   // <Styles>
   <Container fluid className="keywords" id="Features">
     <Row>
-      <Col xs={12} md={6} sm={12} style={{ marginTop: "20%" }}>
+      <Col xs={12} md={6} sm={12} className="keywords-caption">
         <p className="keywords-text">unlimited matches</p>
         <p className="keywords-caps">
           find matches for any interest, in any industry!
