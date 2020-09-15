@@ -49,7 +49,7 @@ function Team() {
           </Col>
         </Row>
       </Container>
-      <Container fluid style={{ marginLeft: "1%" }}>
+      <Container fluid>
         <Row>
           <Button
             style={{

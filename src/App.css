@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  scroll-behavior: smooth;
 }
 
 .App-logo {
@@ -16,6 +15,15 @@ html {
 
 a {
   outline: none;
+}
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none !important;
+}
+.navbar-toggler {
+  border-width: 0 !important;
 }
 
 .navbar-style {
@@ -955,5 +963,16 @@ embed:focus {
   }
   .meet-team-arrow {
     width: 2%;
+  }
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  @media {
+    .navLogo {
+      width: 20%;
+    }
+    .findr-logo-main {
+      margin-top: 5%;
+    }
   }
 }
