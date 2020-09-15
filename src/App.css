@@ -65,7 +65,6 @@ a {
 .basic-navbar-nav .link,
 a {
   color: #ffffff;
-  /* color: #1a5d57; */
   text-decoration: none;
   display: inline-block;
   padding: 10px;
@@ -135,6 +134,20 @@ a {
 .caption {
   color: #ffffff;
   font-size: large;
+}
+
+.about-us-caption {
+  color: #ffffff;
+  font-size: large;
+}
+
+.about-us-main-caption {
+  font-size: 75px;
+}
+
+.about-us-sub-caption {
+  font-size: 20px;
+  font-style: italic;
 }
 
 .sub-text {
@@ -244,7 +257,6 @@ a {
 }
 
 .map {
-  /* background-color: #1a5d57;*/
   background-image: linear-gradient(to bottom right, #1a5d57, #156070);
   min-height: 13em;
   font-size: calc(10px + 2vmin);
@@ -879,6 +891,12 @@ embed:focus {
   .about-jumbo {
     height: 70vh;
   }
+  .about-us-main-caption {
+    font-size: 55px;
+  }
+  .about-us-sub-caption {
+    font-size: 17px;
+  }
   .findr-logo-main {
     margin-top: 45%;
   }
@@ -974,5 +992,11 @@ embed:focus {
     .findr-logo-main {
       margin-top: 5%;
     }
+  }
+}
+
+@media (max-width: 450px) and (max-height: 750px) {
+  .jumbo {
+    height: 120vh;
   }
 }

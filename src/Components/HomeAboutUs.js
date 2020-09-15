@@ -27,11 +27,9 @@ export const AboutHome = () => {
               </Col>
             </Row>
             <Row>
-              <Col className="caption">
-                <p style={{ fontSize: "75px" }}>about us</p>
-                <p style={{ fontSize: "20px", fontStyle: "italic" }}>
-                  checkout who we are!
-                </p>
+              <Col className="about-us-caption">
+                <p className="about-us-main-caption">about us</p>
+                <p className="about-us-sub-caption">checkout who we are!</p>
               </Col>
             </Row>
           </Container>
