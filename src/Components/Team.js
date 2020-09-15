@@ -225,37 +225,9 @@ function Team() {
           </Button>
           {/* - the ones we fire if
             you find bugs in the app */}
-          <Collapse in={openDev} style={{ marginTop: "3%" }}>
+          <Collapse fluid in={openDev} style={{ marginTop: "3%" }}>
             <div>
               <CardColumns className="team-styles">
-                <Card
-                  style={{
-                    border: "transparent",
-                    borderRadius: "10%",
-                    flex: 1,
-                  }}
-                  bg="transparent"
-                >
-                  <Card.Img
-                    variant="top"
-                    src={GG}
-                    style={{
-                      width: "25%",
-                      height: "12vh",
-                      marginLeft: "auto",
-                      marginRight: "auto",
-                      borderRadius: "50%",
-                    }}
-                  />
-                  <Card.Body>
-                    <Card.Title style={{ color: "#1a5d57" }}>
-                      Gautam Gireesh
-                    </Card.Title>
-                    <Card.Text className="team-subtext">
-                      Frontend Developer
-                    </Card.Text>
-                  </Card.Body>
-                </Card>
                 <Card
                   style={{
                     border: "transparent",
@@ -284,6 +256,35 @@ function Team() {
                     </Card.Text>
                   </Card.Body>
                 </Card>
+                <Card
+                  style={{
+                    border: "transparent",
+                    borderRadius: "10%",
+                    flex: 1,
+                  }}
+                  bg="transparent"
+                >
+                  <Card.Img
+                    variant="top"
+                    src={GG}
+                    style={{
+                      width: "25%",
+                      height: "12vh",
+                      marginLeft: "auto",
+                      marginRight: "auto",
+                      borderRadius: "50%",
+                    }}
+                  />
+                  <Card.Body>
+                    <Card.Title style={{ color: "#1a5d57" }}>
+                      Gautam Gireesh
+                    </Card.Title>
+                    <Card.Text className="team-subtext">
+                      Frontend Developer
+                    </Card.Text>
+                  </Card.Body>
+                </Card>
+
                 <Card
                   style={{
                     border: "transparent",
@@ -341,7 +342,7 @@ function Team() {
                   </Card.Body>
                 </Card>
               </CardColumns>
-              <CardColumns style={{ display: "flex", flexDirection: "row" }}>
+              <CardColumns fluid className="team-styles">
                 <Card
                   style={{
                     border: "transparent",
@@ -366,6 +367,7 @@ function Team() {
                   <Card.Img
                     variant="top"
                     src={Adits}
+                    // className="team-aditi-image"
                     style={{
                       width: "25%",
                       height: "12vh",

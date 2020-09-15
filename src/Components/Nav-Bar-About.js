@@ -7,15 +7,12 @@ import { Nav, Navbar } from "react-bootstrap";
 import navLogo from "../Images/Findr-logo-white.svg";
 
 const Styles = styled.div`
-  .navbar {
-    background-color: "#fcfdfd";
-  }
   a,
   .navbar-brand,
   .navbar-nav .nav-link {
-    color: #1a5d57;
+    color: #ffffff;
     &:hover {
-      color: #1a5d57;
+      color: #ffffff;
     }
   }
 `;
