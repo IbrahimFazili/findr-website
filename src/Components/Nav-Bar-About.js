@@ -22,7 +22,7 @@ const Styles = styled.div`
 
 export const NavBar = () => (
   <Styles>
-    <Navbar expand="lg" fixed="top" className="navbar-style">
+    <Navbar expand="lg" fixed="top" className="navbar-style" variant="dark">
       <Navbar.Brand href="/">
         <img src={navLogo} className="navLogo" />
       </Navbar.Brand>

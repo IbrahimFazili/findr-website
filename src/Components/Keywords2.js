@@ -14,7 +14,7 @@ export const Keywords2 = () => (
       <Col xs={6} md={3} sm={6} style={{ marginBottom: "5%" }}>
         <img src={Chat} style={{ width: "100%" }} />
       </Col>
-      <Col xs={12} md={6} sm={12} style={{ marginTop: "15%" }}>
+      <Col xs={12} md={6} sm={12} className="keywords2-caption">
         <p className="keywords-text">the key is in the details</p>
         <p className="keywords-caps">
           find partners who complement your skills and chat with them!

@@ -100,7 +100,7 @@ function About() {
             <a
               href="mailto:findr.study@gmail.com"
               target="_blank"
-              style={{ color: "inherit" }}
+              style={{ color: "inherit", marginLeft: "-3%" }}
             >
               findr.study@gmail.com
             </a>
@@ -108,17 +108,7 @@ function About() {
           </p>
         </Col>
         <Col xs={12} md={3} sm={6}>
-          <p
-            className="launch"
-            style={{
-              textAlign: "left",
-              padding: "5%",
-              fontSize: "25px",
-              letterSpacing: "3px",
-            }}
-          >
-            Launching Soon
-          </p>
+          <p className="launching-soon">Launching Soon</p>
         </Col>
       </Row>
     </Container>
