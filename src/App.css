@@ -113,6 +113,15 @@ a {
   font-family: europa, sans-serif;
 }
 
+.findr-logo-main {
+  margin-top: 20%;
+}
+
+.jumbo-col {
+  margin-top: "7%";
+  vertical-align: top;
+}
+
 .about-jumbo {
   background-image: linear-gradient(to bottom right, #1a5d57, #156070);
   /* background-color: #e5efec; */
@@ -576,13 +585,12 @@ input:focus {
 }
 
 .social-media-logo {
-  width: 90%;
+  width: 100%;
   padding: 5%;
 }
-.social-media-logo-facebook {
-  width: 75%;
-  /* position: relative; */
-  padding: 5%;
+
+.nav-icon-wrapper {
+  width: 7% !important;
 }
 
 .like-title {
@@ -984,19 +992,39 @@ embed:focus {
   }
 }
 
-@media not all and (min-resolution: 0.001dpcm) {
-  @media {
-    .navLogo {
-      width: 20%;
-    }
-    .findr-logo-main {
-      margin-top: 5%;
-    }
-  }
-}
-
+/* small phones (iphone 6/7/8) */
 @media (max-width: 450px) and (max-height: 750px) {
   .jumbo {
     height: 120vh;
   }
+}
+
+/* tablets */
+@media (max-width: 1050px) and (max-height: 1400px) and (min-width: 450px) and (min-height: 750px) {
+  .jumbo {
+    height: 55vh;
+  }
+  .iphone {
+    margin-top: 60%;
+  }
+  .findr-logo-main {
+    margin-top: 60%;
+  }
+  .sub-text {
+    font-size: 16px;
+  }
+  .why-findr {
+    min-height: 42vh;
+  }
+  .keywords {
+    min-height: 42vh;
+  }
+}
+
+@media not all and (min-resolution: 0.001dpcm) {
+  /* @media { */
+  .navLogo {
+    width: 20%;
+  }
+  /* } */
 }
