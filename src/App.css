@@ -585,8 +585,22 @@ input:focus {
 }
 
 .social-media-logo {
-  width: 100%;
-  padding: 5%;
+  width: 50%;
+  /* padding: 5%; */
+}
+
+.insta-logo {
+  width: 20%;
+  padding-left: 5%;
+}
+
+.fb-logo {
+  width: 30%;
+  padding: 10%;
+}
+
+.linkedin-logo {
+  width: 30%;
 }
 
 .nav-icon-wrapper {
