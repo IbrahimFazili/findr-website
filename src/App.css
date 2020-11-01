@@ -591,16 +591,16 @@ input:focus {
 
 .insta-logo {
   width: 20%;
-  padding-left: 5%;
+  /* padding-left: 5%; */
 }
 
 .fb-logo {
-  width: 30%;
-  padding: 10%;
+  width: 20%;
+  /* padding: 10%; */
 }
 
 .linkedin-logo {
-  width: 30%;
+  width: 25%;
 }
 
 .nav-icon-wrapper {
@@ -908,7 +908,7 @@ embed:focus {
     width: 20%;
   }
   .jumbo {
-    height: 110vh;
+    height: 65vh;
   }
   .about-jumbo {
     height: 70vh;
@@ -1009,7 +1009,7 @@ embed:focus {
 /* small phones (iphone 6/7/8) */
 @media (max-width: 450px) and (max-height: 750px) {
   .jumbo {
-    height: 120vh;
+    height: 70vh;
   }
 }
 

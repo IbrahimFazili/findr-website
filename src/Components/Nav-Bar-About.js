@@ -45,11 +45,11 @@ export const NavBar = () => (
               <div class="underline"></div>
             </Nav.Link>
           </Nav.Item>
-          <NavDropdown title="social" id="basic-nav-dropdown">
+          {/* <NavDropdown title="social" id="basic-nav-dropdown">
             <NavDropdown.Item href="https://www.instagram.com/findr.study/" target="_blank"><img src={Instagram} className="insta-logo" /></NavDropdown.Item>
             <NavDropdown.Item href="https://www.facebook.com/findr.study.3" target="_blank"><img src={Facebook} className="fb-logo" /></NavDropdown.Item>
             <NavDropdown.Item href="https://www.linkedin.com/company/findrapp/" target="_blank"><img src={LinkedIn} className="linkedin-logo" /></NavDropdown.Item>
-          </NavDropdown>
+          </NavDropdown> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
