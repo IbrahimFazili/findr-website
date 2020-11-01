@@ -3,7 +3,10 @@ import "../App.css";
 // import navLogo from "../Images/Findr_logo_g.svg";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
-import { Nav, Navbar } from "react-bootstrap";
+import Instagram from "../Images/instagram_findr.svg";
+import LinkedIn from "../Images/linkedin.png";
+import Facebook from "../Images/facebook_new.svg";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import navLogo from "../Images/Findr-logo-white.svg";
 
 const Styles = styled.div`
@@ -35,29 +38,18 @@ export const NavBar = () => (
             </Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link>
-              <a href="#WhyFindr" class="link">
-                why us?
-              </a>
+            <Nav.Link class="nav-link" as={Link}>
+              <Link to="AboutUs" class="link">
+                about
+              </Link>
               <div class="underline"></div>
             </Nav.Link>
           </Nav.Item>
-          <Nav.Item>
-            <Nav.Link>
-              <a href="#Testimonials" class="link">
-                testimonials
-              </a>
-              <div class="underline"></div>
-            </Nav.Link>
-          </Nav.Item>
-          <Nav.Item>
-            <Nav.Link>
-              <a href="#Team" class="link">
-                team
-              </a>
-              <div class="underline"></div>
-            </Nav.Link>
-          </Nav.Item>
+          {/* <NavDropdown title="social" id="basic-nav-dropdown">
+            <NavDropdown.Item href="https://www.instagram.com/findr.study/" target="_blank"><img src={Instagram} className="insta-logo" /></NavDropdown.Item>
+            <NavDropdown.Item href="https://www.facebook.com/findr.study.3" target="_blank"><img src={Facebook} className="fb-logo" /></NavDropdown.Item>
+            <NavDropdown.Item href="https://www.linkedin.com/company/findrapp/" target="_blank"><img src={LinkedIn} className="linkedin-logo" /></NavDropdown.Item>
+          </NavDropdown> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

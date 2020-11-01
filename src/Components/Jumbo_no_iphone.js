@@ -8,6 +8,9 @@ import {
   Fade,
 } from "react-bootstrap";
 // import logo from "../Images/Findr_logo2x.png";
+import Instagram from "../Images/instagram.svg";
+import LinkedIn from "../Images/linkedin-round-color.svg";
+import Facebook from "../Images/facebook.svg";
 import logo from "../Images/Findr_logo_white.svg";
 import Particles from "react-particles-js";
 import BackArrow from "../Images/back_arrow_green.svg";
@@ -23,8 +26,13 @@ export const Jumbotron = () => {
     <div>
       <Container fluid className="jumbo">
         <Row>
-          <Col md={1}></Col>
-          <Col xs={11} md={6} className="jumbo-col">
+          <Col md={2}></Col>
+          <Col
+            xs={11}
+            md={6}
+            className="jumbo-col"
+            style={{ marginLeft: "5%" }}
+          >
             <Fade in={open}>
               <Container style={{ marginLeft: "10%" }}>
                 <img
@@ -50,12 +58,24 @@ export const Jumbotron = () => {
               </Container>
             </Fade>
           </Col>
-          <Col xs={12} md={5}>
-            <Fade in={open}>
-              <img src={IPhone} className="iphone" />
-            </Fade>
-          </Col>
+          <Col md={3}></Col>
         </Row>
+        {/* <Row>
+          <Col style={{ alignSelf: "center", marginTop: "3%" }}>
+            <a href="https://www.instagram.com/findr.study/" target="_blank">
+              <img src={Instagram} className="insta-logo" />
+            </a>
+            <a href="https://www.facebook.com/findr.study.3" target="_blank">
+              <img src={Facebook} className="fb-logo" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/findrapp/"
+              target="_blank"
+            >
+              <img src={LinkedIn} className="linkedin-logo" />
+            </a>
+          </Col>
+        </Row> */}
       </Container>
       <Particles
         style={{ zIndex: "2" }}

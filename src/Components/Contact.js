@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "../App.css";
-import Instagram from "../Images/instagram.png";
-import LinkedIn from "../Images/linkedin-round-color.png";
-import Facebook from "../Images/facebook.svg";
+// import Instagram from "../Images/instagram.png";
+// import LinkedIn from "../Images/linkedin-round-color.png";
+// import Facebook from "../Images/facebook.svg";
 import {
   Container,
   Row,
@@ -102,30 +102,6 @@ export const Contact = () => {
               Submit
             </ToggleButton>
           </ButtonGroup>
-        </Col>
-      </Row>
-      <Row style={{ marginTop: "5%" }}>
-        <Col md={3}></Col>
-        <Col xs={4} md={1}>
-          <a href="https://www.instagram.com/findr.study/" target="_blank">
-            <img src={Instagram} className="social-media-logo" />
-          </a>
-        </Col>
-        <Col xs={4} md={1}>
-          <a href="https://www.facebook.com/findr.study.3" target="_blank">
-            <img src={Facebook} className="social-media-logo-facebook" />
-          </a>
-        </Col>
-        <Col xs={4} md={1}>
-          <a href="https://www.linkedin.com/company/findrapp/" target="_blank">
-            <img src={LinkedIn} className="social-media-logo-facebook" />
-          </a>
-        </Col>
-        <Col xs={12} md={6} className="like">
-          <p className="like-title">leave a like!</p>
-          <p className="like-plug">
-            follow us on social media for continuous updates
-          </p>
         </Col>
       </Row>
     </Container>

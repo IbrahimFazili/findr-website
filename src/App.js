@@ -10,7 +10,8 @@ import { Keywords } from "./Components/Keywords";
 import { Keywords2 } from "./Components/Keywords2";
 import { Contact } from "./Components/Contact";
 import About from "./Components/About";
-import { Jumbotron } from "./Components/Jumbotron";
+// import { Jumbotron } from "./Components/Jumbotron";
+import { Jumbotron } from "./Components/Jumbo_no_iphone";
 
 function App() {
   window.scrollTo(0, 0);
