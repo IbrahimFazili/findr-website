@@ -11,6 +11,7 @@ import AboutUs from "./Components/About";
 
 function SecondPage() {
   window.scrollTo(0, 0);
+  document.title = "Findr | About Us ";
   return (
     <div className="App">
       <NavBar />
