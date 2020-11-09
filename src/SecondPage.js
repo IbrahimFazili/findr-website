@@ -5,6 +5,7 @@ import NavBar from "./Components/Nav-Bar-About";
 import { AboutHome } from "./Components/HomeAboutUs";
 import { WhyFindrAbout } from "./Components/WhyFindrAbout";
 import WhatAbout from "./Components/WhatMeans";
+// import WhatAbout from "./Components/Testimonial";
 import Team from "./Components/Team";
 import AboutUs from "./Components/About";
 
@@ -15,7 +16,7 @@ function SecondPage() {
       <NavBar />
       <AboutHome />
       <WhyFindrAbout />
-      <WhatAbout />
+      {/* <WhatAbout /> */}
       <Team />
       <AboutUs />
     </div>

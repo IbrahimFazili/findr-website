@@ -23,7 +23,7 @@ export const Contact = () => {
   return (
     <Container fluid className="contact-div" id="Contact">
       <Row>
-        <Col xs={12} md={4} sm={4} style={{ marginTop: "10%" }}>
+        <Col xs={12} md={4} sm={4} style={{ marginTop: "15%" }}>
           <p className="contact-text">contact us</p>
           <p className="sugg-text">send us your questions and suggestions!</p>
         </Col>

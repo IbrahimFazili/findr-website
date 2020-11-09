@@ -27,12 +27,7 @@ export const Jumbotron = () => {
       <Container fluid className="jumbo">
         <Row>
           <Col md={2}></Col>
-          <Col
-            xs={11}
-            md={6}
-            className="jumbo-col"
-            style={{ marginLeft: "5%" }}
-          >
+          <Col xs={11} md={6} className="jumbo-col">
             <Fade in={open}>
               <Container style={{ marginLeft: "10%" }}>
                 <img
