@@ -12,6 +12,8 @@ import {
   ToggleButton,
   ButtonGroup,
 } from "react-bootstrap";
+const phoneRegEx = /^[(]?[0-9]{3}[)]?[-\s.]?[0-9]{3}[-/\s.]?[0-9]{4}$/;
+const emailRegEx = /\S+@\S+/;
 
 export const Contact = () => {
   // <Styles>
@@ -84,7 +86,6 @@ export const Contact = () => {
               value="1"
               onClick={() => {
                 handleSubmit(name, phone, uni, email, message);
-                alert("You have successfully submitted!");
               }}
               style={{
                 backgroundColor: "#1a5d57",
@@ -110,11 +111,33 @@ export const Contact = () => {
 };
 
 function handleSubmit(name, phone, uni, email, message) {
-  console.log({
-    name,
-    phone,
-    uni,
-    email,
-    message,
-  });
+  let validEmail = emailRegEx.test(email);
+  let validPhone = phoneRegEx.test(phone);
+  let validMessage = message === "" ? false : true;
+  let validName = name === "" ? false : true;
+  let validUni = uni === "" ? false : true;
+  if (validEmail && validPhone && validMessage && validName && validUni) {
+    fetch("https://findrapp.ca/contact", {
+      method: "POST",
+      body: {
+        email,
+        phone,
+        message,
+        name,
+        uni,
+      },
+    })
+      .then((res) => {
+        if (res.status != 201) {
+          alert("Couldn't submit form. Try Again!");
+        } else {
+          alert("You have successfully submitted!");
+        }
+      })
+      .catch((error) => {
+        alert("Couldn't submit form. Try Again!");
+      });
+  } else {
+    alert("One or more fields you have entered is incorrect!");
+  }
 }

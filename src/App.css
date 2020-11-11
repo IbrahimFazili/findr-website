@@ -853,6 +853,9 @@ input:focus {
 
 .meet-team-sub {
   font-size: 22px;
+  background: linear-gradient(to right, #1a5d57, #156070);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .meet-team-arrow {
