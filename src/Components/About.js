@@ -74,7 +74,11 @@ function About() {
               <div class="underline"></div>
             </li>
             <li class="nav-link">
-              <Link to="/Guidelines" style={{ fontSize: "large" }}>
+              <Link
+                id="community"
+                to="/Guidelines"
+                style={{ fontSize: "large" }}
+              >
                 Community Guidlines
               </Link>
               <div class="underline"></div>

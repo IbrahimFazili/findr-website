@@ -83,6 +83,7 @@ export const Contact = () => {
               type="checkbox"
               variant="secondary"
               checked={true}
+              class="submit-button"
               value="1"
               onClick={() => {
                 handleSubmit(name, phone, uni, email, message);

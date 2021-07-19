@@ -29,7 +29,7 @@ export const AboutHome = () => {
             <Row>
               <Col className="about-us-caption">
                 <p className="about-us-main-caption">about us</p>
-                <p className="about-us-sub-caption">checkout who we are!</p>
+                <p className="about-us-sub-caption">check out who we are!</p>
               </Col>
             </Row>
           </Container>
